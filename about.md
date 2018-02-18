@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I'm Andy Xiong, engaged in web developing from 2012. I worked for Tianjin
+Shenzhou Shanglong technical co.,ltd, dealing with the project of Restaurant
+Management System, the main libs are bootstrap and jquery.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+2015 ~ 2016: I worked for Aircos inc dealing with the project of Logistics
+Management System, the main libs are sui and zepto.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+2016 ~ now: I work for Gfresh inc dealing with
+[Gstore system](http://app.gfresh.io/). React is my favorite js lib fitting in
+with Redux, Axios and Webpack.
