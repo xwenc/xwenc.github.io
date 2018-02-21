@@ -13,8 +13,9 @@
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:site_name" content="Andy Xiong’s blog" />
+<link rel="prev" href="/">
 <script type="application/ld+json">
-{"name":null,"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","author":{"@type":"Person","name":"Andy Xiong"},"@type":"WebPage","url":"/404.html","image":null,"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/logo.png"},"name":"Andy Xiong"},"headline":"Andy Xiong’s blog","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","author":{"@type":"Person","name":"Andy Xiong"},"@type":"WebPage","url":"/page2/","image":null,"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/logo.png"},"name":"Andy Xiong"},"headline":"Andy Xiong’s blog","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -137,25 +138,63 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <div class="home pull-left">
+  
 
-<div class="container">
-  <h1>404</h1>
+  
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  
+    <h2 class="post-list-heading">Posts</h2>
+    <ul class="post-list" id="posts">
+      <!-- 遍历分页后的文章 -->
+      
+        <li>
+          
+          <span class="post-meta">May 20, 2016</span>
+          <h3>
+            <a class="post-link" href="/2016/05/20/my-example-post.html">
+              My Example Post
+            </a>
+          </h3>
+          
+        </li>
+      
+      <!-- 分页链接 -->
+      
+        <div class="pagination">
+          
+            <a href="/">&laquo; Prev</a>
+          
+
+          
+            
+              <a href="/index.html">1</a>
+            
+          
+            
+              <em>2</em>
+            
+          
+
+          
+            <span>Next &raquo;</span>
+          
+        </div>
+      
+    </ul>   
+  
+</div>
+<div class="side pull-left">
+  <ul id="tags">
+      <li><a href="/">All</a></li>
+    
+      <li><a href="/?tag=C">C</a></li>
+    
+      <li><a href="/?tag=react">react</a></li>
+    
+      <li><a href="/?tag=javascript">javascript</a></li>
+    
+  </ul>
 </div>
 
       </div>
