@@ -172,11 +172,7 @@ int main(void)
 <h2 id="进制">进制</h2>
 <p>二进制换十进制：</p>
 
-<p><img src="https://imgsa.baidu.com/exp/w=480/sign=51ce3b7e8444ebf86d716537e9f8d736/0df431adcbef760971989be22ddda3cc7cd99e3f.jpg" alt="二进制转换十进制" /></p>
-
 <p>十进制换二进制</p>
-
-<p><img src="https://imgsa.baidu.com/exp/w=480/sign=1444bfd9a7c27d1ea5263acc2bd4adaf/aec379310a55b3192bbf8f0840a98226cffc170c.jpg" alt="十进制转换二进制" /></p>
 
 <h2 id="数据类型">数据类型</h2>
 <ol>
@@ -190,7 +186,98 @@ int main(void)
       <li>字符型常量：字母、符号、转义字符。字符串是通过字符数组来存储，因此 <code class="highlighter-rouge">char i = "AB"</code> 是错误的。</li>
     </ul>
   </li>
-  <li>补码。补码主要用来解决整数的存储，包括0、正整数、负整数。</li>
+  <li>补码。补码主要用来解决整数的存储，包括0、正整数、负整数。
+    <ul>
+      <li>十进制转换二进制补码。正整数的补码与原码相同。负整数补码先求该负数绝对值的二进制数，然后将所有位取反，末位加1，不够位数时左边补1。零的补码全是0。</li>
+      <li>二进制补码转换十进制数。如果最高位0，表明为正整数，原码和补码相同，直接转换为十进制。如果最高位是1，表明为负整数，则原码为：将所有为取反，然后末位加1。</li>
+    </ul>
+  </li>
+  <li>int型变量所能存储的范围。如果是short类型
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #include &lt;stdio.h&gt;
+	
+ int main(void)
+ {
+     short a, b;
+     int c, d;
+		
+     a = 32767;
+     c = 214783647;
+		
+     b = a + 1;
+     d = c + 1;
+		
+     printf("b = %d\n", b);
+     printf("c = %d\n", d);
+		
+     return 0;
+ }
+ /*
+     b = -32768
+     d = -214783648;
+ */
+</code></pre></div>    </div>
+    <p>如果是unsigned short 类型。</p>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> include &lt;stdio.h&gt;
+	
+ int main(void)
+ {
+  unsigned short a, b;
+	 
+  a = 65535;
+	 
+  b = a + 1;
+	 
+  printf("b = %d\n", b);
+	 
+  return 0;	 
+ }
+ /*
+ * b = 0
+ */
+</code></pre></div>    </div>
+  </li>
+  <li>int型和char型变量是如何相互赋值的。
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> #include &lt;stdio.h&gt;
+	
+ int main(void)
+ {
+  int i = 128;
+  char ch = i;
+	 
+  printf("%d\n", ch);
+	 
+  return 0;
+ }
+</code></pre></div>    </div>
+    <p>char 类型占1字节，就是8位，最大存储是 0111 1111，即127。将整数128赋值给它，就会“溢出”。输出的结果就是-128；</p>
+  </li>
+  <li>什么是ASCII。ASCII 就是规定了某个字符使用哪个整数保存。</li>
+  <li>变量。
+    <ul>
+      <li>定义变量。变量名 = 要赋的值。<code class="highlighter-rouge">int i = 3;</code></li>
+      <li>变量的本质。
+```
+#include <stdio.h>
+int main(void)
+{
+int i;
+  i = 3;
+ printf("i = %d\n", i);</stdio.h></li>
+    </ul>
+
+    <p>return 0;
+}
+```
+程序运行时变量i 存储在内存中。 程序运行完后，为这个程序分配的所有内存空间通通都会被释放掉，所谓“释放”并不是清空该内存空间，而是将内存空间标记为“可用”状态，使得系统在分配内存的时候可以将它重新分配给其他变量使用。
+        * 为什么使用变量？ 为了方便对数据的存储和对内存单元的操作。
+        * 变量的命名规则，变量名开头必须是字母或下划线，不能是数字。最好不要取单个字母作为变量。变量名中的字母区分大小写。变量名绝对不能使用关键字。变量名不能有空格。
+        * 为什么必须初始化变量。不初始化就没有意义。</p>
+  </li>
+  <li>各类型数据之间的混合运算。
+    <ul>
+      <li>自动转换。 按照数据长度增加的方向进行转换，以保证精度不降低。所有浮点运算都是以双精度进行的。char型和short型数据参与运算时，必须先转换int型。有符号型和无符号型混合运算时，有符号型要转换为无符号型，运算结果是无符号的。整型和浮点型混合运算时，整型先转换为浮点型，运算的结果是浮点型。在赋值运算中，当赋值号两边的数据类型不同时，右边的类型会转换为左边的类型，然后再赋给左边。</li>
+    </ul>
+  </li>
 </ol>
 
   </div>
