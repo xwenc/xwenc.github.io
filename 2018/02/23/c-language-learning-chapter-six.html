@@ -161,11 +161,72 @@ int printf(const char *format, ...);
 <ol>
   <li>printf(“字符串 \n”);
     <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;stdio.h&gt;
-int printf("Hello World!\n");
-return 0;
+int main(void){
+ int printf("Hello World!\n");
+	
+ return 0;
+}
+</code></pre></div>    </div>
+  </li>
+  <li>printf(“ 输出控制符 “， 输出参数)；
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;stdio.h&gt;
+int main(void){
+ int i = 10;
+	
+ printf("%d\n", i);
+	
+ return 0;
+}
+</code></pre></div>    </div>
+  </li>
+  <li>printf(“输出控制符1 输出控制符2…”, 输出参数1, 输出参数2, …);
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;stdio.h&gt;
+int main(void){
+ int i = 10;
+ int j = 3;
+	
+ printf("%d %d\n", i, j);
+	
+ return 0;
+}
 </code></pre></div>    </div>
   </li>
 </ol>
+
+<h2 id="输出控制符">输出控制符</h2>
+<ol>
+  <li>%d: 十进制整型;</li>
+  <li>%ld: 长整型;</li>
+  <li>%md: m指定输出字段的宽度。如果数据位数小于m，则左端补空格，若大于m，则按十几位数输出；</li>
+  <li>%u: 输出无符号整型(unsigned)；</li>
+  <li>%c: 输出字符；</li>
+  <li>%f: 输出用来输出实数，包括单精度和双精度，以小数形式输出。小数最多6位，超过6位四舍五入；</li>
+  <li>%.mf: 输出实数小数点后保留m位；</li>
+  <li>%o: 以八进制整数形式输出；</li>
+  <li>%s: 输出字符串；</li>
+  <li>%x: 以十六进制形式输出整数；</li>
+</ol>
+
+<h2 id="xxxx-的区别">%x、%X、%#x、%#X 的区别</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#include &lt;stdio.h&gt;
+
+int main(void){
+	int i = 47;
+
+	printf("%x\n", i);
+	printf("%X\n", i);
+	printf("%#x\n", i);
+	printf("%#X\n", i);
+	
+	return 0;
+}
+/*
+* 2f
+* 2F
+* 0x2f
+* 0X2F
+*/
+</code></pre></div></div>
 
   </div>
 
