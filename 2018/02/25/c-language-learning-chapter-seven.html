@@ -1,0 +1,28 @@
+<h2 id="概述">概述</h2>
+<p>函数原型：</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># include &lt;stdio.h&gt;
+
+init scanf(const char *format, ...);
+</code></pre></div></div>
+
+<p>两种格式：</p>
+<ol>
+  <li>scanf(“输入控制符”, 输入参数 );
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># include &lt;stdio.h&gt;
+int main(void)
+{
+ int i;
+ scanf("%d", &amp;i);
+ printf("i = %d\n", i);
+ return 0;
+}
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="注意事项">注意事项</h2>
+<ol>
+  <li>输入参数顺序和个数一定要一一对应。</li>
+  <li>输入的数据类型一定要与所需要的数据类型一致。</li>
+  <li>在使用scanf之前使用printf提示输入。</li>
+</ol>

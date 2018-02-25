@@ -1,5 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-23T22:01:43+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">C语言第六章-printf的用法</title><link href="http://localhost:4000/2018/02/23/c-language-learning-chapter-six.html" rel="alternate" type="text/html" title="C语言第六章-printf的用法" /><published>2018-02-23T00:00:00+08:00</published><updated>2018-02-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/23/c-language-learning-chapter-six</id><content type="html" xml:base="http://localhost:4000/2018/02/23/c-language-learning-chapter-six.html">&lt;h2 id=&quot;printf-的格式&quot;&gt;printf 的格式&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-25T22:39:45+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">C语言第七章-scanf的用法</title><link href="http://localhost:4000/2018/02/25/c-language-learning-chapter-seven.html" rel="alternate" type="text/html" title="C语言第七章-scanf的用法" /><published>2018-02-25T00:00:00+08:00</published><updated>2018-02-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/25/c-language-learning-chapter-seven</id><content type="html" xml:base="http://localhost:4000/2018/02/25/c-language-learning-chapter-seven.html">&lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
+&lt;p&gt;函数原型：&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# include &amp;lt;stdio.h&amp;gt;
+
+init scanf(const char *format, ...);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;两种格式：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;scanf(“输入控制符”, 输入参数 );
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# include &amp;lt;stdio.h&amp;gt;
+int main(void)
+{
+ int i;
+ scanf(&quot;%d&quot;, &amp;amp;i);
+ printf(&quot;i = %d\n&quot;, i);
+ return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;注意事项&quot;&gt;注意事项&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;输入参数顺序和个数一定要一一对应。&lt;/li&gt;
+  &lt;li&gt;输入的数据类型一定要与所需要的数据类型一致。&lt;/li&gt;
+  &lt;li&gt;在使用scanf之前使用printf提示输入。&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Andy Xiong</name></author><summary type="html">概述 函数原型： ``` include</summary></entry><entry><title type="html">C语言第六章-printf的用法</title><link href="http://localhost:4000/2018/02/23/c-language-learning-chapter-six.html" rel="alternate" type="text/html" title="C语言第六章-printf的用法" /><published>2018-02-23T00:00:00+08:00</published><updated>2018-02-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/23/c-language-learning-chapter-six</id><content type="html" xml:base="http://localhost:4000/2018/02/23/c-language-learning-chapter-six.html">&lt;h2 id=&quot;printf-的格式&quot;&gt;printf 的格式&lt;/h2&gt;
 &lt;p&gt;printf 函数的原型为：&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
 
@@ -9,11 +36,72 @@ int printf(const char *format, ...);
 &lt;ol&gt;
   &lt;li&gt;printf(“字符串 \n”);
     &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
-int printf(&quot;Hello World!\n&quot;);
-return 0;
+int main(void){
+ int printf(&quot;Hello World!\n&quot;);
+	
+ return 0;
+}
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Andy Xiong</name></author><category term="c" /><summary type="html">printf 的格式 printf 函数的原型为： ``` #include</summary></entry><entry><title type="html">C语言第五章-预备知识</title><link href="http://localhost:4000/2018/02/21/c-language-learning-chapter-one.html" rel="alternate" type="text/html" title="C语言第五章-预备知识" /><published>2018-02-21T00:00:00+08:00</published><updated>2018-02-21T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/21/c-language-learning-chapter-one</id><content type="html" xml:base="http://localhost:4000/2018/02/21/c-language-learning-chapter-one.html">&lt;h2 id=&quot;cpu如何操作内存&quot;&gt;CPU如何操作内存。&lt;/h2&gt;
+  &lt;li&gt;printf(“ 输出控制符 “， 输出参数)；
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+int main(void){
+ int i = 10;
+	
+ printf(&quot;%d\n&quot;, i);
+	
+ return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;printf(“输出控制符1 输出控制符2…”, 输出参数1, 输出参数2, …);
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+int main(void){
+ int i = 10;
+ int j = 3;
+	
+ printf(&quot;%d %d\n&quot;, i, j);
+	
+ return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;输出控制符&quot;&gt;输出控制符&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;%d: 十进制整型;&lt;/li&gt;
+  &lt;li&gt;%ld: 长整型;&lt;/li&gt;
+  &lt;li&gt;%md: m指定输出字段的宽度。如果数据位数小于m，则左端补空格，若大于m，则按十几位数输出；&lt;/li&gt;
+  &lt;li&gt;%u: 输出无符号整型(unsigned)；&lt;/li&gt;
+  &lt;li&gt;%c: 输出字符；&lt;/li&gt;
+  &lt;li&gt;%f: 输出用来输出实数，包括单精度和双精度，以小数形式输出。小数最多6位，超过6位四舍五入；&lt;/li&gt;
+  &lt;li&gt;%.mf: 输出实数小数点后保留m位；&lt;/li&gt;
+  &lt;li&gt;%o: 以八进制整数形式输出；&lt;/li&gt;
+  &lt;li&gt;%s: 输出字符串；&lt;/li&gt;
+  &lt;li&gt;%x: 以十六进制形式输出整数；&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;xxxx-的区别&quot;&gt;%x、%X、%#x、%#X 的区别&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+
+int main(void){
+	int i = 47;
+
+	printf(&quot;%x\n&quot;, i);
+	printf(&quot;%X\n&quot;, i);
+	printf(&quot;%#x\n&quot;, i);
+	printf(&quot;%#X\n&quot;, i);
+	
+	return 0;
+}
+/*
+* 2f
+* 2F
+* 0x2f
+* 0X2F
+*/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="c" /><summary type="html">printf 的格式 printf 函数的原型为： ``` #include</summary></entry><entry><title type="html">C语言第五章-预备知识</title><link href="http://localhost:4000/2018/02/21/c-language-learning-chapter-one.html" rel="alternate" type="text/html" title="C语言第五章-预备知识" /><published>2018-02-21T00:00:00+08:00</published><updated>2018-02-21T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/21/c-language-learning-chapter-one</id><content type="html" xml:base="http://localhost:4000/2018/02/21/c-language-learning-chapter-one.html">&lt;h2 id=&quot;cpu如何操作内存&quot;&gt;CPU如何操作内存。&lt;/h2&gt;
 &lt;p&gt;CPU对内存进行操作通过三根总线: 控制总线、地址总线、数据总线&lt;/p&gt;
 &lt;h2 id=&quot;程序的运行&quot;&gt;程序的运行&lt;/h2&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# include &amp;lt;stdio.h&amp;gt;
