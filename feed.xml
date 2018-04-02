@@ -1,5 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-25T22:39:45+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">C语言第七章-scanf的用法</title><link href="http://localhost:4000/2018/02/25/c-language-learning-chapter-seven.html" rel="alternate" type="text/html" title="C语言第七章-scanf的用法" /><published>2018-02-25T00:00:00+08:00</published><updated>2018-02-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/25/c-language-learning-chapter-seven</id><content type="html" xml:base="http://localhost:4000/2018/02/25/c-language-learning-chapter-seven.html">&lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-02T10:50:04+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Webflow styling rule</title><link href="http://localhost:4000/2018/03/30/webflow-styling-rule.html" rel="alternate" type="text/html" title="Webflow styling rule" /><published>2018-03-30T00:00:00+08:00</published><updated>2018-03-30T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/30/webflow-styling-rule</id><content type="html" xml:base="http://localhost:4000/2018/03/30/webflow-styling-rule.html">&lt;ol&gt;
+  &lt;li&gt;The orange indicators mean.&lt;/li&gt;
+  &lt;li&gt;The blue  indicators mean.&lt;/li&gt;
+  &lt;li&gt;Combo classes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In the Style Panel, orange indicators tell us that a value is being inherited from somewhere else. If we click that orange indicator, we can see exactly where the style is coming from.&lt;/p&gt;
+
+&lt;p&gt;If our current class or tag has its own value for something, that’s indicated in blue.&lt;/p&gt;
+
+&lt;p&gt;So when we collapse these style sections — when these panes are collapsed, the blue and orange indicators are giving us a quick overview so we can glance and see what’s affecting the current class or tag.&lt;/p&gt;
+
+&lt;p&gt;Now, we can also use the Inheritance Menu to quickly visualize and select from the different classes and tags affecting our current styling. We can make a change — in this case we’re changing the font — then, at any time, go right back to where we were styling.&lt;/p&gt;
+
+&lt;p&gt;So. We have the top section which contains our Selector field: show’s what we’re styling.&lt;/p&gt;
+
+&lt;p&gt;We have our style sections, which can collapse or expand — these panes give us control over all our CSS properties — all our styling options.&lt;/p&gt;
+
+&lt;p&gt;And finally, we have orange and blue indicators. Orange means whatever we’re styling is inheriting a value from something else, and blue means we’ve added or styled something on the current class or tag.&lt;/p&gt;
+
+&lt;p&gt;We’ll cover all of this comprehensively — but this is a good overview of the layout and the anatomy of the Style Panel.&lt;/p&gt;
+
+&lt;p&gt;Sometimes it’s impractical to create separate classes every time you want to make a change. If we’ve taken the time to create the most glorious heading on the planet, and we want to use that class as a starting point for a variation? If we want the same thing somewhere else but in light blue? We could create a new class and go through the entire process again. Or we can use a Combo Class.&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="webflow" /><summary type="html">The orange indicators mean. The blue indicators mean. Combo classes.</summary></entry><entry><title type="html">Webflow flexbox</title><link href="http://localhost:4000/2018/03/30/webflow-flexbox.html" rel="alternate" type="text/html" title="Webflow flexbox" /><published>2018-03-30T00:00:00+08:00</published><updated>2018-03-30T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/30/webflow-flexbox</id><content type="html" xml:base="http://localhost:4000/2018/03/30/webflow-flexbox.html">&lt;h2 id=&quot;introduce--example&quot;&gt;introduce &amp;amp; example&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;&gt;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://flex-box-3f77e3.webflow.io/&quot;&gt;http://flex-box-3f77e3.webflow.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;flexbox-sass-mixin&quot;&gt;flexbox sass mixin&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/richardtorres314/26b18e12958ba418bb37993fdcbfc1bd&quot;&gt;https://gist.github.com/richardtorres314/26b18e12958ba418bb37993fdcbfc1bd&lt;/a&gt;
+&lt;a href=&quot;https://github.com/jonathantneal/flexibility&quot;&gt;https://github.com/jonathantneal/flexibility&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="webflow" /><summary type="html">introduce &amp;amp; example</summary></entry><entry><title type="html">C语言第八章-运算符和表达式</title><link href="http://localhost:4000/2018/03/04/c-language-learning-chapter-eight.html" rel="alternate" type="text/html" title="C语言第八章-运算符和表达式" /><published>2018-03-04T00:00:00+08:00</published><updated>2018-03-04T00:00:00+08:00</updated><id>http://localhost:4000/2018/03/04/c-language-learning-chapter-eight</id><content type="html" xml:base="http://localhost:4000/2018/03/04/c-language-learning-chapter-eight.html">&lt;h2 id=&quot;算数运算符&quot;&gt;算数运算符&lt;/h2&gt;
+&lt;p&gt;在C语言中，除法 ‘/’ 的运算结果与运算对象的数据类型有关。如果是整型那么商也是整型，如果有一个是浮点型，那么结果就是浮点型。&lt;/p&gt;
+
+&lt;p&gt;求余 ‘%’ 的对象必须是整数，运算的结果是整除后的余数。运算结果的符号与被除数的符号相同。&lt;/p&gt;
+
+&lt;h2 id=&quot;关系运算符&quot;&gt;关系运算符&lt;/h2&gt;
+&lt;h2 id=&quot;逻辑运算符&quot;&gt;逻辑运算符&lt;/h2&gt;
+&lt;p&gt;&amp;amp;&amp;amp;短路与， ||短路或&lt;/p&gt;
+&lt;h2 id=&quot;赋值运算符&quot;&gt;赋值运算符&lt;/h2&gt;
+&lt;h2 id=&quot;运算符的优先级&quot;&gt;运算符的优先级&lt;/h2&gt;
+&lt;p&gt;算术运算符 &amp;gt; 关系运算符 &amp;gt; 逻辑运算符 &amp;gt; 赋值运算符&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="c" /><summary type="html">算数运算符 在C语言中，除法 ‘/’ 的运算结果与运算对象的数据类型有关。如果是整型那么商也是整型，如果有一个是浮点型，那么结果就是浮点型。</summary></entry><entry><title type="html">C语言第七章-scanf的用法</title><link href="http://localhost:4000/2018/02/25/c-language-learning-chapter-seven.html" rel="alternate" type="text/html" title="C语言第七章-scanf的用法" /><published>2018-02-25T00:00:00+08:00</published><updated>2018-02-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/25/c-language-learning-chapter-seven</id><content type="html" xml:base="http://localhost:4000/2018/02/25/c-language-learning-chapter-seven.html">&lt;h2 id=&quot;概述&quot;&gt;概述&lt;/h2&gt;
 &lt;p&gt;函数原型：&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# include &amp;lt;stdio.h&amp;gt;
 
@@ -26,7 +66,7 @@ int main(void)
   &lt;li&gt;输入参数顺序和个数一定要一一对应。&lt;/li&gt;
   &lt;li&gt;输入的数据类型一定要与所需要的数据类型一致。&lt;/li&gt;
   &lt;li&gt;在使用scanf之前使用printf提示输入。&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Andy Xiong</name></author><summary type="html">概述 函数原型： ``` include</summary></entry><entry><title type="html">C语言第六章-printf的用法</title><link href="http://localhost:4000/2018/02/23/c-language-learning-chapter-six.html" rel="alternate" type="text/html" title="C语言第六章-printf的用法" /><published>2018-02-23T00:00:00+08:00</published><updated>2018-02-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/23/c-language-learning-chapter-six</id><content type="html" xml:base="http://localhost:4000/2018/02/23/c-language-learning-chapter-six.html">&lt;h2 id=&quot;printf-的格式&quot;&gt;printf 的格式&lt;/h2&gt;
+&lt;/ol&gt;</content><author><name>Andy Xiong</name></author><category term="c" /><summary type="html">概述 函数原型： ``` include</summary></entry><entry><title type="html">C语言第六章-printf的用法</title><link href="http://localhost:4000/2018/02/23/c-language-learning-chapter-six.html" rel="alternate" type="text/html" title="C语言第六章-printf的用法" /><published>2018-02-23T00:00:00+08:00</published><updated>2018-02-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/02/23/c-language-learning-chapter-six</id><content type="html" xml:base="http://localhost:4000/2018/02/23/c-language-learning-chapter-six.html">&lt;h2 id=&quot;printf-的格式&quot;&gt;printf 的格式&lt;/h2&gt;
 &lt;p&gt;printf 函数的原型为：&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
 
