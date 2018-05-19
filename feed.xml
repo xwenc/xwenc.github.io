@@ -1,5 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-17T18:26:02+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Numeral.js</title><link href="http://localhost:4000/2018/05/17/plugin-numeraljs.html" rel="alternate" type="text/html" title="Numeral.js" /><published>2018-05-17T00:00:00+08:00</published><updated>2018-05-17T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/17/plugin-numeraljs</id><content type="html" xml:base="http://localhost:4000/2018/05/17/plugin-numeraljs.html">&lt;p&gt;A javascript library for formatting and manipulating numbers.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-19T19:30:09+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">All Questions - Answers about Elixir</title><link href="http://localhost:4000/2018/05/19/qa-elixir.html" rel="alternate" type="text/html" title="All Questions - Answers about Elixir" /><published>2018-05-19T00:00:00+08:00</published><updated>2018-05-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/19/qa-elixir</id><content type="html" xml:base="http://localhost:4000/2018/05/19/qa-elixir.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;如何快速上手？&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://elixir-lang.org/getting-started/introduction.html&quot;&gt;https://elixir-lang.org/getting-started/introduction.html&lt;/a&gt; 这里有些快速上手的简介，可以随时查些语法，有啥不懂的随时喊我。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;如何拼接字符串？&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bid.user.account.user_name &amp;lt;&amp;gt; &quot;You&quot;&lt;/code&gt;
+  &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;#{bid.user.account.user_name}  You&quot;&lt;/code&gt;&lt;/p&gt;
+
+    &lt;p&gt;还有两个和其他语言不太一样的地方，
+  &lt;code class=&quot;highlighter-rouge&quot;&gt;foo = [1,2,3] 
+  [0 | foo]
+  //result [0,1,2,3]
+  &lt;/code&gt;
+  &lt;code class=&quot;highlighter-rouge&quot;&gt;foo = [1,2,3] bar=[4,5,6]
+foo ++ bar 
+  //result [1,2,3,4,5,6]
+  &lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;:leaseprice 不是个字符串?&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;不是，这种东西在 elixir 和 ruby 里是个独立的变量类型，叫 symbol。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Form里怎么把 f 传给局部模板呢？&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;render 模板传变量有两种：
+  &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;%= render &quot;_coupon.html&quot;, coupon: @product.coupon, current_user: @current_user %&amp;gt;&lt;/code&gt;
+  如果传f,就是这样
+  &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;%= render &quot;_coupon.html&quot;,  f: f %&amp;gt;&lt;/code&gt;
+  在局部模板中就可以使用f了，注意在局部模板中得通过 @ 使用变量， 例如 @f。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;f是什么？&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;主模版中 fn f -&amp;gt; ，相当于在回调函数中，使用了  f  这个局部变量，所以如果在主模版    的回调中，就可以直接 input f 这样用，
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;%= render &quot;xxx&quot;, f: f %&amp;gt;&lt;/code&gt; 第一个f代表局部模版中的模版变量，第二个代表在当前作用域中的局部变量，也就是回调中的 f，
+这样在局部模版中使用这个 模版变量 的时候，就可以 @f，这样来使用
+如果是 &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;%= render &quot;xxx&quot;, form: f %&amp;gt;&lt;/code&gt;，那在局部模版中使用 “form” 这个模版变量，就得 @form 这样来用了
+现在的情况，局部模版的 模版变量 和 主模版的局部变量刚好名字一样，都是 f。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;elixir 跟 ruby是啥关系， ruby的语法 elixir 都支持是吗？&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;elixir 参考了 ruby 的部分语法，但是 elixir 实在 erlang 虚拟机上开发的纯函数式语言，没对象，没循环，会编译成 erlang，然后底层使用的 actor 模型进行并发的，elixir 和 erlang 的精髓就是 actor 并发模型，这东西基本算是分布式的主流，据说是移动电话的电信交换器就是用这东西开发的。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Decimal是个方法吗？&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;在 elixir 类似 Decimal 这种大写开头的叫 module，里面包含方法。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;|&amp;gt;&lt;/code&gt; &lt;strong&gt;这是啥意思？&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;使用 module 的方法，就要 module-name.fun-name，类似 Decimal.mult
+&lt;code class=&quot;highlighter-rouge&quot;&gt;Decimal.mult(p.amount, Decimal.new(p.units)) |&amp;gt; Decimal.round(2) |&amp;gt; Decimal.to_string(:normal)&lt;/code&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Decimal.new 将  p.units 这个 int 转换为了 decimal&lt;/li&gt;
+      &lt;li&gt;Decimal.mult 将两个 decimals 相乘&lt;/li&gt;
+      &lt;li&gt;Decimal.round 保留两位精度&lt;/li&gt;
+      &lt;li&gt;Decimal.to_string(:normal) 转换为无指数的字符串，类似 10000.00，如果是 Decimal.to_string(: raw) 就是有指数的，类似 1e3 这种。&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;特别说一下 管道符 “|&amp;gt;” ，符号左边的会作为符号右边的函数的第一个参数，
+类似 xxx |&amp;gt; Decimal.round(2) ，其实就是 Decimal.round(xxx, 2)
+类似于面向对象语法里的 对象链式调用， foo.bar.baz，函数式里通过这种方式避免套括号。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">如何快速上手？</summary></entry><entry><title type="html">Numeral.js</title><link href="http://localhost:4000/2018/05/17/plugin-numeraljs.html" rel="alternate" type="text/html" title="Numeral.js" /><published>2018-05-17T00:00:00+08:00</published><updated>2018-05-17T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/17/plugin-numeraljs</id><content type="html" xml:base="http://localhost:4000/2018/05/17/plugin-numeraljs.html">&lt;p&gt;A javascript library for formatting and manipulating numbers.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://numeraljs.com/&quot;&gt;http://numeraljs.com/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="plugin" /><summary type="html">A javascript library for formatting and manipulating numbers.</summary></entry><entry><title type="html">CSS:3D FLIP BOX</title><link href="http://localhost:4000/2018/05/13/css-flip.html" rel="alternate" type="text/html" title="CSS:3D FLIP BOX" /><published>2018-05-13T00:00:00+08:00</published><updated>2018-05-13T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/13/css-flip</id><content type="html" xml:base="http://localhost:4000/2018/05/13/css-flip.html">&lt;p&gt;&lt;a href=&quot;https://codepen.io/syedrafeeq/pen/eCkFt&quot;&gt;https://codepen.io/syedrafeeq/pen/eCkFt&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://codepen.io/syedrafeeq/pen/eCkFt</summary></entry><entry><title type="html">Elixir learning guide</title><link href="http://localhost:4000/2018/05/11/elixir-guide.html" rel="alternate" type="text/html" title="Elixir learning guide" /><published>2018-05-11T00:00:00+08:00</published><updated>2018-05-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/11/elixir-guide</id><content type="html" xml:base="http://localhost:4000/2018/05/11/elixir-guide.html">&lt;p&gt;&lt;a href=&quot;https://elixir-lang.org/&quot;&gt;https://elixir-lang.org/&lt;/a&gt;&lt;/p&gt;
 
@@ -29,4 +100,4 @@
 
 &lt;p&gt;&lt;a href=&quot;https://drafts.csswg.org/css-grid-2/&quot;&gt;https://drafts.csswg.org/css-grid-2/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000012889793&quot;&gt;https://segmentfault.com/a/1190000012889793&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://www.w3schools.com/css/css_grid.asp</summary></entry><entry><title type="html">30 seconds of code</title><link href="http://localhost:4000/2018/04/12/javascript-30secondesofcode.html" rel="alternate" type="text/html" title="30 seconds of code" /><published>2018-04-12T00:00:00+08:00</published><updated>2018-04-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/04/12/javascript-30secondesofcode</id><content type="html" xml:base="http://localhost:4000/2018/04/12/javascript-30secondesofcode.html">&lt;p&gt;&lt;a href=&quot;https://30secondsofcode.org/&quot;&gt;https://30secondsofcode.org/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://30secondsofcode.org/</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000012889793&quot;&gt;https://segmentfault.com/a/1190000012889793&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://www.w3schools.com/css/css_grid.asp</summary></entry></feed>
