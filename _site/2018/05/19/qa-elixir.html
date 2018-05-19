@@ -6,19 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Begin Jekyll SEO tag v2.3.0 -->
-<title>Numeral.js | Andy Xiong’s blog</title>
-<meta property="og:title" content="Numeral.js" />
+<title>All Questions - Answers about Elixir | Andy Xiong’s blog</title>
+<meta property="og:title" content="All Questions - Answers about Elixir" />
 <meta name="author" content="Andy Xiong" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A javascript library for formatting and manipulating numbers." />
-<meta property="og:description" content="A javascript library for formatting and manipulating numbers." />
-<link rel="canonical" href="http://localhost:4000/2018/05/17/plugin-numeraljs.html" />
-<meta property="og:url" content="http://localhost:4000/2018/05/17/plugin-numeraljs.html" />
+<meta name="description" content="如何快速上手？" />
+<meta property="og:description" content="如何快速上手？" />
+<link rel="canonical" href="http://localhost:4000/2018/05/19/qa-elixir.html" />
+<meta property="og:url" content="http://localhost:4000/2018/05/19/qa-elixir.html" />
 <meta property="og:site_name" content="Andy Xiong’s blog" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-05-17T00:00:00+08:00" />
+<meta property="article:published_time" content="2018-05-19T00:00:00+08:00" />
 <script type="application/ld+json">
-{"name":null,"description":"A javascript library for formatting and manipulating numbers.","author":{"@type":"Person","name":"Andy Xiong"},"@type":"BlogPosting","url":"http://localhost:4000/2018/05/17/plugin-numeraljs.html","image":null,"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/logo.png"},"name":"Andy Xiong"},"headline":"Numeral.js","dateModified":"2018-05-17T00:00:00+08:00","datePublished":"2018-05-17T00:00:00+08:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/05/17/plugin-numeraljs.html"},"@context":"http://schema.org"}</script>
+{"name":null,"description":"如何快速上手？","author":{"@type":"Person","name":"Andy Xiong"},"@type":"BlogPosting","url":"http://localhost:4000/2018/05/19/qa-elixir.html","image":null,"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/logo.png"},"name":"Andy Xiong"},"headline":"All Questions - Answers about Elixir","dateModified":"2018-05-19T00:00:00+08:00","datePublished":"2018-05-19T00:00:00+08:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/05/19/qa-elixir.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -147,25 +147,94 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Numeral.js</h1>
+    <h1 class="post-title p-name" itemprop="name headline">All Questions - Answers about Elixir</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2018-05-17T00:00:00+08:00" itemprop="datePublished">
+      <time class="dt-published" datetime="2018-05-19T00:00:00+08:00" itemprop="datePublished">
         
-        May 17, 2018
+        May 19, 2018
       </time>
       </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>A javascript library for formatting and manipulating numbers.</p>
+    <ul>
+  <li>
+    <p><strong>如何快速上手？</strong></p>
 
-<p><a href="http://numeraljs.com/">http://numeraljs.com/</a></p>
+    <p><a href="https://elixir-lang.org/getting-started/introduction.html">https://elixir-lang.org/getting-started/introduction.html</a> 这里有些快速上手的简介，可以随时查些语法，有啥不懂的随时喊我。</p>
+  </li>
+  <li>
+    <p><strong>如何拼接字符串？</strong></p>
+
+    <p><code class="highlighter-rouge">bid.user.account.user_name &lt;&gt; "You"</code>
+  <code class="highlighter-rouge">"#{bid.user.account.user_name}  You"</code></p>
+
+    <p>还有两个和其他语言不太一样的地方，
+  <code class="highlighter-rouge">foo = [1,2,3] 
+  [0 | foo]
+  //result [0,1,2,3]
+  </code>
+  <code class="highlighter-rouge">foo = [1,2,3] bar=[4,5,6]
+foo ++ bar 
+  //result [1,2,3,4,5,6]
+  </code></p>
+  </li>
+  <li>
+    <p><strong>:leaseprice 不是个字符串?</strong></p>
+
+    <p>不是，这种东西在 elixir 和 ruby 里是个独立的变量类型，叫 symbol。</p>
+  </li>
+  <li>
+    <p><strong>Form里怎么把 f 传给局部模板呢？</strong></p>
+
+    <p>render 模板传变量有两种：
+  <code class="highlighter-rouge">&lt;%= render "_coupon.html", coupon: @product.coupon, current_user: @current_user %&gt;</code>
+  如果传f,就是这样
+  <code class="highlighter-rouge">&lt;%= render "_coupon.html",  f: f %&gt;</code>
+  在局部模板中就可以使用f了，注意在局部模板中得通过 @ 使用变量， 例如 @f。</p>
+  </li>
+  <li>
+    <p><strong>f是什么？</strong></p>
+
+    <p>主模版中 fn f -&gt; ，相当于在回调函数中，使用了  f  这个局部变量，所以如果在主模版    的回调中，就可以直接 input f 这样用，
+<code class="highlighter-rouge">&lt;%= render "xxx", f: f %&gt;</code> 第一个f代表局部模版中的模版变量，第二个代表在当前作用域中的局部变量，也就是回调中的 f，
+这样在局部模版中使用这个 模版变量 的时候，就可以 @f，这样来使用
+如果是 <code class="highlighter-rouge">&lt;%= render "xxx", form: f %&gt;</code>，那在局部模版中使用 “form” 这个模版变量，就得 @form 这样来用了
+现在的情况，局部模版的 模版变量 和 主模版的局部变量刚好名字一样，都是 f。</p>
+  </li>
+  <li>
+    <p><strong>elixir 跟 ruby是啥关系， ruby的语法 elixir 都支持是吗？</strong></p>
+
+    <p>elixir 参考了 ruby 的部分语法，但是 elixir 实在 erlang 虚拟机上开发的纯函数式语言，没对象，没循环，会编译成 erlang，然后底层使用的 actor 模型进行并发的，elixir 和 erlang 的精髓就是 actor 并发模型，这东西基本算是分布式的主流，据说是移动电话的电信交换器就是用这东西开发的。</p>
+  </li>
+  <li>
+    <p><strong>Decimal是个方法吗？</strong></p>
+
+    <p>在 elixir 类似 Decimal 这种大写开头的叫 module，里面包含方法。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">|&gt;</code> <strong>这是啥意思？</strong></p>
+
+    <p>使用 module 的方法，就要 module-name.fun-name，类似 Decimal.mult
+<code class="highlighter-rouge">Decimal.mult(p.amount, Decimal.new(p.units)) |&gt; Decimal.round(2) |&gt; Decimal.to_string(:normal)</code></p>
+    <ol>
+      <li>Decimal.new 将  p.units 这个 int 转换为了 decimal</li>
+      <li>Decimal.mult 将两个 decimals 相乘</li>
+      <li>Decimal.round 保留两位精度</li>
+      <li>Decimal.to_string(:normal) 转换为无指数的字符串，类似 10000.00，如果是 Decimal.to_string(: raw) 就是有指数的，类似 1e3 这种。</li>
+    </ol>
+
+    <p>特别说一下 管道符 “|&gt;” ，符号左边的会作为符号右边的函数的第一个参数，
+类似 xxx |&gt; Decimal.round(2) ，其实就是 Decimal.round(xxx, 2)
+类似于面向对象语法里的 对象链式调用， foo.bar.baz，函数式里通过这种方式避免套括号。</p>
+  </li>
+</ul>
 
   </div>
 
   
 
-  <a class="u-url" href="/2018/05/17/plugin-numeraljs.html" hidden></a>
+  <a class="u-url" href="/2018/05/19/qa-elixir.html" hidden></a>
 </article>
 
       </div>
