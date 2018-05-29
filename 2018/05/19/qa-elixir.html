@@ -248,16 +248,7 @@ classes \ [] 是代表默认参数是个空的 list，List 这个 module 里的�
 <a href="https://hexdocs.pm/elixir/Tuple.html">https://hexdocs.pm/elixir/Tuple.html</a>
 这个和 list 类似，但是有几个区别</p>
     <ol>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>list 其实就是个数据结构中的链表，[“foo”</td>
-              <td>foo] 其实就是在链表头添加一个新的元素</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
+      <li>list 其实就是个数据结构中的链表，<code class="highlighter-rouge">["foo" | foo]</code> 其实就是在链表头添加一个新的元素</li>
       <li>tuple 其实就是个数据结构中固定元素大小的数组</li>
       <li>list 用来存储大量数据，和其他语言的 array 类似</li>
       <li>tuple 一般存储少量数据，一般作为函数的参数和返回值来用。</li>
