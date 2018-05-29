@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-29T08:12:52+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-29T10:34:02+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
 </subtitle><author><name>Andy Xiong</name></author><entry><title type="html">构建你自己的 redux-saga</title><link href="http://localhost:4000/2018/05/29/react-redux-saga.html" rel="alternate" type="text/html" title="构建你自己的 redux-saga" /><published>2018-05-29T00:00:00+08:00</published><updated>2018-05-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/29/react-redux-saga</id><content type="html" xml:base="http://localhost:4000/2018/05/29/react-redux-saga.html">&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/37356948&quot;&gt;https://zhuanlan.zhihu.com/p/37356948&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://zhuanlan.zhihu.com/p/37356948</summary></entry><entry><title type="html">Decimal</title><link href="http://localhost:4000/2018/05/29/elixir-decimal.html" rel="alternate" type="text/html" title="Decimal" /><published>2018-05-29T00:00:00+08:00</published><updated>2018-05-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/29/elixir-decimal</id><content type="html" xml:base="http://localhost:4000/2018/05/29/elixir-decimal.html">&lt;p&gt;&lt;a href=&quot;https://hexdocs.pm/decimal/readme.html&quot;&gt;https://hexdocs.pm/decimal/readme.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">https://hexdocs.pm/decimal/readme.html</summary></entry><entry><title type="html">JavaScript Algorithms and Data Structures</title><link href="http://localhost:4000/2018/05/25/js-algorithms-data-structures.html" rel="alternate" type="text/html" title="JavaScript Algorithms and Data Structures" /><published>2018-05-25T00:00:00+08:00</published><updated>2018-05-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/25/js-algorithms-data-structures</id><content type="html" xml:base="http://localhost:4000/2018/05/25/js-algorithms-data-structures.html">&lt;p&gt;&lt;a href=&quot;https://github.com/trekhleb/javascript-algorithms&quot;&gt;https://github.com/trekhleb/javascript-algorithms&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="algorithm" /><summary type="html">https://github.com/trekhleb/javascript-algorithms</summary></entry><entry><title type="html">CSS3: @media 查询</title><link href="http://localhost:4000/2018/05/22/css-media.html" rel="alternate" type="text/html" title="CSS3: @media 查询" /><published>2018-05-22T00:00:00+08:00</published><updated>2018-05-22T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/22/css-media</id><content type="html" xml:base="http://localhost:4000/2018/05/22/css-media.html">&lt;p&gt;&lt;a href=&quot;http://www.runoob.com/cssref/css3-pr-mediaquery.html&quot;&gt;http://www.runoob.com/cssref/css3-pr-mediaquery.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//pc, media
@@ -103,7 +103,33 @@ foo ++ bar
 
     &lt;p&gt;&lt;a href=&quot;https://www.brianstorti.com/the-actor-model/&quot;&gt;https://www.brianstorti.com/the-actor-model/&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">如何快速上手？</summary></entry><entry><title type="html">关于Git的主要维护者滨野纯的访谈</title><link href="http://localhost:4000/2018/05/19/git-history.html" rel="alternate" type="text/html" title="关于Git的主要维护者滨野纯的访谈" /><published>2018-05-19T00:00:00+08:00</published><updated>2018-05-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/19/git-history</id><content type="html" xml:base="http://localhost:4000/2018/05/19/git-history.html">&lt;p&gt;这篇著名博客作家小饲弹对滨野纯的访谈，里面提及了滨野纯当初参与Git项目时的轶事，以及他对于开源项目的看法。特别是滨野纯说“Git是他第一次有一定规模地向开源项目提交代码”，很是鼓舞人——对那些想参与开源项目但缺乏信心的同学。所以趁闲把访谈全文翻译了一下。&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;** list 和 tuple 有什么区别 **
+classes \ [] 是代表默认参数是个空的 list，List 这个 module 里的方法都是操作 list 的，就是 [1, 2, 3]，elixir 里面没数组，只有 list
+&lt;a href=&quot;https://hexdocs.pm/elixir/List.html&quot;&gt;https://hexdocs.pm/elixir/List.html&lt;/a&gt;
+需要哪个函数，可以直接查用法。
+&lt;a href=&quot;https://hexdocs.pm/elixir/Tuple.html&quot;&gt;https://hexdocs.pm/elixir/Tuple.html&lt;/a&gt;
+这个和 list 类似，但是有几个区别&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;
+        &lt;table&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;list 其实就是个数据结构中的链表，[“foo”&lt;/td&gt;
+              &lt;td&gt;foo] 其实就是在链表头添加一个新的元素&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/li&gt;
+      &lt;li&gt;tuple 其实就是个数据结构中固定元素大小的数组&lt;/li&gt;
+      &lt;li&gt;list 用来存储大量数据，和其他语言的 array 类似&lt;/li&gt;
+      &lt;li&gt;tuple 一般存储少量数据，一般作为函数的参数和返回值来用。&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;list 放元素是直接放到第一个位置，所以时间复杂度是 O(1)，但是 tuple 是放到最后一个位置，时间复杂度是 O(n)，tuple 也可以放新东西，但是会没有 list 快
+但是固定元素的 tuple，读取起来非常快，是 O(1)&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">如何快速上手？</summary></entry><entry><title type="html">关于Git的主要维护者滨野纯的访谈</title><link href="http://localhost:4000/2018/05/19/git-history.html" rel="alternate" type="text/html" title="关于Git的主要维护者滨野纯的访谈" /><published>2018-05-19T00:00:00+08:00</published><updated>2018-05-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/19/git-history</id><content type="html" xml:base="http://localhost:4000/2018/05/19/git-history.html">&lt;p&gt;这篇著名博客作家小饲弹对滨野纯的访谈，里面提及了滨野纯当初参与Git项目时的轶事，以及他对于开源项目的看法。特别是滨野纯说“Git是他第一次有一定规模地向开源项目提交代码”，很是鼓舞人——对那些想参与开源项目但缺乏信心的同学。所以趁闲把访谈全文翻译了一下。&lt;/p&gt;
 
 &lt;p&gt;今天我们的嘉宾，是分布式版本管理系统Git的主要维护者，同时也是《入门Git》一书的作者，滨野纯先生。而这次的访谈，也从滨野先生谈自己从Linux内核的开发者，Linus Torvalds手中接过Git维护工作的原委开始了。&lt;/p&gt;
 
