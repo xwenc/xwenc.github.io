@@ -49,7 +49,6 @@
       };
 
       function renderPosts(data) {
-        console.log(data);
         var el = $("#posts");
         var list = "";
         data.map(function(item,idx){
@@ -65,7 +64,7 @@
         el.html(list);
       };
 
-      var dataStr = '{ "c":[{"url":"/2018/05/07/leet-code.html", "title":"Leet Code", "date":"May 7, 2018"},{"url":"/2018/03/04/c-language-learning-chapter-eight.html", "title":"C语言第八章-运算符和表达式", "date":"Mar 4, 2018"},{"url":"/2018/02/25/c-language-learning-chapter-seven.html", "title":"C语言第七章-scanf的用法", "date":"Feb 25, 2018"},{"url":"/2018/02/23/c-language-learning-chapter-six.html", "title":"C语言第六章-printf的用法", "date":"Feb 23, 2018"},{"url":"/2018/02/21/c-language-learning-chapter-one.html", "title":"C语言第五章-预备知识", "date":"Feb 21, 2018"}],"css":[{"url":"/2018/05/22/css-media.html", "title":"CSS3: @media 查询", "date":"May 22, 2018"},{"url":"/2018/05/13/css-flip.html", "title":"CSS:3D FLIP BOX", "date":"May 13, 2018"},{"url":"/2018/04/25/css-skeleton.html", "title":"Skeleton, a simple, responsive boilerplate", "date":"Apr 25, 2018"},{"url":"/2018/04/22/css-grid.html", "title":"CSS: grid", "date":"Apr 22, 2018"},{"url":"/2018/03/30/css-flexbox.html", "title":"CSS: flexbox", "date":"Mar 30, 2018"}],"webflow":[{"url":"/2018/04/24/webflow-mylife.html", "title":"Webflow: template my life", "date":"Apr 24, 2018"},{"url":"/2018/04/09/webflow-horizontal-scrolling.html", "title":"Webflow horizontal scrolling", "date":"Apr 9, 2018"},{"url":"/2018/04/08/webflow-sticking.html", "title":"Webflow sticking position", "date":"Apr 8, 2018"},{"url":"/2018/03/30/webflow-styling-rule.html", "title":"Webflow styling rule", "date":"Mar 30, 2018"}],"frontend":[{"url":"/2018/04/24/handbook.html", "title":"Front-End Developer Handbook 2018", "date":"Apr 24, 2018"},{"url":"/2018/04/08/bookmarks-blogs.html", "title":"Hot blogs for frontend", "date":"Apr 8, 2018"}],"jquery":[{"url":"/2018/04/09/jquery-validation.html", "title":"jQuery Validation Plugin", "date":"Apr 9, 2018"}],"algorithm":[{"url":"/2018/04/12/algorithm-idea.html", "title":"An ongoing series of nonverbal algorithm assembly instructions.", "date":"Apr 12, 2018"}],"javascript":[{"url":"/2018/04/12/javascript-30secondesofcode.html", "title":"30 seconds of code", "date":"Apr 12, 2018"}],"git":[{"url":"/2018/05/19/git-history.html", "title":"关于Git的主要维护者滨野纯的访谈", "date":"May 19, 2018"},{"url":"/2018/05/07/git-subtree.html", "title":"How to use git subtree", "date":"May 7, 2018"}],"elixir":[{"url":"/2018/05/19/qa-elixir.html", "title":"All Questions - Answers about Elixir", "date":"May 19, 2018"},{"url":"/2018/05/11/elixir-guide.html", "title":"Elixir learning guide", "date":"May 11, 2018"}],"plugin":[{"url":"/2018/05/17/plugin-numeraljs.html", "title":"Numeral.js", "date":"May 17, 2018"}] }',
+      var dataStr = '{ "c":[{"url":"/2018/05/07/leet-code.html", "title":"Leet Code", "date":"May 7, 2018"},{"url":"/2018/03/04/c-language-learning-chapter-eight.html", "title":"C语言第八章-运算符和表达式", "date":"Mar 4, 2018"},{"url":"/2018/02/25/c-language-learning-chapter-seven.html", "title":"C语言第七章-scanf的用法", "date":"Feb 25, 2018"},{"url":"/2018/02/23/c-language-learning-chapter-six.html", "title":"C语言第六章-printf的用法", "date":"Feb 23, 2018"},{"url":"/2018/02/21/c-language-learning-chapter-one.html", "title":"C语言第五章-预备知识", "date":"Feb 21, 2018"}],"css":[{"url":"/2018/05/22/css-media.html", "title":"CSS3: @media 查询", "date":"May 22, 2018"},{"url":"/2018/05/13/css-flip.html", "title":"CSS:3D FLIP BOX", "date":"May 13, 2018"},{"url":"/2018/04/25/css-skeleton.html", "title":"Skeleton, a simple, responsive boilerplate", "date":"Apr 25, 2018"},{"url":"/2018/04/22/css-grid.html", "title":"CSS: grid", "date":"Apr 22, 2018"},{"url":"/2018/03/30/css-flexbox.html", "title":"CSS: flexbox", "date":"Mar 30, 2018"}],"webflow":[{"url":"/2018/04/24/webflow-mylife.html", "title":"Webflow: template my life", "date":"Apr 24, 2018"},{"url":"/2018/04/09/webflow-horizontal-scrolling.html", "title":"Webflow horizontal scrolling", "date":"Apr 9, 2018"},{"url":"/2018/04/08/webflow-sticking.html", "title":"Webflow sticking position", "date":"Apr 8, 2018"},{"url":"/2018/03/30/webflow-styling-rule.html", "title":"Webflow styling rule", "date":"Mar 30, 2018"}],"frontend":[{"url":"/2018/04/24/handbook.html", "title":"Front-End Developer Handbook 2018", "date":"Apr 24, 2018"},{"url":"/2018/04/08/bookmarks-blogs.html", "title":"Hot blogs for frontend", "date":"Apr 8, 2018"}],"jquery":[{"url":"/2018/04/09/jquery-validation.html", "title":"jQuery Validation Plugin", "date":"Apr 9, 2018"}],"algorithm":[{"url":"/2018/05/25/js-algorithms-data-structures.html", "title":"JavaScript Algorithms and Data Structures", "date":"May 25, 2018"},{"url":"/2018/04/12/algorithm-idea.html", "title":"An ongoing series of nonverbal algorithm assembly instructions.", "date":"Apr 12, 2018"}],"javascript":[{"url":"/2018/04/12/javascript-30secondesofcode.html", "title":"30 seconds of code", "date":"Apr 12, 2018"}],"git":[{"url":"/2018/05/19/git-history.html", "title":"关于Git的主要维护者滨野纯的访谈", "date":"May 19, 2018"},{"url":"/2018/05/07/git-subtree.html", "title":"How to use git subtree", "date":"May 7, 2018"}],"elixir":[{"url":"/2018/05/29/elixir-decimal.html", "title":"Decimal", "date":"May 29, 2018"},{"url":"/2018/05/19/qa-elixir.html", "title":"All Questions - Answers about Elixir", "date":"May 19, 2018"},{"url":"/2018/05/11/elixir-guide.html", "title":"Elixir learning guide", "date":"May 11, 2018"}],"plugin":[{"url":"/2018/05/17/plugin-numeraljs.html", "title":"Numeral.js", "date":"May 17, 2018"}],"react":[{"url":"/2018/05/29/react-redux-saga.html", "title":"构建你自己的 redux-saga", "date":"May 29, 2018"}] }',
       data = JSON.parse(dataStr),
       curTag = getQueryString("tag"),
       archieves = data[curTag];
@@ -227,6 +226,19 @@ foo ++ bar
     <p>特别说一下 管道符 “|&gt;” ，符号左边的会作为符号右边的函数的第一个参数，
 类似 xxx |&gt; Decimal.round(2) ，其实就是 Decimal.round(xxx, 2)
 类似于面向对象语法里的 对象链式调用， foo.bar.baz，函数式里通过这种方式避免套括号。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">^x</code>  <strong>这是啥意思？</strong></p>
+
+    <p>是这样的这里如果直接使用 x ，那么相当于把 case 里的值，这里是 10 赋值给了 x ，   如果使用了 ^x，就是使用外部的变量 x 的值和 case 的 10 就行比较</p>
+  </li>
+  <li>
+    <p><strong>管道符的话，会不会出现异步的情况，会不会发生阻塞？</strong></p>
+
+    <p>一般情况下不会，elixir 并发用的叫做 actor 的模型，如果管道中有一个东西是需要实时回复的同步的 actor 的话，估计可能会阻塞，之后如果看到 gen_server 会有相关的东西，关于actor模型参考：
+  <a href="https://www.jianshu.com/p/449850aa8e82">https://www.jianshu.com/p/449850aa8e82</a></p>
+
+    <p><a href="https://www.brianstorti.com/the-actor-model/">https://www.brianstorti.com/the-actor-model/</a></p>
   </li>
 </ul>
 
