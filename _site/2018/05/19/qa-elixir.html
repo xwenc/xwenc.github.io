@@ -241,23 +241,76 @@ foo ++ bar
     <p><a href="https://www.brianstorti.com/the-actor-model/">https://www.brianstorti.com/the-actor-model/</a></p>
   </li>
   <li>
-    <p>** list 和 tuple 有什么区别 **
-classes \ [] 是代表默认参数是个空的 list，List 这个 module 里的方法都是操作 list 的，就是 [1, 2, 3]，elixir 里面没数组，只有 list
+    <p><strong>list 和 tuple 有什么区别</strong></p>
+
+    <p>classes \ [] 是代表默认参数是个空的 list，List 这个 module 里的方法都是操作 list 的，就是 [1, 2, 3]，elixir 里面没数组，只有 list
 <a href="https://hexdocs.pm/elixir/List.html">https://hexdocs.pm/elixir/List.html</a>
 需要哪个函数，可以直接查用法。
 <a href="https://hexdocs.pm/elixir/Tuple.html">https://hexdocs.pm/elixir/Tuple.html</a>
 这个和 list 类似，但是有几个区别</p>
+
     <ol>
       <li>list 其实就是个数据结构中的链表，<code class="highlighter-rouge">["foo" | foo]</code> 其实就是在链表头添加一个新的元素</li>
       <li>tuple 其实就是个数据结构中固定元素大小的数组</li>
       <li>list 用来存储大量数据，和其他语言的 array 类似</li>
       <li>tuple 一般存储少量数据，一般作为函数的参数和返回值来用。</li>
     </ol>
+
+    <p>list 放元素是直接放到第一个位置，所以时间复杂度是 O(1)，但是 tuple 是放到最后一个位置，时间复杂度是 O(n)，tuple 也可以放新东西，但是会没有 list 快
+但是固定元素的 tuple，读取起来非常快，是 O(1)。</p>
+  </li>
+  <li>
+    <p><strong>view 里函数如何输出html标签</strong></p>
+
+    <p><img src="/assets/images/2018-05-30-01.png" alt="" />
+用 content_tag 方法，如果返回多个，要放在 [] 里面，elixir 里还有个好玩的东西叫模式匹配，函数的参数个数不一样，会认为是不同的函数，例如：</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  `def product_total_amount(product) do
+  ....
+  end
+
+  def product_total_amount(product, units_type) do
+  ....
+  end
+
+  //参数的值不一样，会执行不同的函数，例如
+
+  def product_total_amount(product, "Blank pots") do
+  ...
+  end
+
+  def product_total_amount(product, _) do
+  ...
+  end
+
+  //所以，可以这样玩
+
+  def product_total_amount(product) do
+   product_total_amount(product, product.units_type) 
+  end
+
+  def product_total_amount(product, "Blank pots") do
+  "This is blank pots"
+  end
+
+  def product_total_amount(product, _) do
+  "This is other types"
+  end`
+</code></pre></div>    </div>
+
+    <p>只要满足上面的函数 下面的就不执行啦？对的 从上往下进行匹配, 哇塞，这连if 都不需要用了, 嗯 一些 elixir 的项目里，if 和循环都用的比较少，基本都是这种方式来实现 if 和递归</p>
+  </li>
+  <li>
+    <p><strong>如何控制请求哪个模板用哪些函数？</strong></p>
+
+    <p>如果请求的controller是和 view 同名的，就可以直接用 view 里的东西，
+简单的方法，请求的时候看 log，如果请求的是 ProductController，那就可以直接用 ProductView，如果请求的是 Seller.ProductController 那就可以用 Seller.ProductView ，其他的类似。</p>
+
+    <p><img src="/assets/images/2018-05-30-02.png" alt="" /></p>
+
+    <p>类似这个，请求的是 PageController，那就可以在模版里直接用 PageView 的东西</p>
   </li>
 </ul>
-
-<p>list 放元素是直接放到第一个位置，所以时间复杂度是 O(1)，但是 tuple 是放到最后一个位置，时间复杂度是 O(n)，tuple 也可以放新东西，但是会没有 list 快
-但是固定元素的 tuple，读取起来非常快，是 O(1)</p>
 
   </div>
 

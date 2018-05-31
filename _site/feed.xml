@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-29T10:36:51+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-31T09:56:37+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
 </subtitle><author><name>Andy Xiong</name></author><entry><title type="html">构建你自己的 redux-saga</title><link href="http://localhost:4000/2018/05/29/react-redux-saga.html" rel="alternate" type="text/html" title="构建你自己的 redux-saga" /><published>2018-05-29T00:00:00+08:00</published><updated>2018-05-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/29/react-redux-saga</id><content type="html" xml:base="http://localhost:4000/2018/05/29/react-redux-saga.html">&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/37356948&quot;&gt;https://zhuanlan.zhihu.com/p/37356948&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://zhuanlan.zhihu.com/p/37356948</summary></entry><entry><title type="html">Decimal</title><link href="http://localhost:4000/2018/05/29/elixir-decimal.html" rel="alternate" type="text/html" title="Decimal" /><published>2018-05-29T00:00:00+08:00</published><updated>2018-05-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/29/elixir-decimal</id><content type="html" xml:base="http://localhost:4000/2018/05/29/elixir-decimal.html">&lt;p&gt;&lt;a href=&quot;https://hexdocs.pm/decimal/readme.html&quot;&gt;https://hexdocs.pm/decimal/readme.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">https://hexdocs.pm/decimal/readme.html</summary></entry><entry><title type="html">JavaScript Algorithms and Data Structures</title><link href="http://localhost:4000/2018/05/25/js-algorithms-data-structures.html" rel="alternate" type="text/html" title="JavaScript Algorithms and Data Structures" /><published>2018-05-25T00:00:00+08:00</published><updated>2018-05-25T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/25/js-algorithms-data-structures</id><content type="html" xml:base="http://localhost:4000/2018/05/25/js-algorithms-data-structures.html">&lt;p&gt;&lt;a href=&quot;https://github.com/trekhleb/javascript-algorithms&quot;&gt;https://github.com/trekhleb/javascript-algorithms&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="algorithm" /><summary type="html">https://github.com/trekhleb/javascript-algorithms</summary></entry><entry><title type="html">CSS3: @media 查询</title><link href="http://localhost:4000/2018/05/22/css-media.html" rel="alternate" type="text/html" title="CSS3: @media 查询" /><published>2018-05-22T00:00:00+08:00</published><updated>2018-05-22T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/22/css-media</id><content type="html" xml:base="http://localhost:4000/2018/05/22/css-media.html">&lt;p&gt;&lt;a href=&quot;http://www.runoob.com/cssref/css3-pr-mediaquery.html&quot;&gt;http://www.runoob.com/cssref/css3-pr-mediaquery.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//pc, media
@@ -104,23 +104,76 @@ foo ++ bar
     &lt;p&gt;&lt;a href=&quot;https://www.brianstorti.com/the-actor-model/&quot;&gt;https://www.brianstorti.com/the-actor-model/&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;** list 和 tuple 有什么区别 **
-classes \ [] 是代表默认参数是个空的 list，List 这个 module 里的方法都是操作 list 的，就是 [1, 2, 3]，elixir 里面没数组，只有 list
+    &lt;p&gt;&lt;strong&gt;list 和 tuple 有什么区别&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;classes \ [] 是代表默认参数是个空的 list，List 这个 module 里的方法都是操作 list 的，就是 [1, 2, 3]，elixir 里面没数组，只有 list
 &lt;a href=&quot;https://hexdocs.pm/elixir/List.html&quot;&gt;https://hexdocs.pm/elixir/List.html&lt;/a&gt;
 需要哪个函数，可以直接查用法。
 &lt;a href=&quot;https://hexdocs.pm/elixir/Tuple.html&quot;&gt;https://hexdocs.pm/elixir/Tuple.html&lt;/a&gt;
 这个和 list 类似，但是有几个区别&lt;/p&gt;
+
     &lt;ol&gt;
       &lt;li&gt;list 其实就是个数据结构中的链表，&lt;code class=&quot;highlighter-rouge&quot;&gt;[&quot;foo&quot; | foo]&lt;/code&gt; 其实就是在链表头添加一个新的元素&lt;/li&gt;
       &lt;li&gt;tuple 其实就是个数据结构中固定元素大小的数组&lt;/li&gt;
       &lt;li&gt;list 用来存储大量数据，和其他语言的 array 类似&lt;/li&gt;
       &lt;li&gt;tuple 一般存储少量数据，一般作为函数的参数和返回值来用。&lt;/li&gt;
     &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;list 放元素是直接放到第一个位置，所以时间复杂度是 O(1)，但是 tuple 是放到最后一个位置，时间复杂度是 O(n)，tuple 也可以放新东西，但是会没有 list 快
-但是固定元素的 tuple，读取起来非常快，是 O(1)&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">如何快速上手？</summary></entry><entry><title type="html">关于Git的主要维护者滨野纯的访谈</title><link href="http://localhost:4000/2018/05/19/git-history.html" rel="alternate" type="text/html" title="关于Git的主要维护者滨野纯的访谈" /><published>2018-05-19T00:00:00+08:00</published><updated>2018-05-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/19/git-history</id><content type="html" xml:base="http://localhost:4000/2018/05/19/git-history.html">&lt;p&gt;这篇著名博客作家小饲弹对滨野纯的访谈，里面提及了滨野纯当初参与Git项目时的轶事，以及他对于开源项目的看法。特别是滨野纯说“Git是他第一次有一定规模地向开源项目提交代码”，很是鼓舞人——对那些想参与开源项目但缺乏信心的同学。所以趁闲把访谈全文翻译了一下。&lt;/p&gt;
+    &lt;p&gt;list 放元素是直接放到第一个位置，所以时间复杂度是 O(1)，但是 tuple 是放到最后一个位置，时间复杂度是 O(n)，tuple 也可以放新东西，但是会没有 list 快
+但是固定元素的 tuple，读取起来非常快，是 O(1)。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;view 里函数如何输出html标签&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/2018-05-30-01.png&quot; alt=&quot;&quot; /&gt;
+用 content_tag 方法，如果返回多个，要放在 [] 里面，elixir 里还有个好玩的东西叫模式匹配，函数的参数个数不一样，会认为是不同的函数，例如：&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  `def product_total_amount(product) do
+  ....
+  end
+
+  def product_total_amount(product, units_type) do
+  ....
+  end
+
+  //参数的值不一样，会执行不同的函数，例如
+
+  def product_total_amount(product, &quot;Blank pots&quot;) do
+  ...
+  end
+
+  def product_total_amount(product, _) do
+  ...
+  end
+
+  //所以，可以这样玩
+
+  def product_total_amount(product) do
+   product_total_amount(product, product.units_type) 
+  end
+
+  def product_total_amount(product, &quot;Blank pots&quot;) do
+  &quot;This is blank pots&quot;
+  end
+
+  def product_total_amount(product, _) do
+  &quot;This is other types&quot;
+  end`
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;只要满足上面的函数 下面的就不执行啦？对的 从上往下进行匹配, 哇塞，这连if 都不需要用了, 嗯 一些 elixir 的项目里，if 和循环都用的比较少，基本都是这种方式来实现 if 和递归&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;如何控制请求哪个模板用哪些函数？&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;如果请求的controller是和 view 同名的，就可以直接用 view 里的东西，
+简单的方法，请求的时候看 log，如果请求的是 ProductController，那就可以直接用 ProductView，如果请求的是 Seller.ProductController 那就可以用 Seller.ProductView ，其他的类似。&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/2018-05-30-02.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;类似这个，请求的是 PageController，那就可以在模版里直接用 PageView 的东西&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">如何快速上手？</summary></entry><entry><title type="html">关于Git的主要维护者滨野纯的访谈</title><link href="http://localhost:4000/2018/05/19/git-history.html" rel="alternate" type="text/html" title="关于Git的主要维护者滨野纯的访谈" /><published>2018-05-19T00:00:00+08:00</published><updated>2018-05-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/19/git-history</id><content type="html" xml:base="http://localhost:4000/2018/05/19/git-history.html">&lt;p&gt;这篇著名博客作家小饲弹对滨野纯的访谈，里面提及了滨野纯当初参与Git项目时的轶事，以及他对于开源项目的看法。特别是滨野纯说“Git是他第一次有一定规模地向开源项目提交代码”，很是鼓舞人——对那些想参与开源项目但缺乏信心的同学。所以趁闲把访谈全文翻译了一下。&lt;/p&gt;
 
 &lt;p&gt;今天我们的嘉宾，是分布式版本管理系统Git的主要维护者，同时也是《入门Git》一书的作者，滨野纯先生。而这次的访谈，也从滨野先生谈自己从Linux内核的开发者，Linus Torvalds手中接过Git维护工作的原委开始了。&lt;/p&gt;
 
@@ -231,4 +284,8 @@ classes \ [] 是代表默认参数是个空的 list，List 这个 module 里的�
 
 &lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/98aef3b8ae1b&quot;&gt;https://www.jianshu.com/p/98aef3b8ae1b&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/c/e7cab9407e1a&quot;&gt;https://www.jianshu.com/c/e7cab9407e1a&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">https://elixir-lang.org/</summary></entry><entry><title type="html">Leet Code</title><link href="http://localhost:4000/2018/05/07/leet-code.html" rel="alternate" type="text/html" title="Leet Code" /><published>2018-05-07T00:00:00+08:00</published><updated>2018-05-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/07/leet-code</id><content type="html" xml:base="http://localhost:4000/2018/05/07/leet-code.html">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/&quot;&gt;https://leetcode.com/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="c" /><summary type="html">https://leetcode.com/</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/c/e7cab9407e1a&quot;&gt;https://www.jianshu.com/c/e7cab9407e1a&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.rubydoc.info/docs/rails/4.0.0/ActionView/Helpers/TagHelper&quot;&gt;https://www.rubydoc.info/docs/rails/4.0.0/ActionView/Helpers/TagHelper&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hexdocs.pm/decimal/readme.html&quot;&gt;https://hexdocs.pm/decimal/readme.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="elixir" /><summary type="html">https://elixir-lang.org/</summary></entry><entry><title type="html">Leet Code</title><link href="http://localhost:4000/2018/05/07/leet-code.html" rel="alternate" type="text/html" title="Leet Code" /><published>2018-05-07T00:00:00+08:00</published><updated>2018-05-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/05/07/leet-code</id><content type="html" xml:base="http://localhost:4000/2018/05/07/leet-code.html">&lt;p&gt;&lt;a href=&quot;https://leetcode.com/&quot;&gt;https://leetcode.com/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="c" /><summary type="html">https://leetcode.com/</summary></entry></feed>
