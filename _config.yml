@@ -47,4 +47,4 @@ exclude:
 plugins: [jekyll-paginate]
 
 # Paginate
-paginate: 10
+paginate: 24
