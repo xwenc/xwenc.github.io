@@ -1,21 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-10T00:03:46+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-11T13:11:47+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
 </subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Mobx使用详解</title><link href="http://localhost:4000/2018/06/09/mbox.html" rel="alternate" type="text/html" title="Mobx使用详解" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/mbox</id><content type="html" xml:base="http://localhost:4000/2018/06/09/mbox.html">&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/505d9d9fe36a&quot;&gt;https://www.jianshu.com/p/505d9d9fe36a&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://www.jianshu.com/p/505d9d9fe36a</summary></entry><entry><title type="html">What’s next for CSS?</title><link href="http://localhost:4000/2018/06/09/cssdb.html" rel="alternate" type="text/html" title="What’s next for CSS?" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/cssdb</id><content type="html" xml:base="http://localhost:4000/2018/06/09/cssdb.html">&lt;p&gt;&lt;a href=&quot;https://github.com/csstools&quot;&gt;https://github.com/csstools&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://github.com/csstools</summary></entry><entry><title type="html">Postcss</title><link href="http://localhost:4000/2018/06/09/css-postcss.html" rel="alternate" type="text/html" title="Postcss" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/css-postcss</id><content type="html" xml:base="http://localhost:4000/2018/06/09/css-postcss.html">&lt;p&gt;&lt;a href=&quot;https://postcss.org/&quot;&gt;https://postcss.org/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://postcss.org/</summary></entry><entry><title type="html">Unlocking the Power of CSS Grid Layout</title><link href="http://localhost:4000/2018/06/08/css-grid.html" rel="alternate" type="text/html" title="Unlocking the Power of CSS Grid Layout" /><published>2018-06-08T00:00:00+08:00</published><updated>2018-06-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/08/css-grid</id><content type="html" xml:base="http://localhost:4000/2018/06/08/css-grid.html">&lt;p&gt;&lt;a href=&quot;https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout&quot;&gt;https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout</summary></entry><entry><title type="html">Babel</title><link href="http://localhost:4000/2018/06/08/babel-collect.html" rel="alternate" type="text/html" title="Babel" /><published>2018-06-08T00:00:00+08:00</published><updated>2018-06-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/08/babel-collect</id><content type="html" xml:base="http://localhost:4000/2018/06/08/babel-collect.html">&lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;再见，babel-preset-2015&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/29506685&quot;&gt;https://zhuanlan.zhihu.com/p/29506685&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">再见，babel-preset-2015</summary></entry><entry><title type="html">Webpack原理及使用技巧</title><link href="http://localhost:4000/2018/06/07/webpack.html" rel="alternate" type="text/html" title="Webpack原理及使用技巧" /><published>2018-06-07T00:00:00+08:00</published><updated>2018-06-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/07/webpack</id><content type="html" xml:base="http://localhost:4000/2018/06/07/webpack.html">&lt;p&gt;webpack是一个打包模块化js的工具，可以通过loader转换文件，通过plugin扩展功能。&lt;/p&gt;
 
-&lt;p&gt;Demo: &lt;a href=&quot;https://github.com/xwenc-react/webpack-react-boilplate&quot;&gt;https://github.com/xwenc-react/webpack-react-boilplate&lt;/a&gt;
-原理：
+&lt;p&gt;Demo: &lt;a href=&quot;https://github.com/xwenc-react/webpack-react-boilplate&quot;&gt;https://github.com/xwenc-react/webpack-react-boilplate&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;原理：
 一切皆为模块，由于webpack并不支持除.js以外的文件，从而需要使用loader转换成webpack支持的模块，plugin用于扩展webpack的功能，在webpack构建生命周期的过程在合适的时机做了合适的事情。&lt;/p&gt;
 
-&lt;p&gt;先了解一下Webpack从构建到输出文件结果的过程：
-1.解析配置参数，合并从shell传入和webpack.config.js文件的配置信息，输出最终的配置信息
-2.注册配置中的插件，好让插件监听webpack构建生命周期中的事件节点，做出对应的反应
-3.解析配置文件中entry入口文件，并找出每个文件依赖的文件，递归下去
-4.在递归每个文件的过程中，根据文件类型和配置文件中loader找出相对应的loader对文件进行转换
-5.递归结束之后得到每个文件最终的结果，根据entry配置生成代码chunk
-6.输出所有chunk到文件系统&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;先了解一下Webpack从构建到输出文件结果的过程：解析配置参数，合并从shell传入和webpack.config.js文件的配置信息，输出最终的配置信息。&lt;/li&gt;
+  &lt;li&gt;注册配置中的插件，好让插件监听webpack构建生命周期中的事件节点，做出对应的反应。&lt;/li&gt;
+  &lt;li&gt;解析配置文件中entry入口文件，并找出每个文件依赖的文件，递归下去。&lt;/li&gt;
+  &lt;li&gt;在递归每个文件的过程中，根据文件类型和配置文件中loader找出相对应的loader对文件进行转换。&lt;/li&gt;
+  &lt;li&gt;递归结束之后得到每个文件最终的结果，根据entry配置生成代码chunk。&lt;/li&gt;
+  &lt;li&gt;输出所有chunk到文件系统。&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -75,7 +77,25 @@
     &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm cache clean --force
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">webpack是一个打包模块化js的工具，可以通过loader转换文件，通过plugin扩展功能。</summary></entry><entry><title type="html">VS code intro</title><link href="http://localhost:4000/2018/06/07/vs-code.html" rel="alternate" type="text/html" title="VS code intro" /><published>2018-06-07T00:00:00+08:00</published><updated>2018-06-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/07/vs-code</id><content type="html" xml:base="http://localhost:4000/2018/06/07/vs-code.html">&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/introvideos&quot;&gt;https://code.visualstudio.com/docs/getstarted/introvideos&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">https://code.visualstudio.com/docs/getstarted/introvideos</summary></entry><entry><title type="html">path.join 与 path.resolve 的区别</title><link href="http://localhost:4000/2018/06/07/path-fn.html" rel="alternate" type="text/html" title="path.join 与 path.resolve 的区别" /><published>2018-06-07T00:00:00+08:00</published><updated>2018-06-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/07/path-fn</id><content type="html" xml:base="http://localhost:4000/2018/06/07/path-fn.html">&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;官网的例子&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/webpack/webpack/tree/master/test/configCases&quot;&gt;https://github.com/webpack/webpack/tree/master/test/configCases&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">webpack是一个打包模块化js的工具，可以通过loader转换文件，通过plugin扩展功能。</summary></entry><entry><title type="html">VSCode intro</title><link href="http://localhost:4000/2018/06/07/vs-code.html" rel="alternate" type="text/html" title="VSCode intro" /><published>2018-06-07T00:00:00+08:00</published><updated>2018-06-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/07/vs-code</id><content type="html" xml:base="http://localhost:4000/2018/06/07/vs-code.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;官方文档&lt;/strong&gt;
+&lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/introvideos&quot;&gt;https://code.visualstudio.com/docs/getstarted/introvideos&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;添加alias到.zshrc&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alias code=&quot;/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;VSCode 使用总结&lt;/strong&gt;
+&lt;a href=&quot;https://blog.csdn.net/amyloverice/article/details/79388270&quot;&gt;https://blog.csdn.net/amyloverice/article/details/79388270&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">官方文档 https://code.visualstudio.com/docs/getstarted/introvideos</summary></entry><entry><title type="html">path.join 与 path.resolve 的区别</title><link href="http://localhost:4000/2018/06/07/path-fn.html" rel="alternate" type="text/html" title="path.join 与 path.resolve 的区别" /><published>2018-06-07T00:00:00+08:00</published><updated>2018-06-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/07/path-fn</id><content type="html" xml:base="http://localhost:4000/2018/06/07/path-fn.html">&lt;ol&gt;
   &lt;li&gt;对于以/开始的路径片段，path.join只是简单的将该路径片段进行拼接，而path.resolve将以/开始的路径片段作为根目录，在此之前的路径将会被丢弃，就像是在terminal中使用cd命令一样。&lt;/li&gt;
 &lt;/ol&gt;
 
