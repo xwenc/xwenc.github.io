@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-11T13:11:47+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Mobx使用详解</title><link href="http://localhost:4000/2018/06/09/mbox.html" rel="alternate" type="text/html" title="Mobx使用详解" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/mbox</id><content type="html" xml:base="http://localhost:4000/2018/06/09/mbox.html">&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/505d9d9fe36a&quot;&gt;https://www.jianshu.com/p/505d9d9fe36a&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://www.jianshu.com/p/505d9d9fe36a</summary></entry><entry><title type="html">What’s next for CSS?</title><link href="http://localhost:4000/2018/06/09/cssdb.html" rel="alternate" type="text/html" title="What’s next for CSS?" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/cssdb</id><content type="html" xml:base="http://localhost:4000/2018/06/09/cssdb.html">&lt;p&gt;&lt;a href=&quot;https://github.com/csstools&quot;&gt;https://github.com/csstools&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://github.com/csstools</summary></entry><entry><title type="html">Postcss</title><link href="http://localhost:4000/2018/06/09/css-postcss.html" rel="alternate" type="text/html" title="Postcss" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/css-postcss</id><content type="html" xml:base="http://localhost:4000/2018/06/09/css-postcss.html">&lt;p&gt;&lt;a href=&quot;https://postcss.org/&quot;&gt;https://postcss.org/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://postcss.org/</summary></entry><entry><title type="html">Unlocking the Power of CSS Grid Layout</title><link href="http://localhost:4000/2018/06/08/css-grid.html" rel="alternate" type="text/html" title="Unlocking the Power of CSS Grid Layout" /><published>2018-06-08T00:00:00+08:00</published><updated>2018-06-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/08/css-grid</id><content type="html" xml:base="http://localhost:4000/2018/06/08/css-grid.html">&lt;p&gt;&lt;a href=&quot;https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout&quot;&gt;https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout</summary></entry><entry><title type="html">Babel</title><link href="http://localhost:4000/2018/06/08/babel-collect.html" rel="alternate" type="text/html" title="Babel" /><published>2018-06-08T00:00:00+08:00</published><updated>2018-06-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/08/babel-collect</id><content type="html" xml:base="http://localhost:4000/2018/06/08/babel-collect.html">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-20T14:29:05+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Polaris 入坑指南</title><link href="http://localhost:4000/2018/06/20/polaris.html" rel="alternate" type="text/html" title="Polaris 入坑指南" /><published>2018-06-20T00:00:00+08:00</published><updated>2018-06-20T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/20/polaris</id><content type="html" xml:base="http://localhost:4000/2018/06/20/polaris.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Formlayout.Group 左对齐问题&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/Shopify/polaris/issues/319&quot;&gt;https://github.com/Shopify/polaris/issues/319&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;使用redux-saga push data to Firebase&lt;/strong&gt;
+&lt;a href=&quot;http://react-redux-firebase.com/docs/integrations/redux-saga.html&quot;&gt;http://react-redux-firebase.com/docs/integrations/redux-saga.html&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">Formlayout.Group 左对齐问题 https://github.com/Shopify/polaris/issues/319</summary></entry><entry><title type="html">React + Firebase project</title><link href="http://localhost:4000/2018/06/14/firebase.html" rel="alternate" type="text/html" title="React + Firebase project" /><published>2018-06-14T00:00:00+08:00</published><updated>2018-06-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/14/firebase</id><content type="html" xml:base="http://localhost:4000/2018/06/14/firebase.html">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;React Redux Firebase&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://react-redux-firebase.com/&quot;&gt;http://react-redux-firebase.com/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">React Redux Firebase</summary></entry><entry><title type="html">React 全家桶资料汇总</title><link href="http://localhost:4000/2018/06/12/react-course.html" rel="alternate" type="text/html" title="React 全家桶资料汇总" /><published>2018-06-12T00:00:00+08:00</published><updated>2018-06-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/12/react-course</id><content type="html" xml:base="http://localhost:4000/2018/06/12/react-course.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;从零搭建React全家桶框架教程&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/brickspert/blog/issues/1&quot;&gt;https://github.com/brickspert/blog/issues/1&lt;/a&gt;
+&lt;a href=&quot;https://github.com/brickspert/react-family&quot;&gt;https://github.com/brickspert/react-family&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;props验证&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/prop-types&quot;&gt;https://github.com/facebook/prop-types&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">从零搭建React全家桶框架教程 https://github.com/brickspert/blog/issues/1 https://github.com/brickspert/react-family</summary></entry><entry><title type="html">Quilljs-powerful rich text editor</title><link href="http://localhost:4000/2018/06/11/frontend-quilljs.html" rel="alternate" type="text/html" title="Quilljs-powerful rich text editor" /><published>2018-06-11T00:00:00+08:00</published><updated>2018-06-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/11/frontend-quilljs</id><content type="html" xml:base="http://localhost:4000/2018/06/11/frontend-quilljs.html">&lt;p&gt;&lt;a href=&quot;https://quilljs.com/docs/quickstart/&quot;&gt;https://quilljs.com/docs/quickstart/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">https://quilljs.com/docs/quickstart/</summary></entry><entry><title type="html">Mobx使用详解</title><link href="http://localhost:4000/2018/06/09/mbox.html" rel="alternate" type="text/html" title="Mobx使用详解" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/mbox</id><content type="html" xml:base="http://localhost:4000/2018/06/09/mbox.html">&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/505d9d9fe36a&quot;&gt;https://www.jianshu.com/p/505d9d9fe36a&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://www.jianshu.com/p/505d9d9fe36a</summary></entry><entry><title type="html">What’s next for CSS?</title><link href="http://localhost:4000/2018/06/09/cssdb.html" rel="alternate" type="text/html" title="What’s next for CSS?" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/cssdb</id><content type="html" xml:base="http://localhost:4000/2018/06/09/cssdb.html">&lt;p&gt;&lt;a href=&quot;https://github.com/csstools&quot;&gt;https://github.com/csstools&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://github.com/csstools</summary></entry><entry><title type="html">Postcss</title><link href="http://localhost:4000/2018/06/09/css-postcss.html" rel="alternate" type="text/html" title="Postcss" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/css-postcss</id><content type="html" xml:base="http://localhost:4000/2018/06/09/css-postcss.html">&lt;p&gt;&lt;a href=&quot;https://postcss.org/&quot;&gt;https://postcss.org/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://postcss.org/</summary></entry><entry><title type="html">Unlocking the Power of CSS Grid Layout</title><link href="http://localhost:4000/2018/06/08/css-grid.html" rel="alternate" type="text/html" title="Unlocking the Power of CSS Grid Layout" /><published>2018-06-08T00:00:00+08:00</published><updated>2018-06-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/08/css-grid</id><content type="html" xml:base="http://localhost:4000/2018/06/08/css-grid.html">&lt;p&gt;&lt;a href=&quot;https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout&quot;&gt;https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://noti.st/rachelandrew/pweu9Z/unlocking-the-power-of-css-grid-layout</summary></entry><entry><title type="html">Babel</title><link href="http://localhost:4000/2018/06/08/babel-collect.html" rel="alternate" type="text/html" title="Babel" /><published>2018-06-08T00:00:00+08:00</published><updated>2018-06-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/08/babel-collect</id><content type="html" xml:base="http://localhost:4000/2018/06/08/babel-collect.html">&lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;再见，babel-preset-2015&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -25,6 +49,10 @@
 &lt;a href=&quot;https://webpack.docschina.org/&quot;&gt;https://webpack.docschina.org/&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;中文教程&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/brickspert/blog/issues/1#hot-module-replacement&quot;&gt;https://github.com/brickspert/blog/issues/1#hot-module-replacement&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;webpack模块化原理-commonjs&lt;/strong&gt;
 &lt;a href=&quot;https://segmentfault.com/a/1190000010349749&quot;&gt;https://segmentfault.com/a/1190000010349749&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
@@ -38,6 +66,11 @@
 
     &lt;p&gt;&lt;a href=&quot;https://github.com/taikongfeizhu/react-mobx-react-router4-boilerplate&quot;&gt;https://github.com/taikongfeizhu/react-mobx-react-router4-boilerplate&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/taikongfeizhu/react-mobx-react-router4-boilerplate&quot;&gt;https://github.com/taikongfeizhu/react-mobx-react-router4-boilerplate&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Github Demo&lt;/strong&gt;
 &lt;a href=&quot;https://github.com/jdf2e/webpack4-demo/blob/master/webpack.config.js&quot;&gt;https://github.com/jdf2e/webpack4-demo/blob/master/webpack.config.js&lt;/a&gt;&lt;/p&gt;
@@ -77,38 +110,12 @@
     &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm cache clean --force
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;官网的例子&lt;/strong&gt;
-&lt;a href=&quot;https://github.com/webpack/webpack/tree/master/test/configCases&quot;&gt;https://github.com/webpack/webpack/tree/master/test/configCases&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">webpack是一个打包模块化js的工具，可以通过loader转换文件，通过plugin扩展功能。</summary></entry><entry><title type="html">VSCode intro</title><link href="http://localhost:4000/2018/06/07/vs-code.html" rel="alternate" type="text/html" title="VSCode intro" /><published>2018-06-07T00:00:00+08:00</published><updated>2018-06-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/07/vs-code</id><content type="html" xml:base="http://localhost:4000/2018/06/07/vs-code.html">&lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;官方文档&lt;/strong&gt;
-&lt;a href=&quot;https://code.visualstudio.com/docs/getstarted/introvideos&quot;&gt;https://code.visualstudio.com/docs/getstarted/introvideos&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;官网的例子&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/webpack/webpack/tree/master/test/configCases&quot;&gt;https://github.com/webpack/webpack/tree/master/test/configCases&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;添加alias到.zshrc&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;webpack配置react-hot-loader热加载局部更新&lt;/strong&gt;
+&lt;a href=&quot;https://blog.csdn.net/huangpb123/article/details/78556652&quot;&gt;https://blog.csdn.net/huangpb123/article/details/78556652&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alias code=&quot;/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code&quot;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;VSCode 使用总结&lt;/strong&gt;
-&lt;a href=&quot;https://blog.csdn.net/amyloverice/article/details/79388270&quot;&gt;https://blog.csdn.net/amyloverice/article/details/79388270&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">官方文档 https://code.visualstudio.com/docs/getstarted/introvideos</summary></entry><entry><title type="html">path.join 与 path.resolve 的区别</title><link href="http://localhost:4000/2018/06/07/path-fn.html" rel="alternate" type="text/html" title="path.join 与 path.resolve 的区别" /><published>2018-06-07T00:00:00+08:00</published><updated>2018-06-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/07/path-fn</id><content type="html" xml:base="http://localhost:4000/2018/06/07/path-fn.html">&lt;ol&gt;
-  &lt;li&gt;对于以/开始的路径片段，path.join只是简单的将该路径片段进行拼接，而path.resolve将以/开始的路径片段作为根目录，在此之前的路径将会被丢弃，就像是在terminal中使用cd命令一样。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;path.join('/a', '/b') // 'a/b'
-path.resolve('/a', '/b') // '/b'
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;path.resolve总是返回一个以相对于当前的工作目录（working directory）的绝对路径。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;path.join('./a', './b') // 'a/b'
-path.resolve('./a', './b') // '/Users/username/Projects/webpack-demo/a/b'
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">对于以/开始的路径片段，path.join只是简单的将该路径片段进行拼接，而path.resolve将以/开始的路径片段作为根目录，在此之前的路径将会被丢弃，就像是在terminal中使用cd命令一样。</summary></entry><entry><title type="html">How to do material chat room</title><link href="http://localhost:4000/2018/06/06/material-chat.html" rel="alternate" type="text/html" title="How to do material chat room" /><published>2018-06-06T00:00:00+08:00</published><updated>2018-06-06T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/06/material-chat</id><content type="html" xml:base="http://localhost:4000/2018/06/06/material-chat.html">&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/replicating-google-hangouts-chat/&quot;&gt;https://css-tricks.com/replicating-google-hangouts-chat/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://dialogflow.com/&quot;&gt;https://dialogflow.com/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://css-tricks.com/replicating-google-hangouts-chat/</summary></entry><entry><title type="html">MDN web documents</title><link href="http://localhost:4000/2018/06/05/mdn-docs.html" rel="alternate" type="text/html" title="MDN web documents" /><published>2018-06-05T00:00:00+08:00</published><updated>2018-06-05T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/05/mdn-docs</id><content type="html" xml:base="http://localhost:4000/2018/06/05/mdn-docs.html">&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/&quot;&gt;https://developer.mozilla.org/en-US/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">https://developer.mozilla.org/en-US/</summary></entry></feed>
+&lt;p&gt;[https://github.com/brickspert/blog/issues/1#hot-module-replacement]https://github.com/brickspert/blog/issues/1#hot-module-replacement)&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">webpack是一个打包模块化js的工具，可以通过loader转换文件，通过plugin扩展功能。</summary></entry></feed>
