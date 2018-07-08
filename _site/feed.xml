@@ -1,5 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-26T09:36:40+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">彻底弄懂客户端时间和服务器同步</title><link href="http://localhost:4000/2018/06/26/clock-sync.html" rel="alternate" type="text/html" title="彻底弄懂客户端时间和服务器同步" /><published>2018-06-26T00:00:00+08:00</published><updated>2018-06-26T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/26/clock-sync</id><content type="html" xml:base="http://localhost:4000/2018/06/26/clock-sync.html">&lt;p&gt;这里的算法有点问题，需要做精确一点&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-07-08T23:19:30+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">sync submit for redux form and saga</title><link href="http://localhost:4000/2018/07/08/sync-submit.html" rel="alternate" type="text/html" title="sync submit for redux form and saga" /><published>2018-07-08T00:00:00+08:00</published><updated>2018-07-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/07/08/sync-submit</id><content type="html" xml:base="http://localhost:4000/2018/07/08/sync-submit.html">&lt;p&gt;I do not know if these action creators are new or have some downside, but could we not just use the startSubmit and stopSubmit action creators and pass the form name with the submit action?&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function* createEntity(entity, apiFn, formId, newEntity) {
+  yield put( entity.request() )
+  yield put( startSubmit(formId) )
+  const {response, error} = yield call(apiFn, newEntity)
+  if(response) {
+    yield put( entity.success(response) )
+    yield put( reset(formId) )
+    yield put( stopSubmit(formId) )
+  }
+  else {
+    yield put( entity.failure(error) )
+    // handle and format errors from api
+    yield put( stopSubmit(formId, serverValidationErrors) )
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Quite new to both redux-form and redux-saga, so there could be something i am missing here.&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">I do not know if these action creators are new or have some downside, but could we not just use the startSubmit and stopSubmit action creators and pass the form name with the submit action?</summary></entry><entry><title type="html">Javascript Object method</title><link href="http://localhost:4000/2018/07/03/js-object-method.html" rel="alternate" type="text/html" title="Javascript Object method" /><published>2018-07-03T00:00:00+08:00</published><updated>2018-07-03T00:00:00+08:00</updated><id>http://localhost:4000/2018/07/03/js-object-method</id><content type="html" xml:base="http://localhost:4000/2018/07/03/js-object-method.html">&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object</summary></entry><entry><title type="html">iOS Safari浏览器上overflow: scroll元素无法滑动bug解决方法整理</title><link href="http://localhost:4000/2018/06/29/safari-scroll.html" rel="alternate" type="text/html" title="iOS Safari浏览器上overflow: scroll元素无法滑动bug解决方法整理" /><published>2018-06-29T00:00:00+08:00</published><updated>2018-06-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/29/safari-scroll</id><content type="html" xml:base="http://localhost:4000/2018/06/29/safari-scroll.html">&lt;ol&gt;
+  &lt;li&gt;必须为所有在移动端的overflow: scroll元素增加属性 -webkit-overflow-scrolling: touch。
+当父元素可不脱离文档流时不要脱离文档流。&lt;/li&gt;
+  &lt;li&gt;在子元素iframe加载完成后可异步将父元素的overflow: scroll属性重写（此方法可能不成功）。&lt;/li&gt;
+  &lt;li&gt;如以上没有解决，则给予子元素一个min-height，大小不限（略大于效果最好），帮助safari建立ScrollView（亲测最有效）。&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">必须为所有在移动端的overflow: scroll元素增加属性 -webkit-overflow-scrolling: touch。 当父元素可不脱离文档流时不要脱离文档流。 在子元素iframe加载完成后可异步将父元素的overflow: scroll属性重写（此方法可能不成功）。 如以上没有解决，则给予子元素一个min-height，大小不限（略大于效果最好），帮助safari建立ScrollView（亲测最有效）。</summary></entry><entry><title type="html">Air Table on React</title><link href="http://localhost:4000/2018/06/29/air-table.html" rel="alternate" type="text/html" title="Air Table on React" /><published>2018-06-29T00:00:00+08:00</published><updated>2018-06-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/29/air-table</id><content type="html" xml:base="http://localhost:4000/2018/06/29/air-table.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;DOCS&lt;/strong&gt;&lt;br /&gt;
+ &lt;a href=&quot;https://guide.airtable.com/introduction-to-databases/&quot;&gt;Airtable Overview&lt;/a&gt;&lt;br /&gt;
+   &lt;a href=&quot;https://airtable.com/api&quot;&gt;Standard API&lt;/a&gt; 
+ &lt;a href=&quot;https://flaviocopes.com/airtable/&quot;&gt;AIRTABLE API FOR DEVELOPERS&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;EXAMPLE&lt;/strong&gt;&lt;br /&gt;
+ &lt;a href=&quot;https://github.com/unshift/airtable-react&quot;&gt;airtable-react&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;ARTICLE&lt;/strong&gt;&lt;br /&gt;
+ &lt;a href=&quot;https://guide.airtable.com/how-to-create-a-database/&quot;&gt;Creating and Customizing your Database&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/row-and-table/freebie-airtable-based-bid-generator-4997366321c&quot;&gt;Freebie: Airtable Based Bid Generator&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/row-and-table/an-basic-intro-to-the-airtable-api-9ef978bb0729&quot;&gt;A basic introduction to the Airtable API&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/row-and-table/freebie-airtable-based-bid-generator-4997366321c&quot;&gt;Freebie: Airtable Based Bid Generator&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/@matt_bush/how-airtable-uses-react-5e37066a87d4&quot;&gt;How Airtable uses React&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://menubar.io/airtable-reactjs/&quot;&gt;Airtable As A Minimum Viable Database For Your ReactJs Project&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">DOCS Airtable Overview Standard API AIRTABLE API FOR DEVELOPERS</summary></entry><entry><title type="html">彻底弄懂客户端时间和服务器同步</title><link href="http://localhost:4000/2018/06/26/clock-sync.html" rel="alternate" type="text/html" title="彻底弄懂客户端时间和服务器同步" /><published>2018-06-26T00:00:00+08:00</published><updated>2018-06-26T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/26/clock-sync</id><content type="html" xml:base="http://localhost:4000/2018/06/26/clock-sync.html">&lt;p&gt;这里的算法有点问题，需要做精确一点&lt;/p&gt;
 
 &lt;p&gt;客户端时间是错的，发起请求，为客户端认为的第A=100秒
 服务端接收到数据的时候，时间是第X=150秒
@@ -40,4 +89,4 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/prop-types&quot;&gt;https://github.com/facebook/prop-types&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">从零搭建React全家桶框架教程 https://github.com/brickspert/blog/issues/1 https://github.com/brickspert/react-family</summary></entry><entry><title type="html">Quilljs-powerful rich text editor</title><link href="http://localhost:4000/2018/06/11/frontend-quilljs.html" rel="alternate" type="text/html" title="Quilljs-powerful rich text editor" /><published>2018-06-11T00:00:00+08:00</published><updated>2018-06-11T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/11/frontend-quilljs</id><content type="html" xml:base="http://localhost:4000/2018/06/11/frontend-quilljs.html">&lt;p&gt;&lt;a href=&quot;https://quilljs.com/docs/quickstart/&quot;&gt;https://quilljs.com/docs/quickstart/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">https://quilljs.com/docs/quickstart/</summary></entry><entry><title type="html">Mobx使用详解</title><link href="http://localhost:4000/2018/06/09/mbox.html" rel="alternate" type="text/html" title="Mobx使用详解" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/mbox</id><content type="html" xml:base="http://localhost:4000/2018/06/09/mbox.html">&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/505d9d9fe36a&quot;&gt;https://www.jianshu.com/p/505d9d9fe36a&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://www.jianshu.com/p/505d9d9fe36a</summary></entry><entry><title type="html">What’s next for CSS?</title><link href="http://localhost:4000/2018/06/09/cssdb.html" rel="alternate" type="text/html" title="What’s next for CSS?" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/cssdb</id><content type="html" xml:base="http://localhost:4000/2018/06/09/cssdb.html">&lt;p&gt;&lt;a href=&quot;https://github.com/csstools&quot;&gt;https://github.com/csstools&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://github.com/csstools</summary></entry><entry><title type="html">Postcss</title><link href="http://localhost:4000/2018/06/09/css-postcss.html" rel="alternate" type="text/html" title="Postcss" /><published>2018-06-09T00:00:00+08:00</published><updated>2018-06-09T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/09/css-postcss</id><content type="html" xml:base="http://localhost:4000/2018/06/09/css-postcss.html">&lt;p&gt;&lt;a href=&quot;https://postcss.org/&quot;&gt;https://postcss.org/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">https://postcss.org/</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://github.com/facebook/prop-types&quot;&gt;https://github.com/facebook/prop-types&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">从零搭建React全家桶框架教程 https://github.com/brickspert/blog/issues/1 https://github.com/brickspert/react-family</summary></entry></feed>
