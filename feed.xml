@@ -1,5 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-13T21:28:35+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">希腊字母大小写对照表</title><link href="http://localhost:4000/2018/08/12/greek-letter.html" rel="alternate" type="text/html" title="希腊字母大小写对照表" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/12/greek-letter</id><content type="html" xml:base="http://localhost:4000/2018/08/12/greek-letter.html">&lt;table log-set-param=&quot;table_view&quot; class=&quot;table-view log-set-param&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;77&quot; align=&quot;left&quot; valign=&quot;middle&quot;&gt;&lt;div class=&quot;para&quot; label-module=&quot;para&quot;&gt;大写&lt;/div&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-29T08:53:07+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Guide of github</title><link href="http://localhost:4000/2018/08/27/github-work-guide.html" rel="alternate" type="text/html" title="Guide of github" /><published>2018-08-27T00:00:00+08:00</published><updated>2018-08-27T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/27/github-work-guide</id><content type="html" xml:base="http://localhost:4000/2018/08/27/github-work-guide.html">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Mastering Issues&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://guides.github.com/features/issues/&quot;&gt;https://guides.github.com/features/issues/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="git" /><summary type="html">Mastering Issues</summary></entry><entry><title type="html">Intercomm with GMT</title><link href="http://localhost:4000/2018/08/23/GMT-intercomm.html" rel="alternate" type="text/html" title="Intercomm with GMT" /><published>2018-08-23T00:00:00+08:00</published><updated>2018-08-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/23/GMT-intercomm</id><content type="html" xml:base="http://localhost:4000/2018/08/23/GMT-intercomm.html">&lt;p&gt;&lt;a href=&quot;https://productforums.google.com/forum/#!topic/tag-manager/DE8aJNVKST8&quot;&gt;Cannot write a boolean variable value to a custom html tag? &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.analyticsmania.com/post/what-is-data-layer-in-google-tag-manager/&quot;&gt;GOOGLE TAG MANAGER DATALAYER EXPLAINED&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://support.google.com/tagmanager/answer/7182738?hl=zh-Hans&amp;amp;ref_topic=7182737&quot;&gt;网站容器的内置变量&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developers.intercom.com/intercom-api-reference/reference#create-or-update-user&quot;&gt;Intercomm API reference&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.intercom.com/help/configure-intercom-for-your-product-or-site/customize-intercom-to-be-about-your-users/send-custom-user-attributes-to-intercom&quot;&gt;Send custom user attributes to Intercom
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.intercom.com/help/the-intercom-platform/track-events-in-intercom&quot;&gt;Track events in Intercom&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="seo" /><summary type="html">Cannot write a boolean variable value to a custom html tag?</summary></entry><entry><title type="html">计算机书籍PDF</title><link href="http://localhost:4000/2018/08/20/program-pdf-books.html" rel="alternate" type="text/html" title="计算机书籍PDF" /><published>2018-08-20T00:00:00+08:00</published><updated>2018-08-20T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/20/program-pdf-books</id><content type="html" xml:base="http://localhost:4000/2018/08/20/program-pdf-books.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bestcbooks.com/&quot;&gt;计算机书籍控&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="books" /><summary type="html">计算机书籍控</summary></entry><entry><title type="html">Visualising data structures and algorithms through animation</title><link href="http://localhost:4000/2018/08/14/visual-data-structure.html" rel="alternate" type="text/html" title="Visualising data structures and algorithms through animation" /><published>2018-08-14T00:00:00+08:00</published><updated>2018-08-14T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/14/visual-data-structure</id><content type="html" xml:base="http://localhost:4000/2018/08/14/visual-data-structure.html">&lt;p&gt;&lt;a href=&quot;https://visualgo.net/zh/sorting&quot;&gt;https://visualgo.net/zh/sorting&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="algorithm" /><summary type="html">https://visualgo.net/zh/sorting</summary></entry><entry><title type="html">希腊字母大小写对照表</title><link href="http://localhost:4000/2018/08/12/greek-letter.html" rel="alternate" type="text/html" title="希腊字母大小写对照表" /><published>2018-08-12T00:00:00+08:00</published><updated>2018-08-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/08/12/greek-letter</id><content type="html" xml:base="http://localhost:4000/2018/08/12/greek-letter.html">&lt;table log-set-param=&quot;table_view&quot; class=&quot;table-view log-set-param&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;77&quot; align=&quot;left&quot; valign=&quot;middle&quot;&gt;&lt;div class=&quot;para&quot; label-module=&quot;para&quot;&gt;大写&lt;/div&gt;
 &lt;/td&gt;&lt;td width=&quot;85&quot; align=&quot;left&quot; valign=&quot;middle&quot;&gt;&lt;div class=&quot;para&quot; label-module=&quot;para&quot;&gt;小写&lt;/div&gt;
 &lt;/td&gt;&lt;td width=&quot;81&quot; align=&quot;left&quot; valign=&quot;middle&quot;&gt;&lt;div class=&quot;para&quot; label-module=&quot;para&quot;&gt;英文读音&lt;/div&gt;
 &lt;/td&gt;&lt;td width=&quot;81&quot; align=&quot;left&quot; valign=&quot;middle&quot;&gt;&lt;div class=&quot;para&quot; label-module=&quot;para&quot;&gt;国际音标&lt;/div&gt;
@@ -150,51 +167,4 @@ git push origin :branch_name 删除远程分支&lt;/p&gt;</content><author><name
   }
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Quite new to both redux-form and redux-saga, so there could be something i am missing here.&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">I do not know if these action creators are new or have some downside, but could we not just use the startSubmit and stopSubmit action creators and pass the form name with the submit action?</summary></entry><entry><title type="html">Javascript Object method</title><link href="http://localhost:4000/2018/07/03/js-object-method.html" rel="alternate" type="text/html" title="Javascript Object method" /><published>2018-07-03T00:00:00+08:00</published><updated>2018-07-03T00:00:00+08:00</updated><id>http://localhost:4000/2018/07/03/js-object-method</id><content type="html" xml:base="http://localhost:4000/2018/07/03/js-object-method.html">&lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object</summary></entry><entry><title type="html">iOS Safari浏览器上overflow: scroll元素无法滑动bug解决方法整理</title><link href="http://localhost:4000/2018/06/29/safari-scroll.html" rel="alternate" type="text/html" title="iOS Safari浏览器上overflow: scroll元素无法滑动bug解决方法整理" /><published>2018-06-29T00:00:00+08:00</published><updated>2018-06-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/29/safari-scroll</id><content type="html" xml:base="http://localhost:4000/2018/06/29/safari-scroll.html">&lt;ol&gt;
-  &lt;li&gt;必须为所有在移动端的overflow: scroll元素增加属性 -webkit-overflow-scrolling: touch。
-当父元素可不脱离文档流时不要脱离文档流。&lt;/li&gt;
-  &lt;li&gt;在子元素iframe加载完成后可异步将父元素的overflow: scroll属性重写（此方法可能不成功）。&lt;/li&gt;
-  &lt;li&gt;如以上没有解决，则给予子元素一个min-height，大小不限（略大于效果最好），帮助safari建立ScrollView（亲测最有效）。&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">必须为所有在移动端的overflow: scroll元素增加属性 -webkit-overflow-scrolling: touch。 当父元素可不脱离文档流时不要脱离文档流。 在子元素iframe加载完成后可异步将父元素的overflow: scroll属性重写（此方法可能不成功）。 如以上没有解决，则给予子元素一个min-height，大小不限（略大于效果最好），帮助safari建立ScrollView（亲测最有效）。</summary></entry><entry><title type="html">Air Table on React</title><link href="http://localhost:4000/2018/06/29/air-table.html" rel="alternate" type="text/html" title="Air Table on React" /><published>2018-06-29T00:00:00+08:00</published><updated>2018-06-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/29/air-table</id><content type="html" xml:base="http://localhost:4000/2018/06/29/air-table.html">&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;DOCS&lt;/strong&gt;&lt;br /&gt;
- &lt;a href=&quot;https://guide.airtable.com/introduction-to-databases/&quot;&gt;Airtable Overview&lt;/a&gt;&lt;br /&gt;
-   &lt;a href=&quot;https://airtable.com/api&quot;&gt;Standard API&lt;/a&gt; 
- &lt;a href=&quot;https://flaviocopes.com/airtable/&quot;&gt;AIRTABLE API FOR DEVELOPERS&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;EXAMPLE&lt;/strong&gt;&lt;br /&gt;
- &lt;a href=&quot;https://github.com/unshift/airtable-react&quot;&gt;airtable-react&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;ARTICLE&lt;/strong&gt;&lt;br /&gt;
- &lt;a href=&quot;https://guide.airtable.com/how-to-create-a-database/&quot;&gt;Creating and Customizing your Database&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://medium.com/row-and-table/freebie-airtable-based-bid-generator-4997366321c&quot;&gt;Freebie: Airtable Based Bid Generator&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://medium.com/row-and-table/an-basic-intro-to-the-airtable-api-9ef978bb0729&quot;&gt;A basic introduction to the Airtable API&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://medium.com/row-and-table/freebie-airtable-based-bid-generator-4997366321c&quot;&gt;Freebie: Airtable Based Bid Generator&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://medium.com/@matt_bush/how-airtable-uses-react-5e37066a87d4&quot;&gt;How Airtable uses React&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;https://menubar.io/airtable-reactjs/&quot;&gt;Airtable As A Minimum Viable Database For Your ReactJs Project&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">DOCS Airtable Overview Standard API AIRTABLE API FOR DEVELOPERS</summary></entry><entry><title type="html">彻底弄懂客户端时间和服务器同步</title><link href="http://localhost:4000/2018/06/26/clock-sync.html" rel="alternate" type="text/html" title="彻底弄懂客户端时间和服务器同步" /><published>2018-06-26T00:00:00+08:00</published><updated>2018-06-26T00:00:00+08:00</updated><id>http://localhost:4000/2018/06/26/clock-sync</id><content type="html" xml:base="http://localhost:4000/2018/06/26/clock-sync.html">&lt;p&gt;这里的算法有点问题，需要做精确一点&lt;/p&gt;
-
-&lt;p&gt;客户端时间是错的，发起请求，为客户端认为的第A=100秒
-服务端接收到数据的时候，时间是第X=150秒
-服务器非常慢，回复给客户端的时候，时间是第Y=160秒
-客户端接收到数据，这时候是客户端认为的第B=120秒&lt;/p&gt;
-
-&lt;p&gt;客户端计算网络延迟为 B - A - (服务器响应时间) = B - A - (Y - X) = 10秒&lt;/p&gt;
-
-&lt;p&gt;客户端认为发起的延迟和返回的延迟相同，所以，从服务端返回到客户端的延迟就是 10 / 2 = 5秒
-所以，客户端认为，客户端接收到返回的真实时间是 160 + 5 = 165秒，所以，客户端时间差 = 165 - 120 = 45秒&lt;/p&gt;
-
-&lt;p&gt;所以真实的A是 = 145， 真实的B = 165
-按照这个算法，把服务器的响应时间也计算进去，精确到毫秒吧至少&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1638337/the-best-way-to-synchronize-client-side-javascript-clock-with-server-date&quot;&gt;https://stackoverflow.com/questions/1638337/the-best-way-to-synchronize-client-side-javascript-clock-with-server-date&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/2018-06-26-01.png&quot; alt=&quot;时间同步&quot; /&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="algorithm" /><summary type="html">这里的算法有点问题，需要做精确一点</summary></entry></feed>
+&lt;p&gt;Quite new to both redux-form and redux-saga, so there could be something i am missing here.&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">I do not know if these action creators are new or have some downside, but could we not just use the startSubmit and stopSubmit action creators and pass the form name with the submit action?</summary></entry></feed>
