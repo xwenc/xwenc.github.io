@@ -16,3 +16,6 @@ tags: css
 
 ## Course
 [https://geddski.teachable.com/](https://geddski.teachable.com/)
+
+## Bootstrap Flexbox
+[http://getbootstrap.com/docs/4.1/utilities/flex/](http://getbootstrap.com/docs/4.1/utilities/flex/)
