@@ -1,5 +1,5 @@
 ---
-title: The Second Edition of "Refactoring"
+title: The Second Edition of Refactoring
 layout: post
 tags: javascript
 ---

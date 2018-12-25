@@ -50,9 +50,7 @@
       data = JSON.parse(dataStr),
       curTag = getQueryString("tag"),
       archieves = data[curTag];
-     
       setActiveClass(curTag);
-      
       archieves && renderPosts(archieves);
     });   
   </script>
