@@ -1,83 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-23T21:17:52+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Turbolinks5 概述及实现原理</title><link href="http://localhost:4000/2018/11/23/rails-turbolinks.html" rel="alternate" type="text/html" title="Turbolinks5 概述及实现原理" /><published>2018-11-23T00:00:00+08:00</published><updated>2018-11-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/23/rails-turbolinks</id><content type="html" xml:base="http://localhost:4000/2018/11/23/rails-turbolinks.html">&lt;p&gt;[https://yafeilee.me/blogs/88(https://yafeilee.me/blogs/88](https://yafeilee.me/blogs/88(https://yafeilee.me/blogs/88)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-24T12:08:22+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">React game framework</title><link href="http://localhost:4000/2018/12/24/react-game-framework.html" rel="alternate" type="text/html" title="React game framework" /><published>2018-12-24T00:00:00+08:00</published><updated>2018-12-24T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/24/react-game-framework</id><content type="html" xml:base="http://localhost:4000/2018/12/24/react-game-framework.html">&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/&quot;&gt;https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;解决跳转页面不加载的问题
-将需要初始化的代码添加到window.init中
-然后在body中调用该变量&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script&amp;gt;
-      $(document).ready(window.init)
-    &amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">[https://yafeilee.me/blogs/88(https://yafeilee.me/blogs/88](https://yafeilee.me/blogs/88(https://yafeilee.me/blogs/88)</summary></entry><entry><title type="html">Rails 知识问答</title><link href="http://localhost:4000/2018/11/23/rails-qa.html" rel="alternate" type="text/html" title="Rails 知识问答" /><published>2018-11-23T00:00:00+08:00</published><updated>2018-11-23T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/23/rails-qa</id><content type="html" xml:base="http://localhost:4000/2018/11/23/rails-qa.html">&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;gemfile 跟 gemfile.lock 的区别？&lt;/strong&gt;
-需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&amp;gt; 2.1.0’ ，最好要通过 ‘~&amp;gt; ‘ 的方式锁定版本号，例如 ‘~&amp;gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里
-当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号
-新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&amp;gt; 2.1.0’ ，最好要通过 ‘~&amp;gt; ‘ 的方式锁定版本号，例如 ‘~&amp;gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock</summary></entry><entry><title type="html">Rails 项目安装es6</title><link href="http://localhost:4000/2018/11/22/rails-es6.html" rel="alternate" type="text/html" title="Rails 项目安装es6" /><published>2018-11-22T00:00:00+08:00</published><updated>2018-11-22T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/22/rails-es6</id><content type="html" xml:base="http://localhost:4000/2018/11/22/rails-es6.html">&lt;p&gt;&lt;a href=&quot;https://babeljs.io/en/setup/#installation&quot;&gt;https://babeljs.io/en/setup/#installation&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">https://babeljs.io/en/setup/#installation</summary></entry><entry><title type="html">Rails的静态资源管理</title><link href="http://localhost:4000/2018/11/22/assets-pipeline-source-manage.html" rel="alternate" type="text/html" title="Rails的静态资源管理" /><published>2018-11-22T00:00:00+08:00</published><updated>2018-11-22T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/22/assets-pipeline-source-manage</id><content type="html" xml:base="http://localhost:4000/2018/11/22/assets-pipeline-source-manage.html">&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/zs-note/p/7049288.html&quot;&gt;https://www.cnblogs.com/zs-note/p/7049288.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">https://www.cnblogs.com/zs-note/p/7049288.html</summary></entry><entry><title type="html">Assets pipeline 使用 package 中第三方插件</title><link href="http://localhost:4000/2018/11/21/rails-package.html" rel="alternate" type="text/html" title="Assets pipeline 使用 package 中第三方插件" /><published>2018-11-21T00:00:00+08:00</published><updated>2018-11-21T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/21/rails-package</id><content type="html" xml:base="http://localhost:4000/2018/11/21/rails-package.html">&lt;ol&gt;
-  &lt;li&gt;通过 yarn add 之后，使用这样的方式引用 js ，
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;//= require select2/dist/js/select2
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;node_modules 的&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;使用这样的方式引用 css ，
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;@import &quot;select2/dist/css/select2&quot;;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;路径同样是相对于 node_modules 的.&lt;/p&gt;
-  &lt;/li&gt;
+&lt;p&gt;&lt;a href=&quot;https://boardgame.io/#/&quot;&gt;https://boardgame.io/#/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/</summary></entry><entry><title type="html">Rails 两套layout</title><link href="http://localhost:4000/2018/12/13/separate-layout.html" rel="alternate" type="text/html" title="Rails 两套layout" /><published>2018-12-13T00:00:00+08:00</published><updated>2018-12-13T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/13/separate-layout</id><content type="html" xml:base="http://localhost:4000/2018/12/13/separate-layout.html">&lt;p&gt;admin 单独做一套 layout 可以这样来&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;controller 中建一个 admin 的文件夹&lt;/li&gt;
+  &lt;li&gt;admin 文件夹中建一个 application_controller.rb 的文件，
+class Admin::ApplicationController &amp;lt; ApplicationController
+  layout “admin”
+end
+其他的contoller 继承 Admin::ApplicaitonController&lt;/li&gt;
+  &lt;li&gt;layout 文件夹中，建一个 admin.html.erb，内容参考 application.html.erb&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;3.require_tree 的意思是，把当前目录的 js 文件都引用进来，所以，要在相同目录下，每一个 controller 都建一个 js 文件，放对应的页面的 js 逻辑&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">通过 yarn add 之后，使用这样的方式引用 js ， //= require select2/dist/js/select2 node_modules 的 使用这样的方式引用 css ， @import &quot;select2/dist/css/select2&quot;; 路径同样是相对于 node_modules 的.</summary></entry><entry><title type="html">Ruby Gem命令详解</title><link href="http://localhost:4000/2018/11/21/gem.html" rel="alternate" type="text/html" title="Ruby Gem命令详解" /><published>2018-11-21T00:00:00+08:00</published><updated>2018-11-21T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/21/gem</id><content type="html" xml:base="http://localhost:4000/2018/11/21/gem.html">&lt;p&gt;Gem介绍：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/42926596/separate-frontend-assets-from-admin-assets&quot;&gt;https://stackoverflow.com/questions/42926596/separate-frontend-assets-from-admin-assets&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Gem是一个管理Ruby库和程序的标准包，它通过Ruby Gem（如 http://rubygems.org/ ）源来查找、安装、升级和卸载软件包，非常的便捷。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://api.rubyonrails.org/classes/ActionView/Layouts.html&quot;&gt;https://api.rubyonrails.org/classes/ActionView/Layouts.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">admin 单独做一套 layout 可以这样来 controller 中建一个 admin 的文件夹 admin 文件夹中建一个 application_controller.rb 的文件， class Admin::ApplicationController &amp;lt; ApplicationController layout “admin” end 其他的contoller 继承 Admin::ApplicaitonController layout 文件夹中，建一个 admin.html.erb，内容参考 application.html.erb</summary></entry><entry><title type="html">Rails 自动化部署</title><link href="http://localhost:4000/2018/12/12/rails-auto-deploy.html" rel="alternate" type="text/html" title="Rails 自动化部署" /><published>2018-12-12T00:00:00+08:00</published><updated>2018-12-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/12/rails-auto-deploy</id><content type="html" xml:base="http://localhost:4000/2018/12/12/rails-auto-deploy.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;参考资料&lt;/strong&gt;
+&lt;a href=&quot;https://ruby-china.org/topics/36899&quot;&gt;https://ruby-china.org/topics/36899&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;免费服务器&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Ruby 1.9.2版本默认已安装Ruby Gem，如果你使用其它发行版本，请参考“如何安装Ruby Gem”。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;https://www.heroku.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Ruby gem包的安装方式：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;heroku&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;所有的gem包，会被安装到 /[Ruby root]/lib/ruby/gems/[ver]/ 目录下，这其中包括了Cache、doc、gems、specifications 4个目录，cache下放置下载的原生gem包，gems下则放置的是解压过的gem包。
-当安装过程中遇到问题时，可以进入这些目录，手动删除有问题的gem包，然后重新运行 gem install [gemname] 命令即可。&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install heroku/brew/heroku
 
-&lt;p&gt;Ruby Gem命令详解：&lt;/p&gt;
+heroku create
 
-&lt;p&gt;//更新Gem自身
-//注意：在某些linux发行版中为了系统稳定性此命令禁止执行
-$ gem update –system&lt;/p&gt;
+heroku git:remote -a thawing-inlet-61413
 
-&lt;p&gt;// 从Gem源安装gem包
-$ gem install [gemname]&lt;/p&gt;
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">参考资料 https://ruby-china.org/topics/36899</summary></entry><entry><title type="html">Rails登录制作流程</title><link href="http://localhost:4000/2018/12/10/rails-login.html" rel="alternate" type="text/html" title="Rails登录制作流程" /><published>2018-12-10T00:00:00+08:00</published><updated>2018-12-10T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/10/rails-login</id><content type="html" xml:base="http://localhost:4000/2018/12/10/rails-login.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails generate controller Sessions new
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">$ rails generate controller Sessions new</summary></entry><entry><title type="html">服务器时间同步解决</title><link href="http://localhost:4000/2018/12/07/time-sync.html" rel="alternate" type="text/html" title="服务器时间同步解决" /><published>2018-12-07T00:00:00+08:00</published><updated>2018-12-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/07/time-sync</id><content type="html" xml:base="http://localhost:4000/2018/12/07/time-sync.html">&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1638337/the-best-way-to-synchronize-client-side-javascript-clock-with-server-date/15785110#15785110&quot;&gt;https://stackoverflow.com/questions/1638337/the-best-way-to-synchronize-client-side-javascript-clock-with-server-date/15785110#15785110&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="post" /><summary type="html">https://stackoverflow.com/questions/1638337/the-best-way-to-synchronize-client-side-javascript-clock-with-server-date/15785110#15785110</summary></entry><entry><title type="html">Rails 命令</title><link href="http://localhost:4000/2018/12/02/rails-command.html" rel="alternate" type="text/html" title="Rails 命令" /><published>2018-12-02T00:00:00+08:00</published><updated>2018-12-02T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/02/rails-command</id><content type="html" xml:base="http://localhost:4000/2018/12/02/rails-command.html">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;启动本地 Web 开发服务器&lt;/strong&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;创建项目&lt;/strong&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails new &amp;lt;file&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;创建modal&lt;/strong&gt;
+```
+$ rails generate scaffold &lt;modal&gt; name:string email:string&lt;/modal&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;// 从本机安装gem包
-$ gem install -l [gemname].gem&lt;/p&gt;
+&lt;p&gt;$  rails generate model User name:string email:string&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+* **创建controler**
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;$  generate controller Users new&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+* **数据迁移命令**
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;$  rails generate migration add_password_digest_to_users password_digest:string
+```&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">启动本地 Web 开发服务器 $ rails server</summary></entry><entry><title type="html">Sqlite 入门</title><link href="http://localhost:4000/2018/12/01/sqlite.html" rel="alternate" type="text/html" title="Sqlite 入门" /><published>2018-12-01T00:00:00+08:00</published><updated>2018-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/01/sqlite</id><content type="html" xml:base="http://localhost:4000/2018/12/01/sqlite.html">&lt;p&gt;&lt;a href=&quot;http://www.runoob.com/sqlite/sqlite-commands.html&quot;&gt;http://www.runoob.com/sqlite/sqlite-commands.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">http://www.runoob.com/sqlite/sqlite-commands.html</summary></entry><entry><title type="html">Rails Active Record</title><link href="http://localhost:4000/2018/12/01/rails-active-record.html" rel="alternate" type="text/html" title="Rails Active Record" /><published>2018-12-01T00:00:00+08:00</published><updated>2018-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/01/rails-active-record</id><content type="html" xml:base="http://localhost:4000/2018/12/01/rails-active-record.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;命名约定&lt;/strong&gt;
+Rails 把模型的类名转换成复数，然后查找对应的数据表。例如，模型类名为 Book，数据表就是 books。数据库表名：复数，下划线分隔单词（例如 book_clubs, 模型类名：单数，每个单词的首字母大写（例如 BookClub）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;模式约定&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;// 安装指定版本的gem包
-$ gem install [gemname] –version=[ver]&lt;/p&gt;
+&lt;p&gt;外键：使用 singularized_table_name_id 形式命名，例如 item_id，order_id。创建模型关联后，Active Record 会查找这个字段；
+主键：默认情况下，Active Record 使用整数字段 id 作为表的主键。使用 Active Record 迁移创建数据库表时，会自动创建这个字段；&lt;/p&gt;
 
-&lt;p&gt;// 更新所有已安装的gem包
-$ gem update&lt;/p&gt;
+&lt;p&gt;还有一些可选的字段，能为 Active Record 实例添加更多的功能：&lt;/p&gt;
 
-&lt;p&gt;// 更新指定的gem包
-// 注意：gem update [gemname]不会升级旧版本的包，此时你可以使用 gem install [gemname] –version=[ver]代替
-$ gem update [gemname]&lt;/p&gt;
-
-&lt;p&gt;// 删除指定的gem包，注意此命令将删除所有已安装的版本
-$ gem uninstall [gemname]&lt;/p&gt;
-
-&lt;p&gt;// 删除某指定版本gem
-$ gem uninstall [gemname] –version=[ver]&lt;/p&gt;
-
-&lt;p&gt;// 查看本机已安装的所有gem包
-$ gem list [–local]&lt;/p&gt;
-
-&lt;p&gt;作者：Mklaus
-链接：https://www.jianshu.com/p/728184da1699
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">Gem介绍：</summary></entry><entry><title type="html">Rails 路由全解</title><link href="http://localhost:4000/2018/11/19/rails-routes.html" rel="alternate" type="text/html" title="Rails 路由全解" /><published>2018-11-19T00:00:00+08:00</published><updated>2018-11-19T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/19/rails-routes</id><content type="html" xml:base="http://localhost:4000/2018/11/19/rails-routes.html">&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Guide&lt;/strong&gt;
-&lt;a href=&quot;https://ruby-china.github.io/rails-guides/routing.html&quot;&gt;https://ruby-china.github.io/rails-guides/routing.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Boostrap-sass&lt;/strong&gt;
-&lt;a href=&quot;https://github.com/twbs/bootstrap-sass&quot;&gt;https://github.com/twbs/bootstrap-sass&lt;/a&gt;
-bundle install bootstrap-sass 后需要重新启动服务器才能生效！&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">Guide https://ruby-china.github.io/rails-guides/routing.html Boostrap-sass https://github.com/twbs/bootstrap-sass bundle install bootstrap-sass 后需要重新启动服务器才能生效！</summary></entry><entry><title type="html">Regex专题：语法</title><link href="http://localhost:4000/2018/11/08/regex.html" rel="alternate" type="text/html" title="Regex专题：语法" /><published>2018-11-08T00:00:00+08:00</published><updated>2018-11-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/08/regex</id><content type="html" xml:base="http://localhost:4000/2018/11/08/regex.html">&lt;p&gt;&lt;a href=&quot;https://veedrin.com/post/5bcdbe9f3227cc3b9ee41edc&quot;&gt;https://veedrin.com/post/5bcdbe9f3227cc3b9ee41edc&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="regex" /><summary type="html">https://veedrin.com/post/5bcdbe9f3227cc3b9ee41edc</summary></entry><entry><title type="html">Reason lets you write simple, fast and quality type safe code</title><link href="http://localhost:4000/2018/11/06/reasonml.html" rel="alternate" type="text/html" title="Reason lets you write simple, fast and quality type safe code" /><published>2018-11-06T00:00:00+08:00</published><updated>2018-11-06T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/06/reasonml</id><content type="html" xml:base="http://localhost:4000/2018/11/06/reasonml.html">&lt;p&gt;&lt;a href=&quot;https://reasonml.github.io/&quot;&gt;https://reasonml.github.io/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="reason" /><summary type="html">https://reasonml.github.io/</summary></entry><entry><title type="html">How to build a blog by rails</title><link href="http://localhost:4000/2018/10/08/rails-blog-build.html" rel="alternate" type="text/html" title="How to build a blog by rails" /><published>2018-10-08T00:00:00+08:00</published><updated>2018-10-08T00:00:00+08:00</updated><id>http://localhost:4000/2018/10/08/rails-blog-build</id><content type="html" xml:base="http://localhost:4000/2018/10/08/rails-blog-build.html">&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Getting start&lt;/strong&gt;
-&lt;a href=&quot;https://ruby-china.github.io/rails-guides/getting_started.html&quot;&gt;https://ruby-china.github.io/rails-guides/getting_started.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="ruby" /><summary type="html">Getting start https://ruby-china.github.io/rails-guides/getting_started.html</summary></entry></feed>
+&lt;p&gt;created_at：创建记录时，自动设为当前的日期和时间；
+updated_at：更新记录时，自动设为当前的日期和时间；
+lock_version：在模型中添加乐观锁；
+type：让模型使用单表继承；
+(association_name)_type：存储多态关联的类型；
+(table_name)_count：缓存所关联对象的数量。比如说，一个 Article 有多个 Comment，那么 comments_count 列存储各篇文章现有的评论数量；&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">命名约定 Rails 把模型的类名转换成复数，然后查找对应的数据表。例如，模型类名为 Book，数据表就是 books。数据库表名：复数，下划线分隔单词（例如 book_clubs, 模型类名：单数，每个单词的首字母大写（例如 BookClub）</summary></entry><entry><title type="html">The Second Edition of “Refactoring”</title><link href="http://localhost:4000/2018/11/29/refactoring.html" rel="alternate" type="text/html" title="The Second Edition of &quot;Refactoring&quot;" /><published>2018-11-29T00:00:00+08:00</published><updated>2018-11-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/29/refactoring</id><content type="html" xml:base="http://localhost:4000/2018/11/29/refactoring.html">&lt;p&gt;&lt;a href=&quot;https://martinfowler.com/articles/refactoring-2nd-ed.html&quot;&gt;https://martinfowler.com/articles/refactoring-2nd-ed.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://martinfowler.com/articles/refactoring-2nd-ed.html</summary></entry><entry><title type="html">React 动画制作</title><link href="http://localhost:4000/2018/11/29/react-animation.html" rel="alternate" type="text/html" title="React 动画制作" /><published>2018-11-29T00:00:00+08:00</published><updated>2018-11-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/29/react-animation</id><content type="html" xml:base="http://localhost:4000/2018/11/29/react-animation.html">&lt;p&gt;&lt;a href=&quot;https://github.com/reactjs/react-transition-group&quot;&gt;https://github.com/reactjs/react-transition-group&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://github.com/reactjs/react-transition-group</summary></entry></feed>
