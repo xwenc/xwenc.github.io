@@ -1,84 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-07T16:33:53+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Linear icons</title><link href="http://localhost:4000/2018/12/26/line-icons.html" rel="alternate" type="text/html" title="Linear icons" /><published>2018-12-26T00:00:00+08:00</published><updated>2018-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/26/line-icons</id><content type="html" xml:base="http://localhost:4000/2018/12/26/line-icons.html">&lt;p&gt;&lt;a href=&quot;https://linearicons.com/premium/preview&quot;&gt;https://linearicons.com/premium/preview&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="icon" /><summary type="html">https://linearicons.com/premium/preview</summary></entry><entry><title type="html">React game framework</title><link href="http://localhost:4000/2018/12/24/react-game-framework.html" rel="alternate" type="text/html" title="React game framework" /><published>2018-12-24T00:00:00+08:00</published><updated>2018-12-24T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/24/react-game-framework</id><content type="html" xml:base="http://localhost:4000/2018/12/24/react-game-framework.html">&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/&quot;&gt;https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-06T14:52:02+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Induction of Go</title><link href="http://localhost:4000/2019/03/06/go-intro.html" rel="alternate" type="text/html" title="Induction of Go" /><published>2019-03-06T00:00:00+08:00</published><updated>2019-03-06T00:00:00+08:00</updated><id>http://localhost:4000/2019/03/06/go-intro</id><content type="html" xml:base="http://localhost:4000/2019/03/06/go-intro.html">&lt;p&gt;Go语法超级简单，基本上每种结构只有一种写法，循环只有for，条件只有if，但是函数可以当参数传递，有闭包，
+有个杀手锏就是 gorutine 并发
+它有个好处就是编译出来的是二进制机器码，部署的时候啥环境都不用装，直接扔到服务器就行
+这两年go应用的还比较广泛，以太坊，docker，k8s，微服务网格框架 istio 都是用go做的&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://boardgame.io/#/&quot;&gt;https://boardgame.io/#/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/</summary></entry><entry><title type="html">Rails 两套layout</title><link href="http://localhost:4000/2018/12/13/separate-layout.html" rel="alternate" type="text/html" title="Rails 两套layout" /><published>2018-12-13T00:00:00+08:00</published><updated>2018-12-13T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/13/separate-layout</id><content type="html" xml:base="http://localhost:4000/2018/12/13/separate-layout.html">&lt;p&gt;admin 单独做一套 layout 可以这样来&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;controller 中建一个 admin 的文件夹&lt;/li&gt;
-  &lt;li&gt;admin 文件夹中建一个 application_controller.rb 的文件，
-class Admin::ApplicationController &amp;lt; ApplicationController
-  layout “admin”
-end
-其他的contoller 继承 Admin::ApplicaitonController&lt;/li&gt;
-  &lt;li&gt;layout 文件夹中，建一个 admin.html.erb，内容参考 application.html.erb&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Go 这方面特别好的一点是，官方的学习资料特别丰富，我学习大部分时间都是在看官方的东西。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/42926596/separate-frontend-assets-from-admin-assets&quot;&gt;https://stackoverflow.com/questions/42926596/separate-frontend-assets-from-admin-assets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;入门看 tour 就可以了，然后保持关注 blog 和 GitHub wiki ，平时用到标准库的时候多习惯性地跳到源码看看标准库&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://api.rubyonrails.org/classes/ActionView/Layouts.html&quot;&gt;https://api.rubyonrails.org/classes/ActionView/Layouts.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">admin 单独做一套 layout 可以这样来 controller 中建一个 admin 的文件夹 admin 文件夹中建一个 application_controller.rb 的文件， class Admin::ApplicationController &amp;lt; ApplicationController layout “admin” end 其他的contoller 继承 Admin::ApplicaitonController layout 文件夹中，建一个 admin.html.erb，内容参考 application.html.erb</summary></entry><entry><title type="html">Rails 自动化部署</title><link href="http://localhost:4000/2018/12/12/rails-auto-deploy.html" rel="alternate" type="text/html" title="Rails 自动化部署" /><published>2018-12-12T00:00:00+08:00</published><updated>2018-12-12T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/12/rails-auto-deploy</id><content type="html" xml:base="http://localhost:4000/2018/12/12/rails-auto-deploy.html">&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;参考资料&lt;/strong&gt;
-&lt;a href=&quot;https://ruby-china.org/topics/36899&quot;&gt;https://ruby-china.org/topics/36899&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;免费服务器&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;tour: https://tour.golang.org/welcome/1
+spec: https://golang.org/ref/spec&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;https://www.heroku.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;blog: https://blog.golang.org/index
+wiki: https://github.com/golang/go/wiki
+release: https://golang.org/doc/devel/release.html&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;heroku&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install heroku/brew/heroku
-
-heroku create
-
-heroku git:remote -a thawing-inlet-61413
-
-git push heroku master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">参考资料 https://ruby-china.org/topics/36899</summary></entry><entry><title type="html">Rails登录制作流程</title><link href="http://localhost:4000/2018/12/10/rails-login.html" rel="alternate" type="text/html" title="Rails登录制作流程" /><published>2018-12-10T00:00:00+08:00</published><updated>2018-12-10T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/10/rails-login</id><content type="html" xml:base="http://localhost:4000/2018/12/10/rails-login.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails generate controller Sessions new
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">$ rails generate controller Sessions new</summary></entry><entry><title type="html">服务器时间同步解决</title><link href="http://localhost:4000/2018/12/07/time-sync.html" rel="alternate" type="text/html" title="服务器时间同步解决" /><published>2018-12-07T00:00:00+08:00</published><updated>2018-12-07T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/07/time-sync</id><content type="html" xml:base="http://localhost:4000/2018/12/07/time-sync.html">&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1638337/the-best-way-to-synchronize-client-side-javascript-clock-with-server-date/15785110#15785110&quot;&gt;https://stackoverflow.com/questions/1638337/the-best-way-to-synchronize-client-side-javascript-clock-with-server-date/15785110#15785110&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="post" /><summary type="html">https://stackoverflow.com/questions/1638337/the-best-way-to-synchronize-client-side-javascript-clock-with-server-date/15785110#15785110</summary></entry><entry><title type="html">Rails 命令</title><link href="http://localhost:4000/2018/12/02/rails-command.html" rel="alternate" type="text/html" title="Rails 命令" /><published>2018-12-02T00:00:00+08:00</published><updated>2018-12-02T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/02/rails-command</id><content type="html" xml:base="http://localhost:4000/2018/12/02/rails-command.html">&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;启动本地 Web 开发服务器&lt;/strong&gt;
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails server
+&lt;p&gt;学习语法就看 tour 和 spec 就可以了。平时保持关注下面三个 blog 集合了官方的一些优秀教程，wiki 集合了一些社区的精华文章，release 可以留意语言特性的最新变化，有新版发布的时候就看一下就可以了。&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="go" /><summary type="html">Go语法超级简单，基本上每种结构只有一种写法，循环只有for，条件只有if，但是函数可以当参数传递，有闭包， 有个杀手锏就是 gorutine 并发 它有个好处就是编译出来的是二进制机器码，部署的时候啥环境都不用装，直接扔到服务器就行 这两年go应用的还比较广泛，以太坊，docker，k8s，微服务网格框架 istio 都是用go做的</summary></entry><entry><title type="html">Courses of learning how to code</title><link href="http://localhost:4000/2019/02/24/academind.html" rel="alternate" type="text/html" title="Courses of learning how to code" /><published>2019-02-24T00:00:00+08:00</published><updated>2019-02-24T00:00:00+08:00</updated><id>http://localhost:4000/2019/02/24/academind</id><content type="html" xml:base="http://localhost:4000/2019/02/24/academind.html">&lt;p&gt;&lt;a href=&quot;https://www.academind.com&quot;&gt;https://www.academind.com&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">https://www.academind.com</summary></entry><entry><title type="html">Anime.js, a lightweight JavaScript animation library</title><link href="http://localhost:4000/2019/02/19/animejs.html" rel="alternate" type="text/html" title="Anime.js, a lightweight JavaScript animation library" /><published>2019-02-19T00:00:00+08:00</published><updated>2019-02-19T00:00:00+08:00</updated><id>http://localhost:4000/2019/02/19/animejs</id><content type="html" xml:base="http://localhost:4000/2019/02/19/animejs.html">&lt;p&gt;&lt;a href=&quot;https://github.com/juliangarnier/anime&quot;&gt;https://github.com/juliangarnier/anime&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="animate" /><summary type="html">https://github.com/juliangarnier/anime</summary></entry><entry><title type="html">React Native for Designers</title><link href="http://localhost:4000/2019/02/18/rn-course.html" rel="alternate" type="text/html" title="React Native for Designers" /><published>2019-02-18T00:00:00+08:00</published><updated>2019-02-18T00:00:00+08:00</updated><id>http://localhost:4000/2019/02/18/rn-course</id><content type="html" xml:base="http://localhost:4000/2019/02/18/rn-course.html">&lt;ul&gt;
+  &lt;li&gt;安装expo-cli 时必须sudo才可以成功
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo npm install expo-cli --global
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;创建项目&lt;/strong&gt;
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ rails new &amp;lt;file&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;创建modal&lt;/strong&gt;
-```
-$ rails generate scaffold &lt;modal&gt; name:string email:string&lt;/modal&gt;&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;关闭simulator中多余的device， 在左上角File中点击Close Window&lt;/li&gt;
+  &lt;li&gt;例子： &lt;a href=&quot;https://github.com/MengTo/react-native-for-designers&quot;&gt;https://github.com/MengTo/react-native-for-designers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="rn" /><summary type="html">安装expo-cli 时必须sudo才可以成功 sudo npm install expo-cli --global</summary></entry><entry><title type="html">Static Progressive Web Apps</title><link href="http://localhost:4000/2019/02/13/ssr.html" rel="alternate" type="text/html" title="Static Progressive Web Apps" /><published>2019-02-13T00:00:00+08:00</published><updated>2019-02-13T00:00:00+08:00</updated><id>http://localhost:4000/2019/02/13/ssr</id><content type="html" xml:base="http://localhost:4000/2019/02/13/ssr.html">&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;https://www.gatsbyjs.org/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;$  rails generate model User name:string email:string&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-* **创建controler**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;$  generate controller Users new&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-* **数据迁移命令**
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;$  rails generate migration add_password_digest_to_users password_digest:string
-```&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">启动本地 Web 开发服务器 $ rails server</summary></entry><entry><title type="html">Sqlite 入门</title><link href="http://localhost:4000/2018/12/01/sqlite.html" rel="alternate" type="text/html" title="Sqlite 入门" /><published>2018-12-01T00:00:00+08:00</published><updated>2018-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/01/sqlite</id><content type="html" xml:base="http://localhost:4000/2018/12/01/sqlite.html">&lt;p&gt;&lt;a href=&quot;http://www.runoob.com/sqlite/sqlite-commands.html&quot;&gt;http://www.runoob.com/sqlite/sqlite-commands.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">http://www.runoob.com/sqlite/sqlite-commands.html</summary></entry><entry><title type="html">Rails Active Record</title><link href="http://localhost:4000/2018/12/01/rails-active-record.html" rel="alternate" type="text/html" title="Rails Active Record" /><published>2018-12-01T00:00:00+08:00</published><updated>2018-12-01T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/01/rails-active-record</id><content type="html" xml:base="http://localhost:4000/2018/12/01/rails-active-record.html">&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;命名约定&lt;/strong&gt;
-Rails 把模型的类名转换成复数，然后查找对应的数据表。例如，模型类名为 Book，数据表就是 books。数据库表名：复数，下划线分隔单词（例如 book_clubs, 模型类名：单数，每个单词的首字母大写（例如 BookClub）&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;模式约定&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://nextjs.org/docs/#setup&quot;&gt;https://nextjs.org/docs/#setup&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;外键：使用 singularized_table_name_id 形式命名，例如 item_id，order_id。创建模型关联后，Active Record 会查找这个字段；
-主键：默认情况下，Active Record 使用整数字段 id 作为表的主键。使用 Active Record 迁移创建数据库表时，会自动创建这个字段；&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nextjs.frontendx.cn/docs/#%E5%AE%89%E8%A3%85&quot;&gt;http://nextjs.frontendx.cn/docs/#%E5%AE%89%E8%A3%85&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;还有一些可选的字段，能为 Active Record 实例添加更多的功能：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.freecodecamp.org/server-side-rendering-your-react-app-in-three-simple-steps-7a82b95db82e&quot;&gt;https://medium.freecodecamp.org/server-side-rendering-your-react-app-in-three-simple-steps-7a82b95db82e&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;created_at：创建记录时，自动设为当前的日期和时间；
-updated_at：更新记录时，自动设为当前的日期和时间；
-lock_version：在模型中添加乐观锁；
-type：让模型使用单表继承；
-(association_name)_type：存储多态关联的类型；
-(table_name)_count：缓存所关联对象的数量。比如说，一个 Article 有多个 Comment，那么 comments_count 列存储各篇文章现有的评论数量；&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">命名约定 Rails 把模型的类名转换成复数，然后查找对应的数据表。例如，模型类名为 Book，数据表就是 books。数据库表名：复数，下划线分隔单词（例如 book_clubs, 模型类名：单数，每个单词的首字母大写（例如 BookClub）</summary></entry><entry><title type="html">The Second Edition of Refactoring</title><link href="http://localhost:4000/2018/11/29/refactoring.html" rel="alternate" type="text/html" title="The Second Edition of Refactoring" /><published>2018-11-29T00:00:00+08:00</published><updated>2018-11-29T00:00:00+08:00</updated><id>http://localhost:4000/2018/11/29/refactoring</id><content type="html" xml:base="http://localhost:4000/2018/11/29/refactoring.html">&lt;p&gt;&lt;a href=&quot;https://martinfowler.com/articles/refactoring-2nd-ed.html&quot;&gt;https://martinfowler.com/articles/refactoring-2nd-ed.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://martinfowler.com/articles/refactoring-2nd-ed.html</summary></entry></feed>
+&lt;h3 id=&quot;now-examples&quot;&gt;Now Examples&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/now-examples&quot;&gt;https://github.com/now-examples&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://www.gatsbyjs.org/</summary></entry><entry><title type="html">React hooks</title><link href="http://localhost:4000/2019/02/11/react-hooks.html" rel="alternate" type="text/html" title="React hooks" /><published>2019-02-11T00:00:00+08:00</published><updated>2019-02-11T00:00:00+08:00</updated><id>http://localhost:4000/2019/02/11/react-hooks</id><content type="html" xml:base="http://localhost:4000/2019/02/11/react-hooks.html">&lt;p&gt;&lt;a href=&quot;https://usehooks.com/&quot;&gt;https://usehooks.com/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://usehooks.com/</summary></entry><entry><title type="html">JavaScript librarys devoted to motion for the web</title><link href="http://localhost:4000/2019/02/11/animation-libs.html" rel="alternate" type="text/html" title="JavaScript librarys devoted to motion for the web" /><published>2019-02-11T00:00:00+08:00</published><updated>2019-02-11T00:00:00+08:00</updated><id>http://localhost:4000/2019/02/11/animation-libs</id><content type="html" xml:base="http://localhost:4000/2019/02/11/animation-libs.html">&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/qO8x44nxh-biL_a0zanRjw&quot;&gt;https://mp.weixin.qq.com/s/qO8x44nxh-biL_a0zanRjw&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">https://mp.weixin.qq.com/s/qO8x44nxh-biL_a0zanRjw</summary></entry><entry><title type="html">A*寻路</title><link href="http://localhost:4000/2019/02/06/path-search.html" rel="alternate" type="text/html" title="A*寻路" /><published>2019-02-06T00:00:00+08:00</published><updated>2019-02-06T00:00:00+08:00</updated><id>http://localhost:4000/2019/02/06/path-search</id><content type="html" xml:base="http://localhost:4000/2019/02/06/path-search.html">&lt;p&gt;&lt;a href=&quot;https://www.cnblogs.com/zhoug2020/p/3468167.html&quot;&gt;https://www.cnblogs.com/zhoug2020/p/3468167.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="algorithm" /><summary type="html">https://www.cnblogs.com/zhoug2020/p/3468167.html</summary></entry><entry><title type="html">Linear icons</title><link href="http://localhost:4000/2018/12/26/line-icons.html" rel="alternate" type="text/html" title="Linear icons" /><published>2018-12-26T00:00:00+08:00</published><updated>2018-12-26T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/26/line-icons</id><content type="html" xml:base="http://localhost:4000/2018/12/26/line-icons.html">&lt;p&gt;&lt;a href=&quot;https://linearicons.com/premium/preview&quot;&gt;https://linearicons.com/premium/preview&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="icon" /><summary type="html">https://linearicons.com/premium/preview</summary></entry><entry><title type="html">React game framework</title><link href="http://localhost:4000/2018/12/24/react-game-framework.html" rel="alternate" type="text/html" title="React game framework" /><published>2018-12-24T00:00:00+08:00</published><updated>2018-12-24T00:00:00+08:00</updated><id>http://localhost:4000/2018/12/24/react-game-framework</id><content type="html" xml:base="http://localhost:4000/2018/12/24/react-game-framework.html">&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/&quot;&gt;https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://boardgame.io/#/&quot;&gt;https://boardgame.io/#/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://reactjsexample.com/&quot;&gt;https://reactjsexample.com/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://www.reddit.com/r/reactjs/comments/84m9o2/game_development/</summary></entry></feed>
