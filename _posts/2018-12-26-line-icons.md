@@ -1,7 +1,7 @@
 ---
 title: Linear icons
 layout: post
-tags: icon
+tags: css
 ---
 
 [https://linearicons.com/premium/preview](https://linearicons.com/premium/preview)

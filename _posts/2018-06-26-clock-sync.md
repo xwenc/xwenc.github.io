@@ -1,7 +1,7 @@
 ---
 title: 彻底弄懂客户端时间和服务器同步
 layout: post
-tags: algorithm
+tags: javascript
 ---
 
 这里的算法有点问题，需要做精确一点

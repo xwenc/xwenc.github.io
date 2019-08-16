@@ -1,7 +1,7 @@
 ---
 title: Bootstrap free template
 layout: post
-tags: bootstrap
+tags: frontend
 ---
 
 * [https://codedthemes.com/](https://codedthemes.com/)

@@ -1,7 +1,7 @@
 ---
 title: Numeral.js
 layout: post
-tags: plugin
+tags: javascript
 ---
 
 A javascript library for formatting and manipulating numbers.

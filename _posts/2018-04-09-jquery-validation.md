@@ -1,7 +1,7 @@
 ---
 title: jQuery Validation Plugin
 layout: post
-tags: jquery
+tags: javascript
 ---
 
 [https://jqueryvalidation.org](https://jqueryvalidation.org)
