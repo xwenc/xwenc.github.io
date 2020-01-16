@@ -2,65 +2,79 @@
 layout: default
 ---
 
-<div class="home pull-left">
-  {% if page.title %}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {% endif %}
+{% if page.title %}
+  <h1 class="page-heading">{{ page.title }}</h1>
+{% endif %}
 
-  {{ content }}
+{{ content }}
 
-  {% if site.posts.size > 0 %}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list" id="posts">
-      <!-- 遍历分页后的文章 -->
-      {% for post in paginator.posts %}
-        <li>
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          {% if site.show_excerpts %}
-            {{ post.excerpt }}
+{% if site.posts.size > 0 %}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+  <div id="posts">
+    <!-- 遍历分页后的文章 -->
+    {% for post in paginator.posts %}
+    <section class="post-item">
+      <header class="post-item-header">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <p class="post-item-meta">
+          <span class="post-item-date">{{ post.date | date: date_format }}</span> 
+          {% if post.tags %}
+            on 
+            <a class="post-item-category" href="/?tag={{ post.tags }}" >{{ post.tags }}</a>
           {% endif %}
-        </li>
-      {% endfor %}
-      <!-- 分页链接 -->
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-          {% else %}
-            <span>&laquo; Prev</span>
-          {% endif %}
-
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <em>{{ page }}</em>
-            {% elsif page == 1 %}
-              <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-            {% else %}
-              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-            {% endif %}
-          {% endfor %}
-
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-          {% else %}
-            <span>Next &raquo;</span>
-          {% endif %}
-        </div>
-      {% endif %}
-    </ul>   
-  {% endif %}
-</div>
-<div class="side pull-left">
-  <ul id="tags">
-      <li><a href="/">All</a></li>
-    {% for tag in site.tags %}
-      <li><a href="/?tag={{ tag[0] }}">{{ tag[0] }}</a></li>
+        <h2 class="post-item-title">
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
+        {% if site.show_excerpts %}
+          {{ post.excerpt }}
+        {% endif %}
+      </header>
+    </section>
     {% endfor %}
-  </ul>
-</div>
+    </div>
+    <!-- 分页链接 -->
+    {% if paginator.total_pages > 1 %}
+      <div class="pagination">
+        <ul>
+        {% if paginator.previous_page %}
+        <li class="prev">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+        </li>
+        {% else %}
+        <li class="prev disabled">
+          <span>&laquo; Prev</span>
+        </li>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+          <li class="active">
+            <span>{{ page }}</span>
+          </li>
+          
+          {% elsif page == 1 %}
+          <li>
+            <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+          </li>
+          {% else %}
+          <li>
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          </li>
+          {% endif %}
+          
+        {% endfor %}
+        {% if paginator.next_page %}
+        <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+        </li>
+        {% else %}
+        <li class="next disabled">
+          <span>Next &raquo;</span>
+        </li>
+        {% endif %}
+        </ul>
+      </div>
+    {% endif %} 
+  {% endif %}

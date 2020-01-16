@@ -2,23 +2,26 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {% endif %}</p>
+  <section class="post-item">
+  <header class="post-item-header">
+    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+    <p class="post-item-meta">
+      <span class="post-item-date">{{ page.date | date: date_format }}</span> 
+      {% if page.tags %}
+        on 
+        <a class="post-item-category" href="/?tag={{ post.tags }}" >{{ page.tags }}</a>
+      {% endif %}
+    <h2 class="post-item-title">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ page.title | escape }}
+      </a>
+    </h2>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content post-item-description" itemprop="articleBody">
     {{ content }}
   </div>
-
+ </section>
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}

@@ -1,4 +1,4 @@
-title: Andy Xiong's blog
+title: Andy Xiong's Notes
 logo: "/assets/logo.png"
 author: Andy Xiong
 email: thinman918@gmail.com
@@ -47,4 +47,4 @@ exclude:
 plugins: [jekyll-paginate]
 
 # Paginate
-paginate: 24
+paginate: 12

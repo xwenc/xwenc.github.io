@@ -9,7 +9,17 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+        <div class="home pull-left">
+          {{ content }}
+        </div>
+        <div class="side pull-left">
+          <ul id="tags">
+              <li><a href="/">All</a></li>
+            {% for tag in site.tags %}
+              <li><a href="/?tag={{ tag[0] }}">{{ tag[0] }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </main>
 
