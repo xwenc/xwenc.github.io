@@ -6,20 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Rails 知识问答 | Andy Xiong’s blog</title>
+<title>Rails 知识问答 | Andy Xiong’s Notes</title>
 <meta name="generator" content="Jekyll v3.8.5" />
 <meta property="og:title" content="Rails 知识问答" />
 <meta name="author" content="Andy Xiong" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock" />
 <meta property="og:description" content="gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock" />
-<link rel="canonical" href="http://localhost:4000/2018/11/23/rails-qa.html" />
-<meta property="og:url" content="http://localhost:4000/2018/11/23/rails-qa.html" />
-<meta property="og:site_name" content="Andy Xiong’s blog" />
+<meta property="og:site_name" content="Andy Xiong’s Notes" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-11-23T00:00:00+08:00" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/logo.png"},"name":"Andy Xiong"},"headline":"Rails 知识问答","dateModified":"2018-11-23T00:00:00+08:00","datePublished":"2018-11-23T00:00:00+08:00","author":{"@type":"Person","name":"Andy Xiong"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/11/23/rails-qa.html"},"description":"gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock","url":"http://localhost:4000/2018/11/23/rails-qa.html","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/logo.png"},"name":"Andy Xiong"},"headline":"Rails 知识问答","dateModified":"2018-11-23T00:00:00+08:00","datePublished":"2018-11-23T00:00:00+08:00","author":{"@type":"Person","name":"Andy Xiong"},"mainEntityOfPage":{"@type":"WebPage","@id":"/2018/11/23/rails-qa.html"},"description":"gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock","url":"/2018/11/23/rails-qa.html","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -73,7 +71,7 @@
       archieves && renderPosts(archieves);
     });   
   </script>
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Andy Xiong's blog" />
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Andy Xiong's Notes" />
   
 </head>
 
@@ -92,7 +90,7 @@
         style="margin-top: -3px;margin-right: 5px" 
         src="/assets/logo.png" 
       />
-      Andy Xiong&#39;s blog
+      Andy Xiong&#39;s Notes
     </a>
 
     
@@ -142,6 +140,21 @@
             
             
           
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
+            
+            
+          
         </div>
       </nav>
     
@@ -151,19 +164,25 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Rails 知识问答</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2018-11-23T00:00:00+08:00" itemprop="datePublished">
-        
-        Nov 23, 2018
-      </time>
-      </p>
+        <div class="home pull-left">
+          <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <section class="post-item">
+  <header class="post-item-header">
+    
+    <p class="post-item-meta">
+      <span class="post-item-date">Nov 23, 2018</span> 
+      
+        on 
+        <a class="post-item-category" href="/?tag=" >rails</a>
+      
+    <h2 class="post-item-title">
+      <a class="post-link" href="">
+        Rails 知识问答
+      </a>
+    </h2>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="post-content e-content post-item-description" itemprop="articleBody">
     <ul>
   <li><strong>gemfile 跟 gemfile.lock 的区别？</strong>
 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里
@@ -174,12 +193,67 @@
 <p><a href="https://www.rubydoc.info/">https://www.rubydoc.info/</a></p>
 
   </div>
-
+ </section>
   
 
   <a class="u-url" href="/2018/11/23/rails-qa.html" hidden></a>
 </article>
 
+        </div>
+        <div class="side pull-left">
+          <ul id="tags">
+              <li><a href="/">All</a></li>
+            
+              <li><a href="/?tag=c">c</a></li>
+            
+              <li><a href="/?tag=frontend">frontend</a></li>
+            
+              <li><a href="/?tag=css">css</a></li>
+            
+              <li><a href="/?tag=webflow">webflow</a></li>
+            
+              <li><a href="/?tag=javascript">javascript</a></li>
+            
+              <li><a href="/?tag=algorithm">algorithm</a></li>
+            
+              <li><a href="/?tag=git">git</a></li>
+            
+              <li><a href="/?tag=elixir">elixir</a></li>
+            
+              <li><a href="/?tag=react">react</a></li>
+            
+              <li><a href="/?tag=ruby">ruby</a></li>
+            
+              <li><a href="/?tag=books">books</a></li>
+            
+              <li><a href="/?tag=seo">seo</a></li>
+            
+              <li><a href="/?tag=cert">cert</a></li>
+            
+              <li><a href="/?tag=reason">reason</a></li>
+            
+              <li><a href="/?tag=regex">regex</a></li>
+            
+              <li><a href="/?tag=rails">rails</a></li>
+            
+              <li><a href="/?tag=rn">rn</a></li>
+            
+              <li><a href="/?tag=animate">animate</a></li>
+            
+              <li><a href="/?tag=go">go</a></li>
+            
+              <li><a href="/?tag=nodejs">nodejs</a></li>
+            
+              <li><a href="/?tag=jobs">jobs</a></li>
+            
+              <li><a href="/?tag=php">php</a></li>
+            
+              <li><a href="/?tag=gatsby">gatsby</a></li>
+            
+              <li><a href="/?tag=nest">nest</a></li>
+            
+          </ul>
+        </div>
       </div>
     </main>
 
@@ -188,7 +262,7 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Andy Xiong&#39;s blog</h2>
+    <h2 class="footer-heading">Andy Xiong&#39;s Notes</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
