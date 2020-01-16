@@ -47,3 +47,9 @@ tag: react
 
 * **使用指南中文**
 [http://jartto.wang/2018/06/01/nextjs-2/](http://jartto.wang/2018/06/01/nextjs-2/)
+
+* **How to use next-routes**
+[https://www.loudnoises.us/solving-next-static-pages-js-404-not-found/](https://www.loudnoises.us/solving-next-static-pages-js-404-not-found/)
+
+* **Ghost with Nextjs**
+[https://ghost.org/docs/api/v3/nextjs/](https://ghost.org/docs/api/v3/nextjs/)

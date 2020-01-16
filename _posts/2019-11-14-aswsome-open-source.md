@@ -1,6 +1,6 @@
 ---
 title: Awesome Open Source
-laytout: post
+layout: post
 tags: frontend
 ---
 

@@ -50,3 +50,6 @@ tags: javascript
 
 * **Typescript 中的 interface 和 type 到底有什么区别**
 [https://juejin.im/post/5c2723635188252d1d34dc7d](https://juejin.im/post/5c2723635188252d1d34dc7d)
+
+* **解读TypeScript中的泛型以及条件类型中的推断**
+[https://juejin.im/post/5d0cf23af265da1b855c5ef6](https://juejin.im/post/5d0cf23af265da1b855c5ef6)
