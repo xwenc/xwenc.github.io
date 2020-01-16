@@ -572,9 +572,12 @@ table {
     text-align: center;
     line-height: 45px;
     font-weight: bold;
-    cursor: pointer;
     pointer-events: auto; }
     .pagination ul li a {
+      display: block;
+      width: 100%;
+      height: 45px;
+      white-space: nowrap;
       text-decoration: none;
       color: #111; }
     .pagination ul li:first-of-type {

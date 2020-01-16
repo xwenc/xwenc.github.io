@@ -13,11 +13,13 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock" />
 <meta property="og:description" content="gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock" />
+<link rel="canonical" href="http://localhost:4000/2018/11/23/rails-qa.html" />
+<meta property="og:url" content="http://localhost:4000/2018/11/23/rails-qa.html" />
 <meta property="og:site_name" content="Andy Xiong’s Notes" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-11-23T00:00:00+08:00" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/logo.png"},"name":"Andy Xiong"},"headline":"Rails 知识问答","dateModified":"2018-11-23T00:00:00+08:00","datePublished":"2018-11-23T00:00:00+08:00","author":{"@type":"Person","name":"Andy Xiong"},"mainEntityOfPage":{"@type":"WebPage","@id":"/2018/11/23/rails-qa.html"},"description":"gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock","url":"/2018/11/23/rails-qa.html","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/logo.png"},"name":"Andy Xiong"},"headline":"Rails 知识问答","dateModified":"2018-11-23T00:00:00+08:00","datePublished":"2018-11-23T00:00:00+08:00","author":{"@type":"Person","name":"Andy Xiong"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2018/11/23/rails-qa.html"},"description":"gemfile 跟 gemfile.lock 的区别？ 需要的插件要写到 gemfile 里，例如，gem ‘jwt’, ‘~&gt; 2.1.0’ ，最好要通过 ‘~&gt; ‘ 的方式锁定版本号，例如 ‘~&gt; 2.1.0’ ，代表至少是 2.1.0 版本的，最后一位可以浮动，例如 2.1.1, 2.1.2，具体安装哪个版本，是在 bundle install 的时候决定的，一般是最新的，例如 2.1.x 里面最新的是 2.1.6，那么，安装的就是 2.1.6，像是这个具体的 2.1.6 的最终安装版本号，会写入 gemfile.lock 里 当再次进行 bundle install 的时候，会使用 gemfile.lock 里的版本号进行对比，例如我这边clone了，然后 bundle install，就会安装 gemfile.lock 里锁定的版本号 新加的 package-lock.json 和 yarn.lock 应该是类似的机制，这两个好像是参考的 gemfile.lock","url":"http://localhost:4000/2018/11/23/rails-qa.html","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link rel="stylesheet" href="/assets/main.css">
@@ -71,7 +73,7 @@
       archieves && renderPosts(archieves);
     });   
   </script>
-  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Andy Xiong's Notes" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Andy Xiong's Notes" />
   
 </head>
 

@@ -87,9 +87,12 @@
       text-align: center;
       line-height: $pagination-width;
       font-weight: bold;
-      cursor: pointer;
       pointer-events: auto;
       a {
+        display: block;
+        width: 100%;
+        height: $pagination-width;
+        white-space: nowrap;
         text-decoration: none;
         color: $text-color;
       }
@@ -136,7 +139,6 @@
     }
   }
 }
-
 
 .post-item {
   padding: 10px 0;
