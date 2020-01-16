@@ -1,12 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-15T08:50:36+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Awesome Open Source</title><link href="http://localhost:4000/2019/11/14/aswsome-open-source.html" rel="alternate" type="text/html" title="Awesome Open Source" /><published>2019-11-14T00:00:00+08:00</published><updated>2019-11-14T00:00:00+08:00</updated><id>http://localhost:4000/2019/11/14/aswsome-open-source</id><content type="html" xml:base="http://localhost:4000/2019/11/14/aswsome-open-source.html">&lt;p&gt;&lt;strong&gt;Awesome Open Source&lt;/strong&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-16T12:03:26+08:00</updated><id>http://localhost:4000/</id><title type="html">Andy Xiong’s blog</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Doc of nest js</title><link href="http://localhost:4000/2020/01/08/nest-js.html" rel="alternate" type="text/html" title="Doc of nest js" /><published>2020-01-08T00:00:00+08:00</published><updated>2020-01-08T00:00:00+08:00</updated><id>http://localhost:4000/2020/01/08/nest-js</id><content type="html" xml:base="http://localhost:4000/2020/01/08/nest-js.html">&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;基础知识&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.nestjs.cn/6/firststeps&quot;&gt;https://docs.nestjs.cn/6/firststeps&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="nest" /><summary type="html">基础知识</summary></entry><entry><title type="html">Content Management with Gatsby, Contentful &amp;amp; Netlify</title><link href="http://localhost:4000/2020/01/01/gatsby-netlify-contenful.html" rel="alternate" type="text/html" title="Content Management with Gatsby, Contentful &amp; Netlify" /><published>2020-01-01T00:00:00+08:00</published><updated>2020-01-01T00:00:00+08:00</updated><id>http://localhost:4000/2020/01/01/gatsby-netlify-contenful</id><content type="html" xml:base="http://localhost:4000/2020/01/01/gatsby-netlify-contenful.html">&lt;p&gt;Refs: &lt;a href=&quot;https://itnext.io/content-management-with-gatsby-netlify-and-contentful-70f03de41602&quot;&gt;Content Management with Gatsby, Contentful &amp;amp; Netlify&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Examples:
+	 &lt;a href=&quot;https://the-example-app-nodejs.contentful.com/&quot;&gt;https://the-example-app-nodejs.contentful.com/&lt;/a&gt;
+   &lt;a href=&quot;https://github.com/contentful/starter-gatsby-blog/blob/master/src/pages/index.js&quot;&gt;https://github.com/contentful/starter-gatsby-blog/blob/master/src/pages/index.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;* **Adding searching engine**
+[https://www.gatsbyjs.org/docs/adding-search-with-algolia/](https://www.gatsbyjs.org/docs/adding-search-with-algolia/)
+
+* **Better Performance using Dynamic Code Splitting in Gatsby with loadable-components** [https://dev.to/itmayziii/better-performance-using-dynamic-code-splitting-in-gatsby-with-loadable-components-6am](https://dev.to/itmayziii/better-performance-using-dynamic-code-splitting-in-gatsby-with-loadable-components-6am)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="gatsby" /><summary type="html">Refs: Content Management with Gatsby, Contentful &amp;amp; Netlify</summary></entry><entry><title type="html">How to fix React Error: Rendered fewer hooks than expected</title><link href="http://localhost:4000/2019/12/08/fix-react-error.html" rel="alternate" type="text/html" title="How to fix React Error: Rendered fewer hooks than expected" /><published>2019-12-08T00:00:00+08:00</published><updated>2019-12-08T00:00:00+08:00</updated><id>http://localhost:4000/2019/12/08/fix-react-error</id><content type="html" xml:base="http://localhost:4000/2019/12/08/fix-react-error.html">&lt;p&gt;&lt;a href=&quot;https://medium.com/@jonchurch/how-to-fix-react-error-rendered-fewer-hooks-than-expected-e6a378985d3c&quot;&gt;https://medium.com/@jonchurch/how-to-fix-react-error-rendered-fewer-hooks-than-expected-e6a378985d3c&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://medium.com/@jonchurch/how-to-fix-react-error-rendered-fewer-hooks-than-expected-e6a378985d3c</summary></entry><entry><title type="html">Balsamiq Cloud</title><link href="http://localhost:4000/2019/12/06/balsamiq.html" rel="alternate" type="text/html" title="Balsamiq Cloud" /><published>2019-12-06T00:00:00+08:00</published><updated>2019-12-06T00:00:00+08:00</updated><id>http://localhost:4000/2019/12/06/balsamiq</id><content type="html" xml:base="http://localhost:4000/2019/12/06/balsamiq.html">&lt;p&gt;Fast, Approachable, Collaborative Wireframing&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://balsamiq.cloud/&quot;&gt;https://balsamiq.cloud/&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><summary type="html">Fast, Approachable, Collaborative Wireframing</summary></entry><entry><title type="html">Using Environment Variables on the Front-end with NextJS</title><link href="http://localhost:4000/2019/11/23/nextjs-env-variable.html" rel="alternate" type="text/html" title="Using Environment Variables on the Front-end with NextJS" /><published>2019-11-23T00:00:00+08:00</published><updated>2019-11-23T00:00:00+08:00</updated><id>http://localhost:4000/2019/11/23/nextjs-env-variable</id><content type="html" xml:base="http://localhost:4000/2019/11/23/nextjs-env-variable.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Issue My .env variables just don’t work&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/zeit/next.js/issues/7713&quot;&gt;https://github.com/zeit/next.js/issues/7713&lt;/a&gt;
+&lt;a href=&quot;https://github.com/zeit/next.js/issues/7320&quot;&gt;https://github.com/zeit/next.js/issues/7320&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Using Environment Variables on the Front-end with NextJS&lt;/strong&gt;
+&lt;a href=&quot;http://tilomitra.com/using-environment-variables-on-the-front-end-with-nextjs/&quot;&gt;http://tilomitra.com/using-environment-variables-on-the-front-end-with-nextjs/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Adding Custom Environment Variables&lt;/strong&gt;
+&lt;a href=&quot;https://create-react-app.dev/docs/adding-custom-environment-variables/&quot;&gt;https://create-react-app.dev/docs/adding-custom-environment-variables/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;cross-env&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/kentcdodds/cross-env&quot;&gt;https://github.com/kentcdodds/cross-env&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;dotenv&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/motdotla/dotenv&quot;&gt;https://github.com/motdotla/dotenv&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;dotenv flow&lt;/strong&gt;
+&lt;a href=&quot;https://github.com/kerimdzhanov/dotenv-flow&quot;&gt;https://github.com/kerimdzhanov/dotenv-flow&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Managing environment variables in Nodejs and Modern JS apps&lt;/strong&gt; 
+&lt;a href=&quot;https://medium.com/dubizzletechblog/managing-environment-variables-in-nodejs-and-modern-js-apps-608003f4686c&quot;&gt;https://medium.com/dubizzletechblog/managing-environment-variables-in-nodejs-and-modern-js-apps-608003f4686c&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">Issue My .env variables just don’t work https://github.com/zeit/next.js/issues/7713 https://github.com/zeit/next.js/issues/7320</summary></entry><entry><title type="html">Awesome Open Source</title><link href="http://localhost:4000/2019/11/14/aswsome-open-source.html" rel="alternate" type="text/html" title="Awesome Open Source" /><published>2019-11-14T00:00:00+08:00</published><updated>2019-11-14T00:00:00+08:00</updated><id>http://localhost:4000/2019/11/14/aswsome-open-source</id><content type="html" xml:base="http://localhost:4000/2019/11/14/aswsome-open-source.html">&lt;p&gt;&lt;strong&gt;Awesome Open Source&lt;/strong&gt;
 &lt;a href=&quot;https://awesomeopensource.com/&quot;&gt;https://awesomeopensource.com/&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/FortAwesome/react-fontawesome&quot;&gt;https://github.com/FortAwesome/react-fontawesome&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">Awesome Open Source https://awesomeopensource.com/</summary></entry><entry><title type="html">Tailwind CSS</title><link href="http://localhost:4000/2019/11/08/tailwindcss.html" rel="alternate" type="text/html" title="Tailwind CSS" /><published>2019-11-08T00:00:00+08:00</published><updated>2019-11-08T00:00:00+08:00</updated><id>http://localhost:4000/2019/11/08/tailwindcss</id><content type="html" xml:base="http://localhost:4000/2019/11/08/tailwindcss.html">&lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;A repository for community components using TailwindCSS&lt;/strong&gt;
-&lt;a href=&quot;https://tailwindcomponents.com/components&quot;&gt;https://tailwindcomponents.com/components&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&quot;https://tailwindcomponents.com/components&quot;&gt;https://tailwindcomponents.com/components&lt;/a&gt;
+&lt;a href=&quot;https://www.tailwindtoolbox.com/&quot;&gt;https://www.tailwindtoolbox.com/&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;**Tailwind + React TypeScript **
@@ -21,7 +68,7 @@
     &lt;p&gt;&lt;strong&gt;Using Sass, Less, or Stylus&lt;/strong&gt;
 &lt;a href=&quot;https://tailwindcss.com/docs/using-with-preprocessors/#sass&quot;&gt;https://tailwindcss.com/docs/using-with-preprocessors/#sass&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">A repository for community components using TailwindCSS https://tailwindcomponents.com/components</summary></entry><entry><title type="html">Programming in HTML5 with JavaScript and CSS3</title><link href="http://localhost:4000/2019/10/07/mcsa-70-480.html" rel="alternate" type="text/html" title="Programming in HTML5 with JavaScript and CSS3" /><published>2019-10-07T00:00:00+08:00</published><updated>2019-10-07T00:00:00+08:00</updated><id>http://localhost:4000/2019/10/07/mcsa-70-480</id><content type="html" xml:base="http://localhost:4000/2019/10/07/mcsa-70-480.html">&lt;ul&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">A repository for community components using TailwindCSS https://tailwindcomponents.com/components https://www.tailwindtoolbox.com/</summary></entry><entry><title type="html">Programming in HTML5 with JavaScript and CSS3</title><link href="http://localhost:4000/2019/10/07/mcsa-70-480.html" rel="alternate" type="text/html" title="Programming in HTML5 with JavaScript and CSS3" /><published>2019-10-07T00:00:00+08:00</published><updated>2019-10-07T00:00:00+08:00</updated><id>http://localhost:4000/2019/10/07/mcsa-70-480</id><content type="html" xml:base="http://localhost:4000/2019/10/07/mcsa-70-480.html">&lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;CSS definitions take priority&lt;/strong&gt;
 &lt;a href=&quot;https://www.quora.com/In-what-order-do-CSS-definitions-take-priority&quot;&gt;https://www.quora.com/In-what-order-do-CSS-definitions-take-priority&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Complete guide of grid layout&lt;/strong&gt;
@@ -37,45 +84,4 @@
 &lt;/ul&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/usr/local/mysql/bin/mysql -uroot -p
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="php" /><summary type="html">https://laravel.com/docs/5.8/installation</summary></entry><entry><title type="html">All React Conditional Rendering Techniques</title><link href="http://localhost:4000/2019/08/29/react-cond-render.html" rel="alternate" type="text/html" title="All React Conditional Rendering Techniques" /><published>2019-08-29T00:00:00+08:00</published><updated>2019-08-29T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/29/react-cond-render</id><content type="html" xml:base="http://localhost:4000/2019/08/29/react-cond-render.html">&lt;p&gt;&lt;a href=&quot;https://www.robinwieruch.de/conditional-rendering-react&quot;&gt;https://www.robinwieruch.de/conditional-rendering-react&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">https://www.robinwieruch.de/conditional-rendering-react</summary></entry><entry><title type="html">The trick to viewport units on mobile</title><link href="http://localhost:4000/2019/08/28/viewport-height-trick.html" rel="alternate" type="text/html" title="The trick to viewport units on mobile" /><published>2019-08-28T00:00:00+08:00</published><updated>2019-08-28T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/28/viewport-height-trick</id><content type="html" xml:base="http://localhost:4000/2019/08/28/viewport-height-trick.html">&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/the-trick-to-viewport-units-on-mobile/&quot;&gt;The trick to viewport units on mobile&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">The trick to viewport units on mobile</summary></entry><entry><title type="html">git push 文件名大小写忽略</title><link href="http://localhost:4000/2019/08/18/doc-case.html" rel="alternate" type="text/html" title="git push 文件名大小写忽略" /><published>2019-08-18T00:00:00+08:00</published><updated>2019-08-18T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/18/doc-case</id><content type="html" xml:base="http://localhost:4000/2019/08/18/doc-case.html">&lt;p&gt;To change it for just one repo, from that folder run:&lt;/p&gt;
-
-&lt;p&gt;git config core.ignorecase false&lt;/p&gt;
-
-&lt;p&gt;To change it globally:&lt;/p&gt;
-
-&lt;p&gt;git config –global core.ignorecase false&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="git" /><summary type="html">To change it for just one repo, from that folder run:</summary></entry><entry><title type="html">Customize Bootstrap</title><link href="http://localhost:4000/2019/08/17/bootstrap-custom.html" rel="alternate" type="text/html" title="Customize Bootstrap" /><published>2019-08-17T00:00:00+08:00</published><updated>2019-08-17T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/17/bootstrap-custom</id><content type="html" xml:base="http://localhost:4000/2019/08/17/bootstrap-custom.html">&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Customize Bootstrap with the theme kit&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(https://hackerthemes.com/kit/)[https://hackerthemes.com/kit/]&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;**Video Bootstrap 4 Theme Customization (with Sass)&lt;/td&gt;
-          &lt;td&gt;BOOTSTRAP 4 TUTORIAL**&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(https://www.youtube.com/watch?v=6Ovw43Dkp44)[https://www.youtube.com/watch?v=6Ovw43Dkp44]&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Official Boostrap custom theme&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;(https://getbootstrap.com/docs/4.1/getting-started/theming/)[https://getbootstrap.com/docs/4.1/getting-started/theming/]&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">Customize Bootstrap with the theme kit</summary></entry><entry><title type="html">PHP &amp;amp; MySQL installation</title><link href="http://localhost:4000/2019/08/12/php-install.html" rel="alternate" type="text/html" title="PHP &amp;  MySQL installation" /><published>2019-08-12T00:00:00+08:00</published><updated>2019-08-12T00:00:00+08:00</updated><id>http://localhost:4000/2019/08/12/php-install</id><content type="html" xml:base="http://localhost:4000/2019/08/12/php-install.html">&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;安装步骤&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/2fb9a3bb12f6&quot;&gt;https://www.jianshu.com/p/2fb9a3bb12f6&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;phpMyAdmin无法登录问题&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackoverflow.com/questions/49948350/phpmyadmin-on-mysql-8-0&quot;&gt;https://stackoverflow.com/questions/49948350/phpmyadmin-on-mysql-8-0&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="php" /><summary type="html">安装步骤</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Andy Xiong</name></author><category term="php" /><summary type="html">https://laravel.com/docs/5.8/installation</summary></entry></feed>
