@@ -9,8 +9,9 @@ layout: default
       <span class="post-item-date">{{ page.date | date: date_format }}</span> 
       {% if page.tags %}
         on 
-        <a class="post-item-category" href="/?tag={{ post.tags }}" >{{ page.tags }}</a>
+        <a class="post-item-category" href="/?tag={{ page.tags }}" >{{ page.tags }}</a>
       {% endif %}
+    </p>
     <h2 class="post-item-title">
       <a class="post-link" href="{{ post.url | relative_url }}">
         {{ page.title | escape }}

@@ -34,22 +34,29 @@
         var el = $("#posts");
         var list = "";
         data.map(function(item,idx){
-          list +=  
-            "<li><span class='post-meta'>" 
-            + item.date + 
-            "</span><h3><a class='post-link' href=" 
-            + item.url +
-            ">" 
-            + item.title + 
-            "</a></h3></li>";
+          var tags = item.tags ? " on  <a class='post-item-category' href='/?tag=" + item.tags + "' >" + item.tags + "</a>" : "";
+          list +=
+            "<section class='post-item'><header class='post-item-header'><p class='post-item-meta'>" 
+            + "<span class='post-item-date'>" + item.date + "</span>"
+            + tags 
+            + "</p><h2 class='post-item-title'><a class='post-link' href='"
+            + item.url
+            + "'>" 
+            + item.title
+            + "</a></h2></header></section>";
         });
         el.html(list);
       };
 
-      var dataStr = '{ {% for tag in site.tags %}{% if tag[0] != site.tags.first[0] %},{% endif %}"{{ tag[0] }}":[{% for post in tag[1] %}{% if post != tag[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date: site.minima.date_format | default: "%b %-d, %Y"}}"}{% endfor %}]{% endfor %} }',
+      var dataStr = '{ {% for tag in site.tags %}{% if tag[0] != site.tags.first[0] %},{% endif %}"{{ tag[0] }}":[{% for post in tag[1] %}{% if post != tag[1].first %},{% endif %}{"url":"{{post.url}}", "title":"{{post.title}}", "date":"{{post.date | date: site.minima.date_format | default: "%b %-d, %Y"}}", "tags":"{{post.tags}}"}{% endfor %}]{% endfor %} }',
       data = JSON.parse(dataStr),
       curTag = getQueryString("tag"),
       archieves = data[curTag];
+
+      if(curTag) {
+        $(".pagination").remove();
+      };
+
       setActiveClass(curTag);
       archieves && renderPosts(archieves);
     });   
