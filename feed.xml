@@ -1,56 +1,287 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-05T20:30:48+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andy Xiong’s Notes</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">Rails and Tailwind Css</title><link href="http://localhost:4000/2020/07/05/rails-tailwindcss.html" rel="alternate" type="text/html" title="Rails and Tailwind Css" /><published>2020-07-05T00:00:00+08:00</published><updated>2020-07-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/05/rails-tailwindcss</id><content type="html" xml:base="http://localhost:4000/2020/07/05/rails-tailwindcss.html">&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Use PurgeCss with Rails (and Tailwind Css)&lt;/strong&gt;
-&lt;a href=&quot;https://www.getsjabloon.com/kb/purgecss-with-rails&quot;&gt;https://www.getsjabloon.com/kb/purgecss-with-rails&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">Use PurgeCss with Rails (and Tailwind Css) https://www.getsjabloon.com/kb/purgecss-with-rails</summary></entry><entry><title type="html">C#语言入门详解</title><link href="http://localhost:4000/2020/06/22/c-sharp-basic.html" rel="alternate" type="text/html" title="C#语言入门详解" /><published>2020-06-22T00:00:00+08:00</published><updated>2020-06-22T00:00:00+08:00</updated><id>http://localhost:4000/2020/06/22/c-sharp-basic</id><content type="html" xml:base="http://localhost:4000/2020/06/22/c-sharp-basic.html">&lt;h3 id=&quot;第五课-c语法-类型-变量-方法和算法简介&quot;&gt;第五课： C#语法, 类型, 变量, 方法和算法简介&lt;/h3&gt;
-
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-17T11:15:10+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andy Xiong’s Notes</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">C#语言入门详解(008)——方法的定 义、调用与调试（下）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-009.html" rel="alternate" type="text/html" title="C#语言入门详解(008)——方法的定 义、调用与调试（下）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-009</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-009.html">&lt;h2 id=&quot;构造器&quot;&gt;构造器&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;构成C#语言的基本元素
-    &lt;ul&gt;
-      &lt;li&gt;关键字(Keyword)&lt;/li&gt;
-      &lt;li&gt;操作符(Operator)&lt;/li&gt;
-      &lt;li&gt;标识符(Identifier)&lt;/li&gt;
-      &lt;li&gt;标点符号&lt;/li&gt;
-      &lt;li&gt;文本&lt;/li&gt;
-      &lt;li&gt;注释与空白&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;构造器（constructor）是类型的成员之一
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  class Student
+  {
+      public Student()
+      {
+          this.ID  = &quot;&quot;;
+      }
+  }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;简要介绍类型、变量与方法&lt;/li&gt;
-  &lt;li&gt;算法简介&lt;/li&gt;
+  &lt;li&gt;狭义的构造器指的是”实例构造器“（instance constructor）&lt;/li&gt;
+  &lt;li&gt;如何调用构造器&lt;/li&gt;
+  &lt;li&gt;声明构造器&lt;/li&gt;
+  &lt;li&gt;构造器的内存原理&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;官方文档  &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Andy Xiong</name></author><category term="csharp" /><summary type="html">第五课： C#语法, 类型, 变量, 方法和算法简介</summary></entry><entry><title type="html">Css Modules by Example</title><link href="http://localhost:4000/2020/06/04/css-modules.html" rel="alternate" type="text/html" title="Css Modules by Example" /><published>2020-06-04T00:00:00+08:00</published><updated>2020-06-04T00:00:00+08:00</updated><id>http://localhost:4000/2020/06/04/css-modules</id><content type="html" xml:base="http://localhost:4000/2020/06/04/css-modules.html">&lt;p&gt;&lt;a href=&quot;https://www.javascriptstuff.com/css-modules-by-example/#example-4-nested-class-names&quot;&gt;Css Modules by Example&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;方法的重载overload&quot;&gt;方法的重载（Overload）&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;调用重载方法的示例&lt;/li&gt;
+  &lt;li&gt;声明带有重载的方法
+    &lt;ul&gt;
+      &lt;li&gt;方法签名（method signature）由方法的名称、类型形参的个数和它的每个形参（按从左到右的顺序）的类型和种类（值、引用或输出）组成。&lt;strong&gt;方法签名不包含返回类型&lt;/strong&gt;。&lt;/li&gt;
+      &lt;li&gt;实例构造函数签名由它的每个形参（按从左到右的顺序）的类型和种类（值、引用或输出）组成。&lt;/li&gt;
+      &lt;li&gt;重载决策（到底调用了哪个重载）： 用于在给定了参数列表和一组候选函数成员的情况下，选择一个最佳函数成员来实施调用。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@im.simonecorsi/moving-from-sass-to-postcss-why-what-and-how-f68b1bc760dc&quot;&gt;Moving from SASS to PostCSS, why, what and how&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">Css Modules by Example</summary></entry><entry><title type="html">Cypress qa</title><link href="http://localhost:4000/2020/06/01/cypress.html" rel="alternate" type="text/html" title="Cypress qa" /><published>2020-06-01T00:00:00+08:00</published><updated>2020-06-01T00:00:00+08:00</updated><id>http://localhost:4000/2020/06/01/cypress</id><content type="html" xml:base="http://localhost:4000/2020/06/01/cypress.html">&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Doc&lt;/strong&gt; (https://docs.cypress.io/)[https://docs.cypress.io/]&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;eslint cy error&lt;/strong&gt;  (https://stackoverflow.com/questions/58982852/eslint-cy-is-not-defined-cypress)[https://stackoverflow.com/questions/58982852/eslint-cy-is-not-defined-cypress]&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="test" /><summary type="html">Doc (https://docs.cypress.io/)[https://docs.cypress.io/] eslint cy error (https://stackoverflow.com/questions/58982852/eslint-cy-is-not-defined-cypress)[https://stackoverflow.com/questions/58982852/eslint-cy-is-not-defined-cypress]</summary></entry><entry><title type="html">Lottie animation</title><link href="http://localhost:4000/2020/05/09/lottie-animation.html" rel="alternate" type="text/html" title="Lottie animation" /><published>2020-05-09T00:00:00+08:00</published><updated>2020-05-09T00:00:00+08:00</updated><id>http://localhost:4000/2020/05/09/lottie-animation</id><content type="html" xml:base="http://localhost:4000/2020/05/09/lottie-animation.html">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://airbnb.io/lottie/#/&quot;&gt;Lottie component&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tutorials/how-to-add-animations-to-react-apps-with-react-lottie&quot;&gt;How To Add Animations to React Apps with React-Lottie&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://lottiefiles.com/web-player?lottie_url=https://assets9.lottiefiles.com/packages/lf20_9Y9DIQ.json&quot;&gt;Lottie Web Player - Lottiefiles&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="animate" /><summary type="html">Lottie component How To Add Animations to React Apps with React-Lottie Lottie Web Player - Lottiefiles</summary></entry><entry><title type="html">How to make a npm package</title><link href="http://localhost:4000/2020/04/26/npm-package.html" rel="alternate" type="text/html" title="How to make a npm package" /><published>2020-04-26T00:00:00+08:00</published><updated>2020-04-26T00:00:00+08:00</updated><id>http://localhost:4000/2020/04/26/npm-package</id><content type="html" xml:base="http://localhost:4000/2020/04/26/npm-package.html">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.freecodecamp.org/news/how-to-make-a-beautiful-tiny-npm-package-and-publish-it-2881d4307f78/&quot;&gt;How to make a beautiful, tiny npm package and publish it&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/@jonchurch/use-github-branch-as-dependency-in-package-json-5eb609c81f1a&quot;&gt;Use Github branch as dependency in package.json&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dotlayer.com/how-to-use-a-private-github-repo-as-a-dependency-with-yarn-npm/&quot;&gt;How to Use a Private Github Repo as a Dependency with Yarn &amp;amp; NPM&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/transitive-bullshit/create-react-library&quot;&gt;create-react-library&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.npmjs.com/cli/install&quot;&gt;Install specific branch  using npm&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://levelup.gitconnected.com/creating-a-reusable-component-library-with-react-storybook-and-webpack-c0a30076aa54&quot;&gt;Creating a Reusable Component Library with React, Storybook, and Webpack&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.devbridge.com/articles/a-step-by-step-build-to-build-a-sharable-components-library/&quot;&gt;A step-by-step guide to building a shareable components library&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">How to make a beautiful, tiny npm package and publish it Use Github branch as dependency in package.json How to Use a Private Github Repo as a Dependency with Yarn &amp;amp; NPM create-react-library Install specific branch using npm Creating a Reusable Component Library with React, Storybook, and Webpack A step-by-step guide to building a shareable components library</summary></entry><entry><title type="html">Numeral.js 文档</title><link href="http://localhost:4000/2020/03/28/numeral-js.html" rel="alternate" type="text/html" title="Numeral.js  文档" /><published>2020-03-28T00:00:00+08:00</published><updated>2020-03-28T00:00:00+08:00</updated><id>http://localhost:4000/2020/03/28/numeral-js</id><content type="html" xml:base="http://localhost:4000/2020/03/28/numeral-js.html">&lt;h1 id=&quot;numeraljs-v-206&quot;&gt;Numeral.js v. 2.0.6&lt;/h1&gt;
-&lt;p&gt;A javascript library for formatting and manipulating numbers.&lt;/p&gt;
+&lt;h2 id=&quot;如何对方法进行debug&quot;&gt;如何对方法进行debug&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;设置断点（breakpoint）&lt;/li&gt;
+  &lt;li&gt;观察方法调用时的call stack&lt;/li&gt;
+  &lt;li&gt;Step-in, Step-over, Step-out&lt;/li&gt;
+  &lt;li&gt;观察局部变量的值和变化&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://numeraljs.com/#locales&quot;&gt;http://numeraljs.com/#locales&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">Numeral.js v. 2.0.6 A javascript library for formatting and manipulating numbers.</summary></entry><entry><title type="html">How to use formik</title><link href="http://localhost:4000/2020/03/22/how-to-use-formik.html" rel="alternate" type="text/html" title="How to use formik" /><published>2020-03-22T00:00:00+08:00</published><updated>2020-03-22T00:00:00+08:00</updated><id>http://localhost:4000/2020/03/22/how-to-use-formik</id><content type="html" xml:base="http://localhost:4000/2020/03/22/how-to-use-formik.html">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://scottdj92.ghost.io/building-dynamic-forms-with-formik-with-react-and-typescript/&quot;&gt;Building dynamic forms with Formik with React and TypeScript&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://le-gall.bzh/post/form-validation-with-formik/&quot;&gt;Form validation with React using Formik and Redux&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://codesandbox.io/s/jrze53pqr&quot;&gt;Formik 1.2 x React Select Example&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jaredpalmer.com/formik/docs/overview&quot;&gt;Documents of official&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://codesandbox.io/s/q336r5pnkw&quot;&gt;formik async field validation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.bitsrc.io/handling-react-forms-and-validation-with-formik-and-yup-dc789fd9e485&quot;&gt;Handling React Forms and Validation with Formik and Yup&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="react" /><summary type="html">Building dynamic forms with Formik with React and TypeScript Form validation with React using Formik and Redux Formik 1.2 x React Select Example Documents of official formik async field validation Handling React Forms and Validation with Formik and Yup</summary></entry><entry><title type="html">React Trix Custom Toolbar</title><link href="http://localhost:4000/2020/03/20/custom-toolbar-trix.html" rel="alternate" type="text/html" title="React Trix Custom Toolbar" /><published>2020-03-20T00:00:00+08:00</published><updated>2020-03-20T00:00:00+08:00</updated><id>http://localhost:4000/2020/03/20/custom-toolbar-trix</id><content type="html" xml:base="http://localhost:4000/2020/03/20/custom-toolbar-trix.html">&lt;p&gt;&lt;a href=&quot;https://codepen.io/search/pens?q=trix+&quot;&gt;https://codepen.io/search/pens?q=trix+&lt;/a&gt;
-&lt;a href=&quot;https://bestofjs.org/projects/trix&quot;&gt;https://bestofjs.org/projects/trix&lt;/a&gt;
-&lt;a href=&quot;https://codepen.io/javan/pen/ZmbWGP?editors=1000#0&quot;&gt;https://codepen.io/javan/pen/ZmbWGP?editors=1000#0&lt;/a&gt;
-&lt;a href=&quot;https://github.com/dstpierre/react-trix&quot;&gt;https://github.com/dstpierre/react-trix&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="javascript" /><summary type="html">https://codepen.io/search/pens?q=trix+ https://bestofjs.org/projects/trix https://codepen.io/javan/pen/ZmbWGP?editors=1000#0 https://github.com/dstpierre/react-trix</summary></entry><entry><title type="html">css中 margin-top 导致子标签绑架父标签的问题</title><link href="http://localhost:4000/2020/03/11/css-margin-top.html" rel="alternate" type="text/html" title="css中 margin-top 导致子标签绑架父标签的问题" /><published>2020-03-11T00:00:00+08:00</published><updated>2020-03-11T00:00:00+08:00</updated><id>http://localhost:4000/2020/03/11/css-margin-top</id><content type="html" xml:base="http://localhost:4000/2020/03/11/css-margin-top.html">&lt;p&gt;给父标签添加 overflow:hidden&lt;/p&gt;
+&lt;h2 id=&quot;方法的调用与栈&quot;&gt;方法的调用与栈&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;方法调用时栈内存的分配&lt;/li&gt;
+  &lt;li&gt;对stack frame 的分析&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">构造器 构造器（constructor）是类型的成员之一 class Student { public Student() { this.ID = &quot;&quot;; } } 狭义的构造器指的是”实例构造器“（instance constructor） 如何调用构造器 声明构造器 构造器的内存原理</summary></entry><entry><title type="html">C#语言入门详解(007)——类型，变量与对象详解（下）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-007.html" rel="alternate" type="text/html" title="C#语言入门详解(007)——类型，变量与对象详解（下）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-007</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-007.html">&lt;h2 id=&quot;c语言的类型系统&quot;&gt;C#语言的类型系统&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;C#的五大数据类型&lt;/li&gt;
+  &lt;li&gt;类（Class）: 如Windows, Form, Console, String&lt;/li&gt;
+  &lt;li&gt;结构体（Structures）: 如Int32, Int64, Single, Double&lt;/li&gt;
+  &lt;li&gt;枚举（Enumerations）: 如HorizontalAlignment, Visibility&lt;/li&gt;
+  &lt;li&gt;接口（Interfaces）&lt;/li&gt;
+  &lt;li&gt;委托（Delegates）&lt;/li&gt;
+  &lt;li&gt;C#类型的派生谱系， C#类型系统包括引用类型（Reference Type）和 值类型（Value Type）,引用类型包括类，接口，委托， 值类型包括结构体和枚举， 所有类型都以object类型作为自己的基类&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/m0_37058714/article/details/80752705&quot;&gt;https://blog.csdn.net/m0_37058714/article/details/80752705&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">给父标签添加 overflow:hidden</summary></entry></feed>
+&lt;h2 id=&quot;c语言的变量对象与内存&quot;&gt;C#语言的变量、对象与内存&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;什么是变量。变量是以变量名所对应的内存地址为起点，以其数据类型所要求的存储空间为长度的一块内存区域。&lt;/li&gt;
+  &lt;li&gt;表面上来看（从C#代码的上下文行文上来看），变量的用途是存储数据&lt;/li&gt;
+  &lt;li&gt;实际上，变量表示了存储位置，并且每个变量都有一个类型，以决定什么样的值能够存入变量&lt;/li&gt;
+  &lt;li&gt;变量一共有7种
+     * 静态变量，实例变量（成员变量，字段  ）， 数组元素， 值参数，引用参数，输出形参， 局部变量&lt;/li&gt;
+  &lt;li&gt;狭义的变量指局部变量，因为其它种类的变量都是自己的约定名称
+    &lt;ul&gt;
+      &lt;li&gt;简单的讲，局部变量就是方法体（函数体）里声明的变量&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;变量的声明
+    &lt;ul&gt;
+      &lt;li&gt;有效的修饰符组合opt 类型 变量名 初始化器opt。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;值类型变量&lt;/li&gt;
+  &lt;li&gt;以byte/sbtye/ 负数 = 按位取反再加一； 高高低低原则&lt;/li&gt;
+  &lt;li&gt;值类型没有实例， 所谓的”实例“与变量合二为一&lt;/li&gt;
+  &lt;li&gt;局部变量是在stack上分配内存&lt;/li&gt;
+  &lt;li&gt;变量的默认值&lt;/li&gt;
+  &lt;li&gt;常量（值不可改变的变量）&lt;/li&gt;
+  &lt;li&gt;装箱与拆箱（Boxing &amp;amp; Unboxing）&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">C#语言的类型系统 C#的五大数据类型 类（Class）: 如Windows, Form, Console, String 结构体（Structures）: 如Int32, Int64, Single, Double 枚举（Enumerations）: 如HorizontalAlignment, Visibility 接口（Interfaces） 委托（Delegates） C#类型的派生谱系， C#类型系统包括引用类型（Reference Type）和 值类型（Value Type）,引用类型包括类，接口，委托， 值类型包括结构体和枚举， 所有类型都以object类型作为自己的基类</summary></entry><entry><title type="html">C#语言入门详解(008)——方法的定 义、调用与调试（上）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-008.html" rel="alternate" type="text/html" title="C#语言入门详解(008)——方法的定 义、调用与调试（上）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-008</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-008.html">&lt;h2 id=&quot;方法的由来&quot;&gt;方法的由来&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;方法（method）的前身是C/C++语言的函数（function）&lt;/li&gt;
+  &lt;li&gt;方法是面向对象范畴的概念，在非面向对象语言中仍然称为函数&lt;/li&gt;
+  &lt;li&gt;使用C/C++语言做对比&lt;/li&gt;
+  &lt;li&gt;永远都是类（或结构体）的成员&lt;/li&gt;
+  &lt;li&gt;C#语言中函数不可能独立于类（或结构体）之外&lt;/li&gt;
+  &lt;li&gt;只有作为类（结构体）的成员时才被称为方法&lt;/li&gt;
+  &lt;li&gt;C++中是可以的， 称为”全局函数“&lt;/li&gt;
+  &lt;li&gt;是类（或结构体）最基本的成员之一&lt;/li&gt;
+  &lt;li&gt;最基本的成员只有两个—-字段与方法（成员变量与成员方法）， 本质是数据 +  算法&lt;/li&gt;
+  &lt;li&gt;方法表示类（或结构体）”能做什么事情“&lt;/li&gt;
+  &lt;li&gt;为什么需要方法和函数&lt;/li&gt;
+  &lt;li&gt;目的1： 隐藏复杂的逻辑&lt;/li&gt;
+  &lt;li&gt;目的2： 复用（reuse，重用）&lt;/li&gt;
+  &lt;li&gt;示例： 计算圆面积、圆柱体积、圆锥体积 。面向过程的算法： 自顶向下，逐步求精&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;方法的声明和调用&quot;&gt;方法的声明和调用&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;声明方法的语法详解&lt;/li&gt;
+  &lt;li&gt;参见C#语言文档（声明/定义不分家）&lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/classes-and-structs/methods&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/classes-and-structs/methods&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Parameter全称”formal parameter“&lt;/li&gt;
+  &lt;li&gt;Parameter 是一种变量 值参数&lt;/li&gt;
+  &lt;li&gt;方法的命名规范&lt;/li&gt;
+  &lt;li&gt;大小写使用帕斯克（首字母大写）&lt;/li&gt;
+  &lt;li&gt;需要以动词或者动词短语作为名字&lt;/li&gt;
+  &lt;li&gt;重温静态（static）方法和实例方法&lt;/li&gt;
+  &lt;li&gt;调用方法&lt;/li&gt;
+  &lt;li&gt;Argument中文C#文档的官方译法为”实际参数“， 简称”实参“，可以理解为调用是的真实条件&lt;/li&gt;
+  &lt;li&gt;调用方法时的argument列表要与定义方法时的parameter列表相匹配&lt;/li&gt;
+  &lt;li&gt;C#是强类型语言，argument是值，parameter是变量，值与变量一定要匹配， 不然编译器会报错&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">方法的由来 方法（method）的前身是C/C++语言的函数（function） 方法是面向对象范畴的概念，在非面向对象语言中仍然称为函数 使用C/C++语言做对比 永远都是类（或结构体）的成员 C#语言中函数不可能独立于类（或结构体）之外 只有作为类（结构体）的成员时才被称为方法 C++中是可以的， 称为”全局函数“ 是类（或结构体）最基本的成员之一 最基本的成员只有两个—-字段与方法（成员变量与成员方法）， 本质是数据 + 算法 方法表示类（或结构体）”能做什么事情“ 为什么需要方法和函数 目的1： 隐藏复杂的逻辑 目的2： 复用（reuse，重用） 示例： 计算圆面积、圆柱体积、圆锥体积 。面向过程的算法： 自顶向下，逐步求精</summary></entry><entry><title type="html">C#语言入门详解(006)——类型，变量与对象详解（上）</title><link href="http://localhost:4000/2020/09/12/c-sharp-basic-006.html" rel="alternate" type="text/html" title="C#语言入门详解(006)——类型，变量与对象详解（上）" /><published>2020-09-12T00:00:00+08:00</published><updated>2020-09-12T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/12/c-sharp-basic-006</id><content type="html" xml:base="http://localhost:4000/2020/09/12/c-sharp-basic-006.html">&lt;h2 id=&quot;什么是类型type&quot;&gt;什么是类型（Type）&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;又名数据类型（Data Type）&lt;/li&gt;
+  &lt;li&gt;A data type is homeogeneous collection of values, effectively presented, equipped with a set of operations which manipulate these values.&lt;/li&gt;
+  &lt;li&gt;是数据在内存中存储时的”型号“&lt;/li&gt;
+  &lt;li&gt;小内存容纳大尺寸数据会丢失精确度、发生错误&lt;/li&gt;
+  &lt;li&gt;大内存容纳小尺寸数据会导致浪费&lt;/li&gt;
+  &lt;li&gt;编程语言的数据类型与数据的数据类型不完全相同&lt;/li&gt;
+  &lt;li&gt;强类型语言与弱类型语言的比较, 强类型语言在编程的过程中数据受数据类型的约束，如果数据不严格受到数据类型的约束。&lt;/li&gt;
+  &lt;li&gt;C语言&lt;/li&gt;
+  &lt;li&gt;Javascript示例： 动态类型&lt;/li&gt;
+  &lt;li&gt;C#语言对弱类型/动态类型的模仿， dynamic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;类型在c语言中的作用&quot;&gt;类型在C#语言中的作用&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;一个C#类型中包含的信息有：&lt;/li&gt;
+  &lt;li&gt;存储此类型所需的内存空间大小&lt;/li&gt;
+  &lt;li&gt;此类型的值可表示的最大、最小范围&lt;/li&gt;
+  &lt;li&gt;此类型所包含的成员（如方法、属性、事件等）&lt;/li&gt;
+  &lt;li&gt;此类型由何基类派生而来&lt;/li&gt;
+  &lt;li&gt;程序运行的时候， 此类型的变量在分配在内存的什么位置
+    &lt;ul&gt;
+      &lt;li&gt;Stack简介, 函数方法调用&lt;/li&gt;
+      &lt;li&gt;Stack overflow&lt;/li&gt;
+      &lt;li&gt;Heap简介， 存储对象&lt;/li&gt;
+      &lt;li&gt;使用Performance Monitor 查看进程的堆内存使用量&lt;/li&gt;
+      &lt;li&gt;此类型所允许的操作（运算&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">什么是类型（Type） 又名数据类型（Data Type） A data type is homeogeneous collection of values, effectively presented, equipped with a set of operations which manipulate these values. 是数据在内存中存储时的”型号“ 小内存容纳大尺寸数据会丢失精确度、发生错误 大内存容纳小尺寸数据会导致浪费 编程语言的数据类型与数据的数据类型不完全相同 强类型语言与弱类型语言的比较, 强类型语言在编程的过程中数据受数据类型的约束，如果数据不严格受到数据类型的约束。 C语言 Javascript示例： 动态类型 C#语言对弱类型/动态类型的模仿， dynamic</summary></entry><entry><title type="html">C#语言入门详解(005)——语法，类型，变量，方法与算法简介</title><link href="http://localhost:4000/2020/09/11/c-sharp-basic-005.html" rel="alternate" type="text/html" title="C#语言入门详解(005)——语法，类型，变量，方法与算法简介" /><published>2020-09-11T00:00:00+08:00</published><updated>2020-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/11/c-sharp-basic-005</id><content type="html" xml:base="http://localhost:4000/2020/09/11/c-sharp-basic-005.html">&lt;h2 id=&quot;构成c语言的基本元素&quot;&gt;构成C#语言的基本元素&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;关键字（Keyword）关键字是预定义的保留标识符，对编译器有特殊意义。 &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;操作符（Operator）&lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;标识符（Identifier）标识符是分配给类型（类、接口、结构、委托或枚举）、成员、变量或命名空间的名称 。 有效标识符必须遵循以下规则：&lt;/li&gt;
+  &lt;li&gt;标识符必须以字母或 _ 开头。&lt;/li&gt;
+  &lt;li&gt;标识符可以包含 Unicode 字母字符、十进制数字字符、Unicode 连接字符、Unicode 组合字符或 Unicode 格式字符。 有关 Unicode 类别的详细信息，请参阅 Unicode 类别数据库。 可以在标识符上使用 @ 前缀来声明与 C# 关键字匹配的标识符。 @ 不是标识符名称的一部分。 例如，@if 声明名为 if 的标识符。 这些逐字标识符主要用于与使用其他语言声明的标识符的互操作性。&lt;/li&gt;
+  &lt;li&gt;有一个让别人读懂的意义。保证代码的可读性&lt;/li&gt;
+  &lt;li&gt;大小写约定&lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/standard/design-guidelines/capitalization-conventions&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/standard/design-guidelines/capitalization-conventions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;标识符名称文档 &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/inside-a-program/identifier-names&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/inside-a-program/identifier-names&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;标点符号&lt;/li&gt;
+  &lt;li&gt;文本（字面值）&lt;/li&gt;
+  &lt;li&gt;整数（整型，长整型）
+    &lt;ul&gt;
+      &lt;li&gt;多种后缀&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;实数（单精度，双精度）&lt;/li&gt;
+  &lt;li&gt;字符， 单引号&lt;/li&gt;
+  &lt;li&gt;字符串， 双引号&lt;/li&gt;
+  &lt;li&gt;布尔值&lt;/li&gt;
+  &lt;li&gt;注释与空白( 块注释，好的代码具有自解释性)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;初识类型-变量-方法&quot;&gt;初识类型， 变量， 方法&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;类型（Type）或称数据类型&lt;/li&gt;
+  &lt;li&gt;变量是存放数据的地方， 简称“数据”&lt;/li&gt;
+  &lt;li&gt;变量的声明&lt;/li&gt;
+  &lt;li&gt;变量的使用&lt;/li&gt;
+  &lt;li&gt;方法（旧称函数）是处理数据的逻辑， 又称“算法“&lt;/li&gt;
+  &lt;li&gt;方法的声明&lt;/li&gt;
+  &lt;li&gt;方法的调用&lt;/li&gt;
+  &lt;li&gt;程序 = 数据 + 算法&lt;/li&gt;
+  &lt;li&gt;有了变量和方法就可以写有意义的程序了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;算法简介&quot;&gt;算法简介&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;循环&lt;/li&gt;
+  &lt;li&gt;递归&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">构成C#语言的基本元素 关键字（Keyword）关键字是预定义的保留标识符，对编译器有特殊意义。 https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/ 操作符（Operator）https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/ 标识符（Identifier）标识符是分配给类型（类、接口、结构、委托或枚举）、成员、变量或命名空间的名称 。 有效标识符必须遵循以下规则： 标识符必须以字母或 _ 开头。 标识符可以包含 Unicode 字母字符、十进制数字字符、Unicode 连接字符、Unicode 组合字符或 Unicode 格式字符。 有关 Unicode 类别的详细信息，请参阅 Unicode 类别数据库。 可以在标识符上使用 @ 前缀来声明与 C# 关键字匹配的标识符。 @ 不是标识符名称的一部分。 例如，@if 声明名为 if 的标识符。 这些逐字标识符主要用于与使用其他语言声明的标识符的互操作性。 有一个让别人读懂的意义。保证代码的可读性 大小写约定https://docs.microsoft.com/zh-cn/dotnet/standard/design-guidelines/capitalization-conventions 标识符名称文档 https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/inside-a-program/identifier-names 标点符号 文本（字面值） 整数（整型，长整型） 多种后缀 实数（单精度，双精度） 字符， 单引号 字符串， 双引号 布尔值 注释与空白( 块注释，好的代码具有自解释性)</summary></entry><entry><title type="html">C#语言入门详解(004)——类， 对象， 类成员简介</title><link href="http://localhost:4000/2020/09/10/c-sharp-basic-004.html" rel="alternate" type="text/html" title="C#语言入门详解(004)——类， 对象， 类成员简介" /><published>2020-09-10T00:00:00+08:00</published><updated>2020-09-10T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/10/c-sharp-basic-004</id><content type="html" xml:base="http://localhost:4000/2020/09/10/c-sharp-basic-004.html">&lt;h2 id=&quot;类class是现实世界事物的模型&quot;&gt;类（class）是现实世界事物的模型&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;类是对现实世界事物进行抽象所得的结果&quot;&gt;类是对现实世界事物进行抽象所得的结果&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;事物包括“物质”（实体）与 “运动” （逻辑）&lt;/li&gt;
+  &lt;li&gt;建模是一个去伪存真、由表及里的过程&lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;类与对象的关系&quot;&gt;类与对象的关系&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;对象也叫实例， 是类经过“实例化”后得到的内存中的实体。 类定义对象类型，但不是对象本身。 对象是基于类的具体实体，有时称为类的实例。&lt;/li&gt;
+      &lt;li&gt;依照类， 我们可以创建对象， 这就是“实例化”&lt;/li&gt;
+      &lt;li&gt;使用new操作符创建类的实例&lt;/li&gt;
+      &lt;li&gt;引用变量与实例的关系，通过引用变量创建的实例可以多次访问&lt;/li&gt;
+      &lt;li&gt;孩子与气球（引用变量 与 实例）&lt;/li&gt;
+      &lt;li&gt;气球不一定有孩子牵着&lt;/li&gt;
+      &lt;li&gt;多个孩子可以使用各自的绳子牵着同一个气球，也可以通过一根绳子牵着气球&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;类的三大成员&quot;&gt;类的三大成员&lt;/h3&gt;
+  &lt;/li&gt;
+  &lt;li&gt;属性（ Property ）
+    &lt;ul&gt;
+      &lt;li&gt;存储数据，组合起来表示类或对象当前的状态&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;方法（ Method ）
+    &lt;ul&gt;
+      &lt;li&gt;由C语音中的函数（function）进化而来， 表示类或对象“能做什么”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;事件 （ Event ）
+    &lt;ul&gt;
+      &lt;li&gt;类或对象通知其他类或对象的机制， 为C#所特有&lt;/li&gt;
+      &lt;li&gt;善用事件机制非常重要&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;使用MSDN文档&lt;/li&gt;
+  &lt;li&gt;某些特殊类或对象在成员方面侧重点不同
+    &lt;ul&gt;
+      &lt;li&gt;模型类或对象重在属性， 如Entity Framework&lt;/li&gt;
+      &lt;li&gt;工具类或对象重在方法， 如Math, Console&lt;/li&gt;
+      &lt;li&gt;通知类或对象重在事件， 如各种Timer&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">类（class）是现实世界事物的模型 类是对现实世界事物进行抽象所得的结果 事物包括“物质”（实体）与 “运动” （逻辑） 建模是一个去伪存真、由表及里的过程 类与对象的关系 对象也叫实例， 是类经过“实例化”后得到的内存中的实体。 类定义对象类型，但不是对象本身。 对象是基于类的具体实体，有时称为类的实例。 依照类， 我们可以创建对象， 这就是“实例化” 使用new操作符创建类的实例 引用变量与实例的关系，通过引用变量创建的实例可以多次访问 孩子与气球（引用变量 与 实例） 气球不一定有孩子牵着 多个孩子可以使用各自的绳子牵着同一个气球，也可以通过一根绳子牵着气球 类的三大成员 属性（ Property ） 存储数据，组合起来表示类或对象当前的状态 方法（ Method ） 由C语音中的函数（function）进化而来， 表示类或对象“能做什么” 事件 （ Event ） 类或对象通知其他类或对象的机制， 为C#所特有 善用事件机制非常重要 使用MSDN文档 某些特殊类或对象在成员方面侧重点不同 模型类或对象重在属性， 如Entity Framework 工具类或对象重在方法， 如Math, Console 通知类或对象重在事件， 如各种Timer</summary></entry><entry><title type="html">Importing images with Webpacker</title><link href="http://localhost:4000/2020/07/14/import-image-rails-webpacker.html" rel="alternate" type="text/html" title="Importing images with Webpacker" /><published>2020-07-14T00:00:00+08:00</published><updated>2020-07-14T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/14/import-image-rails-webpacker</id><content type="html" xml:base="http://localhost:4000/2020/07/14/import-image-rails-webpacker.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /** application.js **/
+	require.context('../images', true)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /**page.html.erb**/
+	&amp;lt;img src=&quot;&amp;lt;%= asset_pack_path 'media/images/logo.svg' %&amp;gt;&quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;refs: &lt;a href=&quot;https://rossta.net/blog/importing-images-with-webpacker.html&quot;&gt;https://rossta.net/blog/importing-images-with-webpacker.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">/** application.js **/ require.context('../images', true)</summary></entry><entry><title type="html">Rails and Tailwind Css</title><link href="http://localhost:4000/2020/07/05/rails-tailwindcss.html" rel="alternate" type="text/html" title="Rails and Tailwind Css" /><published>2020-07-05T00:00:00+08:00</published><updated>2020-07-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/05/rails-tailwindcss</id><content type="html" xml:base="http://localhost:4000/2020/07/05/rails-tailwindcss.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Use PurgeCss with Rails (and Tailwind Css)&lt;/strong&gt;
+&lt;a href=&quot;https://www.getsjabloon.com/kb/purgecss-with-rails&quot;&gt;https://www.getsjabloon.com/kb/purgecss-with-rails&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Rails 6 and Tailwind CSS via Webpacker— Getting Started&lt;/strong&gt;
+&lt;a href=&quot;https://medium.com/@davidteren/rails-6-and-tailwindcss-getting-started-42ba59e45393&quot;&gt;https://medium.com/@davidteren/rails-6-and-tailwindcss-getting-started-42ba59e45393&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">Use PurgeCss with Rails (and Tailwind Css) https://www.getsjabloon.com/kb/purgecss-with-rails</summary></entry><entry><title type="html">C#语言入门详解(003)——初识类与名称空间</title><link href="http://localhost:4000/2020/06/22/c-sharp-basic-003.html" rel="alternate" type="text/html" title="C#语言入门详解(003)——初识类与名称空间" /><published>2020-06-22T00:00:00+08:00</published><updated>2020-06-22T00:00:00+08:00</updated><id>http://localhost:4000/2020/06/22/c-sharp-basic-003</id><content type="html" xml:base="http://localhost:4000/2020/06/22/c-sharp-basic-003.html">&lt;h3 id=&quot;第三课c-初识类与命名空间&quot;&gt;第三课：C# 初识类与命名空间&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;剖析Hello, World程序
+    &lt;ul&gt;
+      &lt;li&gt;类 ( class ) 构成程序的主体
+        &lt;ol&gt;
+          &lt;li&gt;定义： &lt;strong&gt;类&lt;/strong&gt;(class)是最基础的 C# 类型。 类是一个数据结构，将状态（字段）和操作（方法和其他函数成员）组合在一个单元中。类为动态创建的类实例（instance）提供了定义，实例也称为对象(object)。类支持继承(inheritance) 和 多态性（polymorphism），这是派生类（derived class）可用来扩展和专业化基类（base class）的机制。 &lt;strong&gt;简单来说， 类是构成程序的主体。&lt;/strong&gt;&lt;/li&gt;
+          &lt;li&gt;
+            &lt;ul&gt;
+              &lt;li&gt;System 类 &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/api/system?view=netcore-3.1&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/api/system?view=netcore-3.1&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;命名空间 ( namespace ) 以树型结构组织类 ( 和其他类型 )
+   1.定义：将类和其他类型（如接口、委托等）用良好的结构组织在一起。
+   2.作用：有效的避免相同的命名发生冲突。&lt;/li&gt;
+      &lt;li&gt;类和命名空间放在类库(Assembly)内
+1 . 类库的引用是使用命名空间的物理基础
+  xxx.dll 不同技术类型的项目默认引用不同的类库
+        &lt;ol&gt;
+          &lt;li&gt;DLL引用（黑盒引用，没有源代码）引用第三方类库和系统自带类库, nuget(类似npm package)&lt;/li&gt;
+          &lt;li&gt;项目引用(白盒引用)
+            &lt;h1 id=&quot;修bug-要找到-root-cause&quot;&gt;&lt;strong&gt;修bug 要找到 root cause&lt;/strong&gt;&lt;/h1&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;依赖关系
+    &lt;ol&gt;
+      &lt;li&gt;类（或对象） 之间的耦合关系&lt;/li&gt;
+      &lt;li&gt;优秀的程序追求“高内聚，低耦合”&lt;/li&gt;
+      &lt;li&gt;UML(通用建模语言)类图&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;msdn文档&quot;&gt;&lt;strong&gt;MSDN文档&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/zh-cn/&quot;&gt;https://docs.microsoft.com/zh-cn/&lt;/a&gt;
+&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new&quot;&gt;dotnet new&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">第三课：C# 初识类与命名空间 剖析Hello, World程序 类 ( class ) 构成程序的主体 定义： 类(class)是最基础的 C# 类型。 类是一个数据结构，将状态（字段）和操作（方法和其他函数成员）组合在一个单元中。类为动态创建的类实例（instance）提供了定义，实例也称为对象(object)。类支持继承(inheritance) 和 多态性（polymorphism），这是派生类（derived class）可用来扩展和专业化基类（base class）的机制。 简单来说， 类是构成程序的主体。 System 类 https://docs.microsoft.com/zh-cn/dotnet/api/system?view=netcore-3.1 命名空间 ( namespace ) 以树型结构组织类 ( 和其他类型 ) 1.定义：将类和其他类型（如接口、委托等）用良好的结构组织在一起。 2.作用：有效的避免相同的命名发生冲突。 类和命名空间放在类库(Assembly)内 1 . 类库的引用是使用命名空间的物理基础 xxx.dll 不同技术类型的项目默认引用不同的类库 DLL引用（黑盒引用，没有源代码）引用第三方类库和系统自带类库, nuget(类似npm package) 项目引用(白盒引用) 修bug 要找到 root cause 依赖关系 类（或对象） 之间的耦合关系 优秀的程序追求“高内聚，低耦合” UML(通用建模语言)类图 MSDN文档 https://docs.microsoft.com/zh-cn/ dotnet new</summary></entry><entry><title type="html">Css Modules by Example</title><link href="http://localhost:4000/2020/06/04/css-modules.html" rel="alternate" type="text/html" title="Css Modules by Example" /><published>2020-06-04T00:00:00+08:00</published><updated>2020-06-04T00:00:00+08:00</updated><id>http://localhost:4000/2020/06/04/css-modules</id><content type="html" xml:base="http://localhost:4000/2020/06/04/css-modules.html">&lt;p&gt;&lt;a href=&quot;https://www.javascriptstuff.com/css-modules-by-example/#example-4-nested-class-names&quot;&gt;Css Modules by Example&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@im.simonecorsi/moving-from-sass-to-postcss-why-what-and-how-f68b1bc760dc&quot;&gt;Moving from SASS to PostCSS, why, what and how&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">Css Modules by Example</summary></entry></feed>
