@@ -1,5 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-17T11:15:10+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andy Xiong’s Notes</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">C#语言入门详解(008)——方法的定 义、调用与调试（下）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-009.html" rel="alternate" type="text/html" title="C#语言入门详解(008)——方法的定 义、调用与调试（下）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-009</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-009.html">&lt;h2 id=&quot;构造器&quot;&gt;构造器&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-16T12:37:56+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andy Xiong’s Notes</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">C#语言入门详解(014)——表达式，语句详解（2）</title><link href="http://localhost:4000/2020/10/12/c-sharp-basic-014.html" rel="alternate" type="text/html" title="C#语言入门详解(014)——表达式，语句详解（2）" /><published>2020-10-12T00:00:00+08:00</published><updated>2020-10-12T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/12/c-sharp-basic-014</id><content type="html" xml:base="http://localhost:4000/2020/10/12/c-sharp-basic-014.html">&lt;h2 id=&quot;语句详解&quot;&gt;语句详解&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;声明语句&lt;/li&gt;
+  &lt;li&gt;表达式语句&lt;/li&gt;
+  &lt;li&gt;块语句&lt;/li&gt;
+  &lt;li&gt;选择（判断、分支）语句&lt;/li&gt;
+  &lt;li&gt;迭代（循环） 语句&lt;/li&gt;
+  &lt;li&gt;跳转 语句&lt;/li&gt;
+  &lt;li&gt;try.. catch … finally 语句&lt;/li&gt;
+  &lt;li&gt;using 语句&lt;/li&gt;
+  &lt;li&gt;yield 语句&lt;/li&gt;
+  &lt;li&gt;checked/unchecked 语句&lt;/li&gt;
+  &lt;li&gt;lock 语句(用于多线程)&lt;/li&gt;
+  &lt;li&gt;标签语句&lt;/li&gt;
+  &lt;li&gt;空语句&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="csharp" /><summary type="html">语句详解 声明语句 表达式语句 块语句 选择（判断、分支）语句 迭代（循环） 语句 跳转 语句 try.. catch … finally 语句 using 语句 yield 语句 checked/unchecked 语句 lock 语句(用于多线程) 标签语句 空语句</summary></entry><entry><title type="html">Using ActionCable and Stimulus to remotely update partials</title><link href="http://localhost:4000/2020/10/09/using-actioncable-and-stimulus-to-remotely-update-partials-in-rails-6.html" rel="alternate" type="text/html" title="Using ActionCable and Stimulus to remotely update partials" /><published>2020-10-09T00:00:00+08:00</published><updated>2020-10-09T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/09/using-actioncable-and-stimulus-to-remotely-update-partials-in-rails-6</id><content type="html" xml:base="http://localhost:4000/2020/10/09/using-actioncable-and-stimulus-to-remotely-update-partials-in-rails-6.html">&lt;p&gt;&lt;a href=&quot;https://mikerogers.io/2019/09/16/using-actioncable-and-stimulus-to-remotely-update-partials-in-rails-6&quot;&gt;https://mikerogers.io/2019/09/16/using-actioncable-and-stimulus-to-remotely-update-partials-in-rails-6&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">https://mikerogers.io/2019/09/16/using-actioncable-and-stimulus-to-remotely-update-partials-in-rails-6</summary></entry><entry><title type="html">C#语言入门详解(013)——表达式，语句详解（1）</title><link href="http://localhost:4000/2020/10/01/c-sharp-basic-013.html" rel="alternate" type="text/html" title="C#语言入门详解(013)——表达式，语句详解（1）" /><published>2020-10-01T00:00:00+08:00</published><updated>2020-10-01T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/01/c-sharp-basic-013</id><content type="html" xml:base="http://localhost:4000/2020/10/01/c-sharp-basic-013.html">&lt;h2 id=&quot;表达式的定义&quot;&gt;表达式的定义&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;什么是表达式&lt;/li&gt;
+  &lt;li&gt;表达式、命令、声明是一门计算机语言的基本组件，我们可以说是表达式是任何一门语言的最重要的组件。&lt;/li&gt;
+  &lt;li&gt;表达式是一个语法实体，它的功能是用来求值，要么成功要么失败，如果成功会有一个返回值，如果失败有一个错误的返回值，表达式是用来求值的表达实体&lt;/li&gt;
+  &lt;li&gt;各种编程语言对表达式的实现不尽相同，但大体上都符合这个定义&lt;/li&gt;
+  &lt;li&gt;C#语言对表达式的定义&lt;/li&gt;
+  &lt;li&gt;C#的表达式是有一个或多个操作数和0或多个操作符组成的序列，表达式的求值得到的结果有可能是single value, object, method or namespace.   表达式有可能是由字面值，方法调用，操作符和操作数或者是个simple name. simple name 有可能是变量， 或者类型成员， 也有可能是方法的参数或命名空间。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;各类表达式概览&quot;&gt;各类表达式概览&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;C#语言中表达式的分类&lt;/li&gt;
+  &lt;li&gt;A value. Every value has an associated type. 任何能得到值的运算（回顾操作符和结果类型）&lt;/li&gt;
+  &lt;li&gt;A variable. Every variable has an associated type.&lt;/li&gt;
+  &lt;li&gt;A namespace.&lt;/li&gt;
+  &lt;li&gt;A type.&lt;/li&gt;
+  &lt;li&gt;A method group. 例如：Console.WriteLine, 这是一组方法， 重载决策决定具体调用哪个&lt;/li&gt;
+  &lt;li&gt;A null literal.&lt;/li&gt;
+  &lt;li&gt;An anonymous function.&lt;/li&gt;
+  &lt;li&gt;A property access.&lt;/li&gt;
+  &lt;li&gt;An event access.&lt;/li&gt;
+  &lt;li&gt;An indexer access.&lt;/li&gt;
+  &lt;li&gt;Nothing. 对返回值为void的方法的调用&lt;/li&gt;
+  &lt;li&gt;复合表达式的求值&lt;/li&gt;
+  &lt;li&gt;注意操作符的优先级和同优先级操作符的运算方向&lt;/li&gt;
+  &lt;li&gt;参考C#语言定义文档&lt;/li&gt;
+  &lt;li&gt;仅作参考，不必深究–毕竟我们是在学习语言、不是去实现这门语言 
+ *&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="csharp" /><summary type="html">表达式的定义 什么是表达式 表达式、命令、声明是一门计算机语言的基本组件，我们可以说是表达式是任何一门语言的最重要的组件。 表达式是一个语法实体，它的功能是用来求值，要么成功要么失败，如果成功会有一个返回值，如果失败有一个错误的返回值，表达式是用来求值的表达实体 各种编程语言对表达式的实现不尽相同，但大体上都符合这个定义 C#语言对表达式的定义 C#的表达式是有一个或多个操作数和0或多个操作符组成的序列，表达式的求值得到的结果有可能是single value, object, method or namespace. 表达式有可能是由字面值，方法调用，操作符和操作数或者是个simple name. simple name 有可能是变量， 或者类型成员， 也有可能是方法的参数或命名空间。</summary></entry><entry><title type="html">C#语言入门详解(011)——操作符详解（下）</title><link href="http://localhost:4000/2020/09/28/c-sharp-basic-012.html" rel="alternate" type="text/html" title="C#语言入门详解(011)——操作符详解（下）" /><published>2020-09-28T00:00:00+08:00</published><updated>2020-09-28T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/28/c-sharp-basic-012</id><content type="html" xml:base="http://localhost:4000/2020/09/28/c-sharp-basic-012.html">&lt;h2 id=&quot;类型转换&quot;&gt;类型转换&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;隐式(implicit)类型转换， 转换列表 &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/builtin-types/numeric-conversions#implicit-numeric-conversions&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/builtin-types/numeric-conversions#implicit-numeric-conversions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;不丢失精度的转换&lt;/li&gt;
+  &lt;li&gt;子类向父类的转换&lt;/li&gt;
+  &lt;li&gt;装箱&lt;/li&gt;
+  &lt;li&gt;显式(explicit)类型转换&lt;/li&gt;
+  &lt;li&gt;有可能丢失精度(甚至发生错误)的转换, 即cast&lt;/li&gt;
+  &lt;li&gt;拆箱&lt;/li&gt;
+  &lt;li&gt;使用Convert类&lt;/li&gt;
+  &lt;li&gt;ToString方法与各数据类型的Parse/TryParse方法&lt;/li&gt;
+  &lt;li&gt;自定义类型转换操作符&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;乘法操作符&quot;&gt;乘法操作符&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;数据类型提升&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;位操作符&quot;&gt;位操作符&lt;/h2&gt;
+&lt;p&gt;按位求与 &amp;amp; 二进制 0为假 1 为真，按位求或 |， 两位有一个为真就为真，  两位异或 ^, 两位相同为真否则为假。都是操作二进制用的&lt;/p&gt;
+
+&lt;p&gt;## 逻辑操作符
+短路效应&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="csharp" /><summary type="html">类型转换 隐式(implicit)类型转换， 转换列表 https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/builtin-types/numeric-conversions#implicit-numeric-conversions 不丢失精度的转换 子类向父类的转换 装箱 显式(explicit)类型转换 有可能丢失精度(甚至发生错误)的转换, 即cast 拆箱 使用Convert类 ToString方法与各数据类型的Parse/TryParse方法 自定义类型转换操作符</summary></entry><entry><title type="html">Australia dots map</title><link href="http://localhost:4000/2020/09/28/d3-aus-map.html" rel="alternate" type="text/html" title="Australia dots map" /><published>2020-09-28T00:00:00+08:00</published><updated>2020-09-28T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/28/d3-aus-map</id><content type="html" xml:base="http://localhost:4000/2020/09/28/d3-aus-map.html">&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e&quot;&gt;https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://observablehq.com/@hzschie/dots-on-map&quot;&gt;https://observablehq.com/@hzschie/dots-on-map&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/shshaw/pen/vJNMQY&quot;&gt;https://codepen.io/shshaw/pen/vJNMQY&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html&quot;&gt;https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="animate" /><summary type="html">https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e</summary></entry><entry><title type="html">C#语言入门详解(011)——操作符详解（中）</title><link href="http://localhost:4000/2020/09/24/c-sharp-basic-011.html" rel="alternate" type="text/html" title="C#语言入门详解(011)——操作符详解（中）" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/24/c-sharp-basic-011</id><content type="html" xml:base="http://localhost:4000/2020/09/24/c-sharp-basic-011.html">&lt;h2 id=&quot;操作符示例&quot;&gt;操作符示例&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;基本操作符
+    &lt;ul&gt;
+      &lt;li&gt;new  功能强大， 不能乱使用， 会造成紧耦合，依赖注入模式可以把紧耦合变成比较松的耦合， 也可以作为修饰符使用&lt;/li&gt;
+      &lt;li&gt;checked, unchecked   检查是否溢出&lt;/li&gt;
+      &lt;li&gt;sizeof 获取基本数据类型在内存中所占的字节&lt;/li&gt;
+      &lt;li&gt;-&amp;gt; 箭头符号  通过指针的间接访问&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;一元操作符&lt;/li&gt;
+  &lt;li&gt;&amp;amp;* 取地址符号和取引用符号&lt;/li&gt;
+  &lt;li&gt;“ +   - ！~ ”操作符&lt;/li&gt;
+  &lt;li&gt;“++x –x”操作符&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">操作符示例 基本操作符 new 功能强大， 不能乱使用， 会造成紧耦合，依赖注入模式可以把紧耦合变成比较松的耦合， 也可以作为修饰符使用 checked, unchecked 检查是否溢出 sizeof 获取基本数据类型在内存中所占的字节 -&amp;gt; 箭头符号 通过指针的间接访问 一元操作符 &amp;amp;* 取地址符号和取引用符号 “ + - ！~ ”操作符 “++x –x”操作符</summary></entry><entry><title type="html">Adding formulas to buttons</title><link href="http://localhost:4000/2020/09/22/coda-fomular.html" rel="alternate" type="text/html" title="Adding formulas to buttons" /><published>2020-09-22T00:00:00+08:00</published><updated>2020-09-22T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/22/coda-fomular</id><content type="html" xml:base="http://localhost:4000/2020/09/22/coda-fomular.html">&lt;p&gt;&lt;a href=&quot;https://help.coda.io/en/articles/2039489-adding-formulas-to-buttons&quot;&gt;https://help.coda.io/en/articles/2039489-adding-formulas-to-buttons&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="frontend" /><summary type="html">https://help.coda.io/en/articles/2039489-adding-formulas-to-buttons</summary></entry><entry><title type="html">C#语言入门详解(010)——操作符详解（上）</title><link href="http://localhost:4000/2020/09/17/c-sharp-basic-010.html" rel="alternate" type="text/html" title="C#语言入门详解(010)——操作符详解（上）" /><published>2020-09-17T00:00:00+08:00</published><updated>2020-09-17T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/17/c-sharp-basic-010</id><content type="html" xml:base="http://localhost:4000/2020/09/17/c-sharp-basic-010.html">&lt;h2 id=&quot;操作符概览&quot;&gt;操作符概览&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;操作符（Operator）也译为”运算符“&lt;/li&gt;
+  &lt;li&gt;操作符用来操作数据的，被操作符操作的数据称为操作数（Operand）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;操作符的本质&quot;&gt;操作符的本质&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;操作符的本质是函数（即算法）的”简记法“&lt;/li&gt;
+  &lt;li&gt;假如没有发明 ” + “， 只有Add函数， 算式 3 + 4 + 5 将可以写成Add(Add(3,4),5)&lt;/li&gt;
+  &lt;li&gt;假如没有发明” x “， 只有Mul函数， 算式 3 + 4 + 5 将只能写成（Add（3，Mul(4,5)））&lt;/li&gt;
+  &lt;li&gt;操作符不能脱离与它关联的数据类型&lt;/li&gt;
+  &lt;li&gt;可以说操作符就是与固定数据相关联的一套基本算法的简记法&lt;/li&gt;
+  &lt;li&gt;示例： 为自定义数据类型创建操作符&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;优先级和运算顺序&quot;&gt;优先级和运算顺序&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;操作符的优先级&lt;/li&gt;
+  &lt;li&gt;可以使用圆括号提高被括起来表达式的优先级&lt;/li&gt;
+  &lt;li&gt;圆括号可以嵌套&lt;/li&gt;
+  &lt;li&gt;不像数学里有方括号和花括号， C#语言里”[]“与”{}“有专门的用途&lt;/li&gt;
+  &lt;li&gt;同优先级操作符的运算顺序&lt;/li&gt;
+  &lt;li&gt;除了带有赋值功能的操作符， 同优先级操作符都是由左向右进行运算&lt;/li&gt;
+  &lt;li&gt;带有赋值功能的运算符的运算顺序是从右向左&lt;/li&gt;
+  &lt;li&gt;与数学运算不同，计算机语言的同优先级运算没有”结合率“
+    &lt;ul&gt;
+      &lt;li&gt;3 + 4 + 5 只能理解为Add(Add(3,4),5)不能理解为Add(3, Add(4,5))&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;各类操作符的示例&quot;&gt;各类操作符的示例&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;基本操作符&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">操作符概览 操作符（Operator）也译为”运算符“ 操作符用来操作数据的，被操作符操作的数据称为操作数（Operand） https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/</summary></entry><entry><title type="html">C#语言入门详解(009)——方法的定 义、调用与调试（下）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-009.html" rel="alternate" type="text/html" title="C#语言入门详解(009)——方法的定 义、调用与调试（下）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-009</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-009.html">&lt;h2 id=&quot;构造器&quot;&gt;构造器&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;构造器（constructor）是类型的成员之一
     &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  class Student
@@ -41,42 +164,7 @@
 &lt;ul&gt;
   &lt;li&gt;方法调用时栈内存的分配&lt;/li&gt;
   &lt;li&gt;对stack frame 的分析&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">构造器 构造器（constructor）是类型的成员之一 class Student { public Student() { this.ID = &quot;&quot;; } } 狭义的构造器指的是”实例构造器“（instance constructor） 如何调用构造器 声明构造器 构造器的内存原理</summary></entry><entry><title type="html">C#语言入门详解(007)——类型，变量与对象详解（下）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-007.html" rel="alternate" type="text/html" title="C#语言入门详解(007)——类型，变量与对象详解（下）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-007</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-007.html">&lt;h2 id=&quot;c语言的类型系统&quot;&gt;C#语言的类型系统&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;C#的五大数据类型&lt;/li&gt;
-  &lt;li&gt;类（Class）: 如Windows, Form, Console, String&lt;/li&gt;
-  &lt;li&gt;结构体（Structures）: 如Int32, Int64, Single, Double&lt;/li&gt;
-  &lt;li&gt;枚举（Enumerations）: 如HorizontalAlignment, Visibility&lt;/li&gt;
-  &lt;li&gt;接口（Interfaces）&lt;/li&gt;
-  &lt;li&gt;委托（Delegates）&lt;/li&gt;
-  &lt;li&gt;C#类型的派生谱系， C#类型系统包括引用类型（Reference Type）和 值类型（Value Type）,引用类型包括类，接口，委托， 值类型包括结构体和枚举， 所有类型都以object类型作为自己的基类&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;c语言的变量对象与内存&quot;&gt;C#语言的变量、对象与内存&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;什么是变量。变量是以变量名所对应的内存地址为起点，以其数据类型所要求的存储空间为长度的一块内存区域。&lt;/li&gt;
-  &lt;li&gt;表面上来看（从C#代码的上下文行文上来看），变量的用途是存储数据&lt;/li&gt;
-  &lt;li&gt;实际上，变量表示了存储位置，并且每个变量都有一个类型，以决定什么样的值能够存入变量&lt;/li&gt;
-  &lt;li&gt;变量一共有7种
-     * 静态变量，实例变量（成员变量，字段  ）， 数组元素， 值参数，引用参数，输出形参， 局部变量&lt;/li&gt;
-  &lt;li&gt;狭义的变量指局部变量，因为其它种类的变量都是自己的约定名称
-    &lt;ul&gt;
-      &lt;li&gt;简单的讲，局部变量就是方法体（函数体）里声明的变量&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;变量的声明
-    &lt;ul&gt;
-      &lt;li&gt;有效的修饰符组合opt 类型 变量名 初始化器opt。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;值类型变量&lt;/li&gt;
-  &lt;li&gt;以byte/sbtye/ 负数 = 按位取反再加一； 高高低低原则&lt;/li&gt;
-  &lt;li&gt;值类型没有实例， 所谓的”实例“与变量合二为一&lt;/li&gt;
-  &lt;li&gt;局部变量是在stack上分配内存&lt;/li&gt;
-  &lt;li&gt;变量的默认值&lt;/li&gt;
-  &lt;li&gt;常量（值不可改变的变量）&lt;/li&gt;
-  &lt;li&gt;装箱与拆箱（Boxing &amp;amp; Unboxing）&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">C#语言的类型系统 C#的五大数据类型 类（Class）: 如Windows, Form, Console, String 结构体（Structures）: 如Int32, Int64, Single, Double 枚举（Enumerations）: 如HorizontalAlignment, Visibility 接口（Interfaces） 委托（Delegates） C#类型的派生谱系， C#类型系统包括引用类型（Reference Type）和 值类型（Value Type）,引用类型包括类，接口，委托， 值类型包括结构体和枚举， 所有类型都以object类型作为自己的基类</summary></entry><entry><title type="html">C#语言入门详解(008)——方法的定 义、调用与调试（上）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-008.html" rel="alternate" type="text/html" title="C#语言入门详解(008)——方法的定 义、调用与调试（上）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-008</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-008.html">&lt;h2 id=&quot;方法的由来&quot;&gt;方法的由来&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">构造器 构造器（constructor）是类型的成员之一 class Student { public Student() { this.ID = &quot;&quot;; } } 狭义的构造器指的是”实例构造器“（instance constructor） 如何调用构造器 声明构造器 构造器的内存原理</summary></entry><entry><title type="html">C#语言入门详解(008)——方法的定 义、调用与调试（上）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-008.html" rel="alternate" type="text/html" title="C#语言入门详解(008)——方法的定 义、调用与调试（上）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-008</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-008.html">&lt;h2 id=&quot;方法的由来&quot;&gt;方法的由来&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;方法（method）的前身是C/C++语言的函数（function）&lt;/li&gt;
   &lt;li&gt;方法是面向对象范畴的概念，在非面向对象语言中仍然称为函数&lt;/li&gt;
@@ -108,180 +196,4 @@
   &lt;li&gt;Argument中文C#文档的官方译法为”实际参数“， 简称”实参“，可以理解为调用是的真实条件&lt;/li&gt;
   &lt;li&gt;调用方法时的argument列表要与定义方法时的parameter列表相匹配&lt;/li&gt;
   &lt;li&gt;C#是强类型语言，argument是值，parameter是变量，值与变量一定要匹配， 不然编译器会报错&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">方法的由来 方法（method）的前身是C/C++语言的函数（function） 方法是面向对象范畴的概念，在非面向对象语言中仍然称为函数 使用C/C++语言做对比 永远都是类（或结构体）的成员 C#语言中函数不可能独立于类（或结构体）之外 只有作为类（结构体）的成员时才被称为方法 C++中是可以的， 称为”全局函数“ 是类（或结构体）最基本的成员之一 最基本的成员只有两个—-字段与方法（成员变量与成员方法）， 本质是数据 + 算法 方法表示类（或结构体）”能做什么事情“ 为什么需要方法和函数 目的1： 隐藏复杂的逻辑 目的2： 复用（reuse，重用） 示例： 计算圆面积、圆柱体积、圆锥体积 。面向过程的算法： 自顶向下，逐步求精</summary></entry><entry><title type="html">C#语言入门详解(006)——类型，变量与对象详解（上）</title><link href="http://localhost:4000/2020/09/12/c-sharp-basic-006.html" rel="alternate" type="text/html" title="C#语言入门详解(006)——类型，变量与对象详解（上）" /><published>2020-09-12T00:00:00+08:00</published><updated>2020-09-12T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/12/c-sharp-basic-006</id><content type="html" xml:base="http://localhost:4000/2020/09/12/c-sharp-basic-006.html">&lt;h2 id=&quot;什么是类型type&quot;&gt;什么是类型（Type）&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;又名数据类型（Data Type）&lt;/li&gt;
-  &lt;li&gt;A data type is homeogeneous collection of values, effectively presented, equipped with a set of operations which manipulate these values.&lt;/li&gt;
-  &lt;li&gt;是数据在内存中存储时的”型号“&lt;/li&gt;
-  &lt;li&gt;小内存容纳大尺寸数据会丢失精确度、发生错误&lt;/li&gt;
-  &lt;li&gt;大内存容纳小尺寸数据会导致浪费&lt;/li&gt;
-  &lt;li&gt;编程语言的数据类型与数据的数据类型不完全相同&lt;/li&gt;
-  &lt;li&gt;强类型语言与弱类型语言的比较, 强类型语言在编程的过程中数据受数据类型的约束，如果数据不严格受到数据类型的约束。&lt;/li&gt;
-  &lt;li&gt;C语言&lt;/li&gt;
-  &lt;li&gt;Javascript示例： 动态类型&lt;/li&gt;
-  &lt;li&gt;C#语言对弱类型/动态类型的模仿， dynamic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;类型在c语言中的作用&quot;&gt;类型在C#语言中的作用&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;一个C#类型中包含的信息有：&lt;/li&gt;
-  &lt;li&gt;存储此类型所需的内存空间大小&lt;/li&gt;
-  &lt;li&gt;此类型的值可表示的最大、最小范围&lt;/li&gt;
-  &lt;li&gt;此类型所包含的成员（如方法、属性、事件等）&lt;/li&gt;
-  &lt;li&gt;此类型由何基类派生而来&lt;/li&gt;
-  &lt;li&gt;程序运行的时候， 此类型的变量在分配在内存的什么位置
-    &lt;ul&gt;
-      &lt;li&gt;Stack简介, 函数方法调用&lt;/li&gt;
-      &lt;li&gt;Stack overflow&lt;/li&gt;
-      &lt;li&gt;Heap简介， 存储对象&lt;/li&gt;
-      &lt;li&gt;使用Performance Monitor 查看进程的堆内存使用量&lt;/li&gt;
-      &lt;li&gt;此类型所允许的操作（运算&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">什么是类型（Type） 又名数据类型（Data Type） A data type is homeogeneous collection of values, effectively presented, equipped with a set of operations which manipulate these values. 是数据在内存中存储时的”型号“ 小内存容纳大尺寸数据会丢失精确度、发生错误 大内存容纳小尺寸数据会导致浪费 编程语言的数据类型与数据的数据类型不完全相同 强类型语言与弱类型语言的比较, 强类型语言在编程的过程中数据受数据类型的约束，如果数据不严格受到数据类型的约束。 C语言 Javascript示例： 动态类型 C#语言对弱类型/动态类型的模仿， dynamic</summary></entry><entry><title type="html">C#语言入门详解(005)——语法，类型，变量，方法与算法简介</title><link href="http://localhost:4000/2020/09/11/c-sharp-basic-005.html" rel="alternate" type="text/html" title="C#语言入门详解(005)——语法，类型，变量，方法与算法简介" /><published>2020-09-11T00:00:00+08:00</published><updated>2020-09-11T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/11/c-sharp-basic-005</id><content type="html" xml:base="http://localhost:4000/2020/09/11/c-sharp-basic-005.html">&lt;h2 id=&quot;构成c语言的基本元素&quot;&gt;构成C#语言的基本元素&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;关键字（Keyword）关键字是预定义的保留标识符，对编译器有特殊意义。 &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;操作符（Operator）&lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;标识符（Identifier）标识符是分配给类型（类、接口、结构、委托或枚举）、成员、变量或命名空间的名称 。 有效标识符必须遵循以下规则：&lt;/li&gt;
-  &lt;li&gt;标识符必须以字母或 _ 开头。&lt;/li&gt;
-  &lt;li&gt;标识符可以包含 Unicode 字母字符、十进制数字字符、Unicode 连接字符、Unicode 组合字符或 Unicode 格式字符。 有关 Unicode 类别的详细信息，请参阅 Unicode 类别数据库。 可以在标识符上使用 @ 前缀来声明与 C# 关键字匹配的标识符。 @ 不是标识符名称的一部分。 例如，@if 声明名为 if 的标识符。 这些逐字标识符主要用于与使用其他语言声明的标识符的互操作性。&lt;/li&gt;
-  &lt;li&gt;有一个让别人读懂的意义。保证代码的可读性&lt;/li&gt;
-  &lt;li&gt;大小写约定&lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/standard/design-guidelines/capitalization-conventions&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/standard/design-guidelines/capitalization-conventions&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;标识符名称文档 &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/inside-a-program/identifier-names&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/inside-a-program/identifier-names&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;标点符号&lt;/li&gt;
-  &lt;li&gt;文本（字面值）&lt;/li&gt;
-  &lt;li&gt;整数（整型，长整型）
-    &lt;ul&gt;
-      &lt;li&gt;多种后缀&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;实数（单精度，双精度）&lt;/li&gt;
-  &lt;li&gt;字符， 单引号&lt;/li&gt;
-  &lt;li&gt;字符串， 双引号&lt;/li&gt;
-  &lt;li&gt;布尔值&lt;/li&gt;
-  &lt;li&gt;注释与空白( 块注释，好的代码具有自解释性)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;初识类型-变量-方法&quot;&gt;初识类型， 变量， 方法&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;类型（Type）或称数据类型&lt;/li&gt;
-  &lt;li&gt;变量是存放数据的地方， 简称“数据”&lt;/li&gt;
-  &lt;li&gt;变量的声明&lt;/li&gt;
-  &lt;li&gt;变量的使用&lt;/li&gt;
-  &lt;li&gt;方法（旧称函数）是处理数据的逻辑， 又称“算法“&lt;/li&gt;
-  &lt;li&gt;方法的声明&lt;/li&gt;
-  &lt;li&gt;方法的调用&lt;/li&gt;
-  &lt;li&gt;程序 = 数据 + 算法&lt;/li&gt;
-  &lt;li&gt;有了变量和方法就可以写有意义的程序了&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;算法简介&quot;&gt;算法简介&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;循环&lt;/li&gt;
-  &lt;li&gt;递归&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">构成C#语言的基本元素 关键字（Keyword）关键字是预定义的保留标识符，对编译器有特殊意义。 https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/keywords/ 操作符（Operator）https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/operators/ 标识符（Identifier）标识符是分配给类型（类、接口、结构、委托或枚举）、成员、变量或命名空间的名称 。 有效标识符必须遵循以下规则： 标识符必须以字母或 _ 开头。 标识符可以包含 Unicode 字母字符、十进制数字字符、Unicode 连接字符、Unicode 组合字符或 Unicode 格式字符。 有关 Unicode 类别的详细信息，请参阅 Unicode 类别数据库。 可以在标识符上使用 @ 前缀来声明与 C# 关键字匹配的标识符。 @ 不是标识符名称的一部分。 例如，@if 声明名为 if 的标识符。 这些逐字标识符主要用于与使用其他语言声明的标识符的互操作性。 有一个让别人读懂的意义。保证代码的可读性 大小写约定https://docs.microsoft.com/zh-cn/dotnet/standard/design-guidelines/capitalization-conventions 标识符名称文档 https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/inside-a-program/identifier-names 标点符号 文本（字面值） 整数（整型，长整型） 多种后缀 实数（单精度，双精度） 字符， 单引号 字符串， 双引号 布尔值 注释与空白( 块注释，好的代码具有自解释性)</summary></entry><entry><title type="html">C#语言入门详解(004)——类， 对象， 类成员简介</title><link href="http://localhost:4000/2020/09/10/c-sharp-basic-004.html" rel="alternate" type="text/html" title="C#语言入门详解(004)——类， 对象， 类成员简介" /><published>2020-09-10T00:00:00+08:00</published><updated>2020-09-10T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/10/c-sharp-basic-004</id><content type="html" xml:base="http://localhost:4000/2020/09/10/c-sharp-basic-004.html">&lt;h2 id=&quot;类class是现实世界事物的模型&quot;&gt;类（class）是现实世界事物的模型&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;类是对现实世界事物进行抽象所得的结果&quot;&gt;类是对现实世界事物进行抽象所得的结果&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;事物包括“物质”（实体）与 “运动” （逻辑）&lt;/li&gt;
-  &lt;li&gt;建模是一个去伪存真、由表及里的过程&lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;类与对象的关系&quot;&gt;类与对象的关系&lt;/h3&gt;
-    &lt;ul&gt;
-      &lt;li&gt;对象也叫实例， 是类经过“实例化”后得到的内存中的实体。 类定义对象类型，但不是对象本身。 对象是基于类的具体实体，有时称为类的实例。&lt;/li&gt;
-      &lt;li&gt;依照类， 我们可以创建对象， 这就是“实例化”&lt;/li&gt;
-      &lt;li&gt;使用new操作符创建类的实例&lt;/li&gt;
-      &lt;li&gt;引用变量与实例的关系，通过引用变量创建的实例可以多次访问&lt;/li&gt;
-      &lt;li&gt;孩子与气球（引用变量 与 实例）&lt;/li&gt;
-      &lt;li&gt;气球不一定有孩子牵着&lt;/li&gt;
-      &lt;li&gt;多个孩子可以使用各自的绳子牵着同一个气球，也可以通过一根绳子牵着气球&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;h3 id=&quot;类的三大成员&quot;&gt;类的三大成员&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;属性（ Property ）
-    &lt;ul&gt;
-      &lt;li&gt;存储数据，组合起来表示类或对象当前的状态&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;方法（ Method ）
-    &lt;ul&gt;
-      &lt;li&gt;由C语音中的函数（function）进化而来， 表示类或对象“能做什么”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;事件 （ Event ）
-    &lt;ul&gt;
-      &lt;li&gt;类或对象通知其他类或对象的机制， 为C#所特有&lt;/li&gt;
-      &lt;li&gt;善用事件机制非常重要&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;使用MSDN文档&lt;/li&gt;
-  &lt;li&gt;某些特殊类或对象在成员方面侧重点不同
-    &lt;ul&gt;
-      &lt;li&gt;模型类或对象重在属性， 如Entity Framework&lt;/li&gt;
-      &lt;li&gt;工具类或对象重在方法， 如Math, Console&lt;/li&gt;
-      &lt;li&gt;通知类或对象重在事件， 如各种Timer&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">类（class）是现实世界事物的模型 类是对现实世界事物进行抽象所得的结果 事物包括“物质”（实体）与 “运动” （逻辑） 建模是一个去伪存真、由表及里的过程 类与对象的关系 对象也叫实例， 是类经过“实例化”后得到的内存中的实体。 类定义对象类型，但不是对象本身。 对象是基于类的具体实体，有时称为类的实例。 依照类， 我们可以创建对象， 这就是“实例化” 使用new操作符创建类的实例 引用变量与实例的关系，通过引用变量创建的实例可以多次访问 孩子与气球（引用变量 与 实例） 气球不一定有孩子牵着 多个孩子可以使用各自的绳子牵着同一个气球，也可以通过一根绳子牵着气球 类的三大成员 属性（ Property ） 存储数据，组合起来表示类或对象当前的状态 方法（ Method ） 由C语音中的函数（function）进化而来， 表示类或对象“能做什么” 事件 （ Event ） 类或对象通知其他类或对象的机制， 为C#所特有 善用事件机制非常重要 使用MSDN文档 某些特殊类或对象在成员方面侧重点不同 模型类或对象重在属性， 如Entity Framework 工具类或对象重在方法， 如Math, Console 通知类或对象重在事件， 如各种Timer</summary></entry><entry><title type="html">Importing images with Webpacker</title><link href="http://localhost:4000/2020/07/14/import-image-rails-webpacker.html" rel="alternate" type="text/html" title="Importing images with Webpacker" /><published>2020-07-14T00:00:00+08:00</published><updated>2020-07-14T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/14/import-image-rails-webpacker</id><content type="html" xml:base="http://localhost:4000/2020/07/14/import-image-rails-webpacker.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /** application.js **/
-	require.context('../images', true)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  /**page.html.erb**/
-	&amp;lt;img src=&quot;&amp;lt;%= asset_pack_path 'media/images/logo.svg' %&amp;gt;&quot; /&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;refs: &lt;a href=&quot;https://rossta.net/blog/importing-images-with-webpacker.html&quot;&gt;https://rossta.net/blog/importing-images-with-webpacker.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">/** application.js **/ require.context('../images', true)</summary></entry><entry><title type="html">Rails and Tailwind Css</title><link href="http://localhost:4000/2020/07/05/rails-tailwindcss.html" rel="alternate" type="text/html" title="Rails and Tailwind Css" /><published>2020-07-05T00:00:00+08:00</published><updated>2020-07-05T00:00:00+08:00</updated><id>http://localhost:4000/2020/07/05/rails-tailwindcss</id><content type="html" xml:base="http://localhost:4000/2020/07/05/rails-tailwindcss.html">&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Use PurgeCss with Rails (and Tailwind Css)&lt;/strong&gt;
-&lt;a href=&quot;https://www.getsjabloon.com/kb/purgecss-with-rails&quot;&gt;https://www.getsjabloon.com/kb/purgecss-with-rails&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Rails 6 and Tailwind CSS via Webpacker— Getting Started&lt;/strong&gt;
-&lt;a href=&quot;https://medium.com/@davidteren/rails-6-and-tailwindcss-getting-started-42ba59e45393&quot;&gt;https://medium.com/@davidteren/rails-6-and-tailwindcss-getting-started-42ba59e45393&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="rails" /><summary type="html">Use PurgeCss with Rails (and Tailwind Css) https://www.getsjabloon.com/kb/purgecss-with-rails</summary></entry><entry><title type="html">C#语言入门详解(003)——初识类与名称空间</title><link href="http://localhost:4000/2020/06/22/c-sharp-basic-003.html" rel="alternate" type="text/html" title="C#语言入门详解(003)——初识类与名称空间" /><published>2020-06-22T00:00:00+08:00</published><updated>2020-06-22T00:00:00+08:00</updated><id>http://localhost:4000/2020/06/22/c-sharp-basic-003</id><content type="html" xml:base="http://localhost:4000/2020/06/22/c-sharp-basic-003.html">&lt;h3 id=&quot;第三课c-初识类与命名空间&quot;&gt;第三课：C# 初识类与命名空间&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;剖析Hello, World程序
-    &lt;ul&gt;
-      &lt;li&gt;类 ( class ) 构成程序的主体
-        &lt;ol&gt;
-          &lt;li&gt;定义： &lt;strong&gt;类&lt;/strong&gt;(class)是最基础的 C# 类型。 类是一个数据结构，将状态（字段）和操作（方法和其他函数成员）组合在一个单元中。类为动态创建的类实例（instance）提供了定义，实例也称为对象(object)。类支持继承(inheritance) 和 多态性（polymorphism），这是派生类（derived class）可用来扩展和专业化基类（base class）的机制。 &lt;strong&gt;简单来说， 类是构成程序的主体。&lt;/strong&gt;&lt;/li&gt;
-          &lt;li&gt;
-            &lt;ul&gt;
-              &lt;li&gt;System 类 &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/api/system?view=netcore-3.1&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/api/system?view=netcore-3.1&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-      &lt;li&gt;命名空间 ( namespace ) 以树型结构组织类 ( 和其他类型 )
-   1.定义：将类和其他类型（如接口、委托等）用良好的结构组织在一起。
-   2.作用：有效的避免相同的命名发生冲突。&lt;/li&gt;
-      &lt;li&gt;类和命名空间放在类库(Assembly)内
-1 . 类库的引用是使用命名空间的物理基础
-  xxx.dll 不同技术类型的项目默认引用不同的类库
-        &lt;ol&gt;
-          &lt;li&gt;DLL引用（黑盒引用，没有源代码）引用第三方类库和系统自带类库, nuget(类似npm package)&lt;/li&gt;
-          &lt;li&gt;项目引用(白盒引用)
-            &lt;h1 id=&quot;修bug-要找到-root-cause&quot;&gt;&lt;strong&gt;修bug 要找到 root cause&lt;/strong&gt;&lt;/h1&gt;
-          &lt;/li&gt;
-        &lt;/ol&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;依赖关系
-    &lt;ol&gt;
-      &lt;li&gt;类（或对象） 之间的耦合关系&lt;/li&gt;
-      &lt;li&gt;优秀的程序追求“高内聚，低耦合”&lt;/li&gt;
-      &lt;li&gt;UML(通用建模语言)类图&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;msdn文档&quot;&gt;&lt;strong&gt;MSDN文档&lt;/strong&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://docs.microsoft.com/zh-cn/&quot;&gt;https://docs.microsoft.com/zh-cn/&lt;/a&gt;
-&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new&quot;&gt;dotnet new&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">第三课：C# 初识类与命名空间 剖析Hello, World程序 类 ( class ) 构成程序的主体 定义： 类(class)是最基础的 C# 类型。 类是一个数据结构，将状态（字段）和操作（方法和其他函数成员）组合在一个单元中。类为动态创建的类实例（instance）提供了定义，实例也称为对象(object)。类支持继承(inheritance) 和 多态性（polymorphism），这是派生类（derived class）可用来扩展和专业化基类（base class）的机制。 简单来说， 类是构成程序的主体。 System 类 https://docs.microsoft.com/zh-cn/dotnet/api/system?view=netcore-3.1 命名空间 ( namespace ) 以树型结构组织类 ( 和其他类型 ) 1.定义：将类和其他类型（如接口、委托等）用良好的结构组织在一起。 2.作用：有效的避免相同的命名发生冲突。 类和命名空间放在类库(Assembly)内 1 . 类库的引用是使用命名空间的物理基础 xxx.dll 不同技术类型的项目默认引用不同的类库 DLL引用（黑盒引用，没有源代码）引用第三方类库和系统自带类库, nuget(类似npm package) 项目引用(白盒引用) 修bug 要找到 root cause 依赖关系 类（或对象） 之间的耦合关系 优秀的程序追求“高内聚，低耦合” UML(通用建模语言)类图 MSDN文档 https://docs.microsoft.com/zh-cn/ dotnet new</summary></entry><entry><title type="html">Css Modules by Example</title><link href="http://localhost:4000/2020/06/04/css-modules.html" rel="alternate" type="text/html" title="Css Modules by Example" /><published>2020-06-04T00:00:00+08:00</published><updated>2020-06-04T00:00:00+08:00</updated><id>http://localhost:4000/2020/06/04/css-modules</id><content type="html" xml:base="http://localhost:4000/2020/06/04/css-modules.html">&lt;p&gt;&lt;a href=&quot;https://www.javascriptstuff.com/css-modules-by-example/#example-4-nested-class-names&quot;&gt;Css Modules by Example&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@im.simonecorsi/moving-from-sass-to-postcss-why-what-and-how-f68b1bc760dc&quot;&gt;Moving from SASS to PostCSS, why, what and how&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="css" /><summary type="html">Css Modules by Example</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">方法的由来 方法（method）的前身是C/C++语言的函数（function） 方法是面向对象范畴的概念，在非面向对象语言中仍然称为函数 使用C/C++语言做对比 永远都是类（或结构体）的成员 C#语言中函数不可能独立于类（或结构体）之外 只有作为类（结构体）的成员时才被称为方法 C++中是可以的， 称为”全局函数“ 是类（或结构体）最基本的成员之一 最基本的成员只有两个—-字段与方法（成员变量与成员方法）， 本质是数据 + 算法 方法表示类（或结构体）”能做什么事情“ 为什么需要方法和函数 目的1： 隐藏复杂的逻辑 目的2： 复用（reuse，重用） 示例： 计算圆面积、圆柱体积、圆锥体积 。面向过程的算法： 自顶向下，逐步求精</summary></entry></feed>
