@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-16T12:37:56+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andy Xiong’s Notes</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
-</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">C#语言入门详解(014)——表达式，语句详解（2）</title><link href="http://localhost:4000/2020/10/12/c-sharp-basic-014.html" rel="alternate" type="text/html" title="C#语言入门详解(014)——表达式，语句详解（2）" /><published>2020-10-12T00:00:00+08:00</published><updated>2020-10-12T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/12/c-sharp-basic-014</id><content type="html" xml:base="http://localhost:4000/2020/10/12/c-sharp-basic-014.html">&lt;h2 id=&quot;语句详解&quot;&gt;语句详解&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-02-01T14:10:27+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Andy Xiong’s Notes</title><subtitle>You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+</subtitle><author><name>Andy Xiong</name></author><entry><title type="html">How to develop a blog using dotnet mvc</title><link href="http://localhost:4000/2020/12/04/dotnet-blog.html" rel="alternate" type="text/html" title="How to develop a blog using dotnet mvc" /><published>2020-12-04T00:00:00+08:00</published><updated>2020-12-04T00:00:00+08:00</updated><id>http://localhost:4000/2020/12/04/dotnet-blog</id><content type="html" xml:base="http://localhost:4000/2020/12/04/dotnet-blog.html">&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/aspnet/core/tutorials/dotnet-watch?view=aspnetcore-5.0&quot;&gt;Develop ASP.NET Core apps using a file watcher&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="dotnet" /><summary type="html">Develop ASP.NET Core apps using a file watcher</summary></entry><entry><title type="html">C#语言入门详解(014)——表达式，语句详解（2）</title><link href="http://localhost:4000/2020/10/12/c-sharp-basic-014.html" rel="alternate" type="text/html" title="C#语言入门详解(014)——表达式，语句详解（2）" /><published>2020-10-12T00:00:00+08:00</published><updated>2020-10-12T00:00:00+08:00</updated><id>http://localhost:4000/2020/10/12/c-sharp-basic-014</id><content type="html" xml:base="http://localhost:4000/2020/10/12/c-sharp-basic-014.html">&lt;h2 id=&quot;语句详解&quot;&gt;语句详解&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;声明语句&lt;/li&gt;
   &lt;li&gt;表达式语句&lt;/li&gt;
@@ -43,7 +45,13 @@
   &lt;li&gt;参考C#语言定义文档&lt;/li&gt;
   &lt;li&gt;仅作参考，不必深究–毕竟我们是在学习语言、不是去实现这门语言 
  *&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="csharp" /><summary type="html">表达式的定义 什么是表达式 表达式、命令、声明是一门计算机语言的基本组件，我们可以说是表达式是任何一门语言的最重要的组件。 表达式是一个语法实体，它的功能是用来求值，要么成功要么失败，如果成功会有一个返回值，如果失败有一个错误的返回值，表达式是用来求值的表达实体 各种编程语言对表达式的实现不尽相同，但大体上都符合这个定义 C#语言对表达式的定义 C#的表达式是有一个或多个操作数和0或多个操作符组成的序列，表达式的求值得到的结果有可能是single value, object, method or namespace. 表达式有可能是由字面值，方法调用，操作符和操作数或者是个simple name. simple name 有可能是变量， 或者类型成员， 也有可能是方法的参数或命名空间。</summary></entry><entry><title type="html">C#语言入门详解(011)——操作符详解（下）</title><link href="http://localhost:4000/2020/09/28/c-sharp-basic-012.html" rel="alternate" type="text/html" title="C#语言入门详解(011)——操作符详解（下）" /><published>2020-09-28T00:00:00+08:00</published><updated>2020-09-28T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/28/c-sharp-basic-012</id><content type="html" xml:base="http://localhost:4000/2020/09/28/c-sharp-basic-012.html">&lt;h2 id=&quot;类型转换&quot;&gt;类型转换&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="csharp" /><summary type="html">表达式的定义 什么是表达式 表达式、命令、声明是一门计算机语言的基本组件，我们可以说是表达式是任何一门语言的最重要的组件。 表达式是一个语法实体，它的功能是用来求值，要么成功要么失败，如果成功会有一个返回值，如果失败有一个错误的返回值，表达式是用来求值的表达实体 各种编程语言对表达式的实现不尽相同，但大体上都符合这个定义 C#语言对表达式的定义 C#的表达式是有一个或多个操作数和0或多个操作符组成的序列，表达式的求值得到的结果有可能是single value, object, method or namespace. 表达式有可能是由字面值，方法调用，操作符和操作数或者是个simple name. simple name 有可能是变量， 或者类型成员， 也有可能是方法的参数或命名空间。</summary></entry><entry><title type="html">Australia dots map</title><link href="http://localhost:4000/2020/09/28/d3-aus-map.html" rel="alternate" type="text/html" title="Australia dots map" /><published>2020-09-28T00:00:00+08:00</published><updated>2020-09-28T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/28/d3-aus-map</id><content type="html" xml:base="http://localhost:4000/2020/09/28/d3-aus-map.html">&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e&quot;&gt;https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://observablehq.com/@hzschie/dots-on-map&quot;&gt;https://observablehq.com/@hzschie/dots-on-map&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/shshaw/pen/vJNMQY&quot;&gt;https://codepen.io/shshaw/pen/vJNMQY&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html&quot;&gt;https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="animate" /><summary type="html">https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e</summary></entry><entry><title type="html">C#语言入门详解(011)——操作符详解（下）</title><link href="http://localhost:4000/2020/09/28/c-sharp-basic-012.html" rel="alternate" type="text/html" title="C#语言入门详解(011)——操作符详解（下）" /><published>2020-09-28T00:00:00+08:00</published><updated>2020-09-28T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/28/c-sharp-basic-012</id><content type="html" xml:base="http://localhost:4000/2020/09/28/c-sharp-basic-012.html">&lt;h2 id=&quot;类型转换&quot;&gt;类型转换&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;隐式(implicit)类型转换， 转换列表 &lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/builtin-types/numeric-conversions#implicit-numeric-conversions&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/builtin-types/numeric-conversions#implicit-numeric-conversions&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;不丢失精度的转换&lt;/li&gt;
@@ -66,13 +74,7 @@
 &lt;p&gt;按位求与 &amp;amp; 二进制 0为假 1 为真，按位求或 |， 两位有一个为真就为真，  两位异或 ^, 两位相同为真否则为假。都是操作二进制用的&lt;/p&gt;
 
 &lt;p&gt;## 逻辑操作符
-短路效应&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="csharp" /><summary type="html">类型转换 隐式(implicit)类型转换， 转换列表 https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/builtin-types/numeric-conversions#implicit-numeric-conversions 不丢失精度的转换 子类向父类的转换 装箱 显式(explicit)类型转换 有可能丢失精度(甚至发生错误)的转换, 即cast 拆箱 使用Convert类 ToString方法与各数据类型的Parse/TryParse方法 自定义类型转换操作符</summary></entry><entry><title type="html">Australia dots map</title><link href="http://localhost:4000/2020/09/28/d3-aus-map.html" rel="alternate" type="text/html" title="Australia dots map" /><published>2020-09-28T00:00:00+08:00</published><updated>2020-09-28T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/28/d3-aus-map</id><content type="html" xml:base="http://localhost:4000/2020/09/28/d3-aus-map.html">&lt;p&gt;&lt;a href=&quot;https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e&quot;&gt;https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://observablehq.com/@hzschie/dots-on-map&quot;&gt;https://observablehq.com/@hzschie/dots-on-map&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://codepen.io/shshaw/pen/vJNMQY&quot;&gt;https://codepen.io/shshaw/pen/vJNMQY&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html&quot;&gt;https://www.d3-graph-gallery.com/graph/bubblemap_tooltip.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="animate" /><summary type="html">https://bl.ocks.org/GerardoFurtado/02aa65e5522104cb692e</summary></entry><entry><title type="html">C#语言入门详解(011)——操作符详解（中）</title><link href="http://localhost:4000/2020/09/24/c-sharp-basic-011.html" rel="alternate" type="text/html" title="C#语言入门详解(011)——操作符详解（中）" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/24/c-sharp-basic-011</id><content type="html" xml:base="http://localhost:4000/2020/09/24/c-sharp-basic-011.html">&lt;h2 id=&quot;操作符示例&quot;&gt;操作符示例&lt;/h2&gt;
+短路效应&lt;/p&gt;</content><author><name>Andy Xiong</name></author><category term="csharp" /><summary type="html">类型转换 隐式(implicit)类型转换， 转换列表 https://docs.microsoft.com/zh-cn/dotnet/csharp/language-reference/builtin-types/numeric-conversions#implicit-numeric-conversions 不丢失精度的转换 子类向父类的转换 装箱 显式(explicit)类型转换 有可能丢失精度(甚至发生错误)的转换, 即cast 拆箱 使用Convert类 ToString方法与各数据类型的Parse/TryParse方法 自定义类型转换操作符</summary></entry><entry><title type="html">C#语言入门详解(011)——操作符详解（中）</title><link href="http://localhost:4000/2020/09/24/c-sharp-basic-011.html" rel="alternate" type="text/html" title="C#语言入门详解(011)——操作符详解（中）" /><published>2020-09-24T00:00:00+08:00</published><updated>2020-09-24T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/24/c-sharp-basic-011</id><content type="html" xml:base="http://localhost:4000/2020/09/24/c-sharp-basic-011.html">&lt;h2 id=&quot;操作符示例&quot;&gt;操作符示例&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;基本操作符
     &lt;ul&gt;
@@ -164,36 +166,4 @@
 &lt;ul&gt;
   &lt;li&gt;方法调用时栈内存的分配&lt;/li&gt;
   &lt;li&gt;对stack frame 的分析&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">构造器 构造器（constructor）是类型的成员之一 class Student { public Student() { this.ID = &quot;&quot;; } } 狭义的构造器指的是”实例构造器“（instance constructor） 如何调用构造器 声明构造器 构造器的内存原理</summary></entry><entry><title type="html">C#语言入门详解(008)——方法的定 义、调用与调试（上）</title><link href="http://localhost:4000/2020/09/13/c-sharp-basic-008.html" rel="alternate" type="text/html" title="C#语言入门详解(008)——方法的定 义、调用与调试（上）" /><published>2020-09-13T00:00:00+08:00</published><updated>2020-09-13T00:00:00+08:00</updated><id>http://localhost:4000/2020/09/13/c-sharp-basic-008</id><content type="html" xml:base="http://localhost:4000/2020/09/13/c-sharp-basic-008.html">&lt;h2 id=&quot;方法的由来&quot;&gt;方法的由来&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;方法（method）的前身是C/C++语言的函数（function）&lt;/li&gt;
-  &lt;li&gt;方法是面向对象范畴的概念，在非面向对象语言中仍然称为函数&lt;/li&gt;
-  &lt;li&gt;使用C/C++语言做对比&lt;/li&gt;
-  &lt;li&gt;永远都是类（或结构体）的成员&lt;/li&gt;
-  &lt;li&gt;C#语言中函数不可能独立于类（或结构体）之外&lt;/li&gt;
-  &lt;li&gt;只有作为类（结构体）的成员时才被称为方法&lt;/li&gt;
-  &lt;li&gt;C++中是可以的， 称为”全局函数“&lt;/li&gt;
-  &lt;li&gt;是类（或结构体）最基本的成员之一&lt;/li&gt;
-  &lt;li&gt;最基本的成员只有两个—-字段与方法（成员变量与成员方法）， 本质是数据 +  算法&lt;/li&gt;
-  &lt;li&gt;方法表示类（或结构体）”能做什么事情“&lt;/li&gt;
-  &lt;li&gt;为什么需要方法和函数&lt;/li&gt;
-  &lt;li&gt;目的1： 隐藏复杂的逻辑&lt;/li&gt;
-  &lt;li&gt;目的2： 复用（reuse，重用）&lt;/li&gt;
-  &lt;li&gt;示例： 计算圆面积、圆柱体积、圆锥体积 。面向过程的算法： 自顶向下，逐步求精&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;方法的声明和调用&quot;&gt;方法的声明和调用&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;声明方法的语法详解&lt;/li&gt;
-  &lt;li&gt;参见C#语言文档（声明/定义不分家）&lt;a href=&quot;https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/classes-and-structs/methods&quot;&gt;https://docs.microsoft.com/zh-cn/dotnet/csharp/programming-guide/classes-and-structs/methods&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Parameter全称”formal parameter“&lt;/li&gt;
-  &lt;li&gt;Parameter 是一种变量 值参数&lt;/li&gt;
-  &lt;li&gt;方法的命名规范&lt;/li&gt;
-  &lt;li&gt;大小写使用帕斯克（首字母大写）&lt;/li&gt;
-  &lt;li&gt;需要以动词或者动词短语作为名字&lt;/li&gt;
-  &lt;li&gt;重温静态（static）方法和实例方法&lt;/li&gt;
-  &lt;li&gt;调用方法&lt;/li&gt;
-  &lt;li&gt;Argument中文C#文档的官方译法为”实际参数“， 简称”实参“，可以理解为调用是的真实条件&lt;/li&gt;
-  &lt;li&gt;调用方法时的argument列表要与定义方法时的parameter列表相匹配&lt;/li&gt;
-  &lt;li&gt;C#是强类型语言，argument是值，parameter是变量，值与变量一定要匹配， 不然编译器会报错&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">方法的由来 方法（method）的前身是C/C++语言的函数（function） 方法是面向对象范畴的概念，在非面向对象语言中仍然称为函数 使用C/C++语言做对比 永远都是类（或结构体）的成员 C#语言中函数不可能独立于类（或结构体）之外 只有作为类（结构体）的成员时才被称为方法 C++中是可以的， 称为”全局函数“ 是类（或结构体）最基本的成员之一 最基本的成员只有两个—-字段与方法（成员变量与成员方法）， 本质是数据 + 算法 方法表示类（或结构体）”能做什么事情“ 为什么需要方法和函数 目的1： 隐藏复杂的逻辑 目的2： 复用（reuse，重用） 示例： 计算圆面积、圆柱体积、圆锥体积 。面向过程的算法： 自顶向下，逐步求精</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Andy Xiong</name></author><category term="c#" /><summary type="html">构造器 构造器（constructor）是类型的成员之一 class Student { public Student() { this.ID = &quot;&quot;; } } 狭义的构造器指的是”实例构造器“（instance constructor） 如何调用构造器 声明构造器 构造器的内存原理</summary></entry></feed>
