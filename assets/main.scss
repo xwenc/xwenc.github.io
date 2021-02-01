@@ -169,6 +169,9 @@
   background: #000;
   font-size: 80%;
   text-decoration: none;
+  &:hover {
+    color: #fff;
+  }
 }
 
 .post-item-more {
