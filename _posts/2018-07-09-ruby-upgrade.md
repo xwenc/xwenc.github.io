@@ -38,3 +38,5 @@ tags: ruby
 [https://ruby-china.org/wiki/install_ruby_guide/](https://ruby-china.org/wiki/install_ruby_guide/)
 
 [https://github.com/rbenv/rbenv#uninstalling-ruby-versions](https://github.com/rbenv/rbenv#uninstalling-ruby-versions)
+
+[https://github.com/rbenv/ruby-build](https://github.com/rbenv/ruby-build)
